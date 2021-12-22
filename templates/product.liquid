@@ -1,0 +1,28 @@
+<div class="product-page">
+{% section 'hero_product' %}
+{% if product.handle contains 'tmg' %}
+  {% section 'product_text_tmg_1' %}
+  {% section 'banner-section-with-button_tmg' %}
+  {% section 'product_text_tmg_2' %}
+{% endif %} 
+{% if product.handle contains 'mononucleotide-250mg' %}
+  {% section 'product_text_500_1' %}
+  {% section 'banner-section-with-button_250' %}
+  {% section 'product_text_500_2' %}
+{% endif %}
+{% if product.handle contains 'mononucleotide-500mg' %}
+  {% section 'product_text_500_1' %}
+  {% section 'banner-section-with-button_500' %}
+  {% section 'product_text_500_2' %}
+{% endif %}
+{% section 'product-template' %}
+{% section 'product-reviews' %}
+{% section 'collection-slider' %}
+  {% if product.handle contains 'tmg' %}
+{% section 'faq_tmg' %}
+  {% else %}
+{% section 'faq_section' %}
+  {% endif %}
+</div>
+
+{% render 'judgeme_widgets', widget_type: 'judgeme_review_widget', concierge_install: true, auto_install: true, product: product %}

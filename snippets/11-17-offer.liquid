@@ -1,0 +1,158 @@
+{% comment %} BOGO - Buy one specific product and get a specific product for free {% endcomment %}
+
+{% assign today_date = 'now' | date: '%s' %}
+{% assign promo_date = '2021-04-20 08:00:00' | date: '%s' %}
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+    {% assign qualifying_item_one = 42063483306228 %}
+    {% assign qualifying_item_two = 42067877232884 %}
+    {% assign qualifying_item_three = 42073325830388 %}
+    {% assign bonus_item_one = 42073325830388 %}
+    {% assign bonus_item_two = 42063496610036 %}
+    {% assign qualifying_items_in_cart_one = 0 %}
+    {% assign qualifying_items_in_cart_two = 0 %}
+    {% assign qualifying_items_in_cart_three = 0 %}
+    {% assign bonus_items_in_cart_one = 0 %}
+    {% assign bonus_items_in_cart_two = 0 %}
+
+    {% for item in cart.items %}
+      {% if item.variant.id == qualifying_item_one or item.variant.id == qualifying_item_one_weekly %}
+        {% assign qualifying_items_in_cart_one = item.quantity %}
+      {% elsif item.variant.id == bonus_item_one %}
+        {% assign bonus_items_in_cart_one = item.quantity %}
+		{% assign qualifying_items_in_cart_three = item.quantity %}
+        
+  		{% elsif item.variant.id == qualifying_item_two or item.variant.id == qualifying_item_two_weekly %}
+        {% assign qualifying_items_in_cart_two = item.quantity %}        
+
+        {% elsif item.variant.id == bonus_item_two %}
+        {% assign bonus_items_in_cart_two = item.quantity %}
+      {% endif %}
+    {% endfor %}
+
+
+{% comment %} Professional {% endcomment %}
+    Shopify.Cart = Shopify.Cart || {};
+
+    Shopify.Cart.BonusItem = {};
+
+    Shopify.Cart.BonusItem.set = function() {
+      jQuery.ajax({
+        type: 'POST',
+        url: '/cart/update.js',
+        data: { updates: { {{ bonus_item_one }}: 1 } },
+        dataType: 'json',
+        success: function() { location.href = '/cart'; }
+      });
+    }
+
+    Shopify.Cart.BonusItem.remove = function() {
+      jQuery.ajax({
+        type: 'POST',
+        url: '/cart/update.js',
+        data: { updates: { {{ bonus_item_one }}: 0 } },
+        dataType: 'json',
+      success: function() { location.href = '/cart'; }
+      });
+    }
+    
+    
+    {% comment %} Art {% endcomment %}
+    Shopify.Cart = Shopify.Cart || {};
+
+    Shopify.Cart.BonusItemThree = {};
+    
+    Shopify.Cart.BonusItemThree.set = function() {
+      jQuery.ajax({
+        type: 'POST',
+        url: '/cart/update.js',
+        data: { updates: { {{ bonus_item_two }}: 1 } },
+        dataType: 'json',
+        success: function() { location.href = '/cart'; }
+      });
+    }
+
+    Shopify.Cart.BonusItemThree.remove = function() {
+      jQuery.ajax({
+        type: 'POST',
+        url: '/cart/update.js',
+        data: { updates: { {{ bonus_item_two }}: 0 } },
+        dataType: 'json',
+      success: function() { location.href = '/cart'; }
+      });
+    }
+
+
+
+    
+
+  
+  
+  {% if qualifying_items_in_cart_one > 0 %}
+      {% if bonus_items_in_cart_one > 1 %}
+        Shopify.Cart.BonusItem.set(); // make sure quantity of bonus item(s) match qualifying item
+       Shopify.Cart.BonusItemThree.set(); // make sure quantity of bonus item(s) match qualifying item
+      {% elsif bonus_items_in_cart_one == 1 %}
+        // already in cart
+      {% else %}
+        Shopify.Cart.BonusItem.set(); // add bonus item to cart
+       
+      {% endif %}
+    {% elsif bonus_items_in_cart_one > 0 %}
+      Shopify.Cart.BonusItem.remove();  // if we have bonus item(s) in the cart without qualifying item, remove
+ 
+    {% endif %}
+
+  
+  
+
+    {% comment %} Art {% endcomment %}
+    Shopify.Cart = Shopify.Cart || {};
+
+    Shopify.Cart.BonusItemTwo = {};
+
+    Shopify.Cart.BonusItemTwo.set = function() {
+      jQuery.ajax({
+        type: 'POST',
+        url: '/cart/update.js',
+        data: { updates: { {{ bonus_item_two }}: 1 } },
+        dataType: 'json',
+        success: function() { location.href = '/cart'; }
+      });
+    }
+
+    Shopify.Cart.BonusItemTwo.remove = function() {
+      jQuery.ajax({
+        type: 'POST',
+        url: '/cart/update.js',
+        data: { updates: { {{ bonus_item_two }}: 0 } },
+        dataType: 'json',
+      success: function() { location.href = '/cart'; }
+      });
+    }
+    
+      
+    {% if qualifying_items_in_cart_three >0 %}
+    console.log('yra buteliukas');
+  {%if bonus_items_in_cart_two == 1 %}
+  {% else %}
+  Shopify.Cart.BonusItemTwo.set(); // add bonus item to cart
+  {% endif %}
+  {% endif %}
+  
+ 
+    {% if qualifying_items_in_cart_two > 0 %}
+      {% if bonus_items_in_cart_two > 1 %}
+        Shopify.Cart.BonusItemTwo.set(); // make sure quantity of bonus item(s) match qualifying item
+      {% elsif bonus_items_in_cart_two == 1 %}
+        // already in cart
+      {% else %}
+        Shopify.Cart.BonusItemTwo.set(); // add bonus item to cart
+      {% endif %}
+    {% elsif bonus_items_in_cart_two > 0 and qualifying_items_in_cart_three < 1%}
+      Shopify.Cart.BonusItemTwo.remove();  // if we have bonus item(s) in the cart without qualifying item, remove
+    {% endif %}
+  </script>
+

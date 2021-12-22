@@ -1,0 +1,96 @@
+<div class="landing-section ">
+{% if section.settings.title != blank %}
+<div class="page-width centered-items">
+  <h1 class="landing-section-title">{{section.settings.title}}</h1>
+  <p class="landing-section-text">{{section.settings.text}}</p>
+</div>
+{% endif %}
+<div class="banner-container">
+<img class="dekstop-only hero-img" src="{{section.settings.image | img_url: 'master'}}">
+<a class="mobile-only" href="#buy_now"><img class="mobile-only hero-img" src="{{section.settings.image_mb | img_url: 'master'}}"></a>
+  {% if section.settings.show_btn %}
+  <div class="dekstop-only side_btn_container">
+  <div class="landing-btn">
+    <a href="#buy_now">GRAB YOURS</a>
+  </div>
+</div>{% endif %}
+  {% if section.settings.show_text %}
+  <div class="landing-title page-width">
+  <h4 class="medium-landing-title">{{section.settings.title1}}</h4>
+  {{section.settings.text1}}
+  <h4 class="medium-landing-title">{{section.settings.title2}}</h4>
+  {{section.settings.text2}}
+  </div>
+  {% endif %}
+  
+</div>
+</div>
+{% schema %}
+  {
+    "name": "Banner With Button",
+    "settings": [
+{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Image Desktop"
+			},
+{
+				"type" : "image_picker",
+				"id" : "image_mb",
+				"label": "Your Image Mobile"
+			},
+{
+				"type" : "text",
+				"id" : "title",
+				"label": "Your Title"
+			},
+{
+				"type" : "text",
+				"id" : "text",
+				"label": "Your Text"
+			},
+{
+				"type" : "checkbox",
+				"id" : "show_btn",
+				"label": "Enable Button",
+				"default": true
+			},
+{
+				"type" : "checkbox",
+				"id" : "show_text",
+				"label": "Enable Text",
+				"default": true
+			},
+{
+				"type" : "text",
+				"id" : "title1",
+				"label": "Your Title"
+			},
+{
+				"type" : "richtext",
+				"id" : "text1",
+				"label": "Your Text"
+			},
+{
+				"type" : "text",
+				"id" : "title2",
+				"label": "Your Title"
+			},
+{
+				"type" : "richtext",
+				"id" : "text2",
+				"label": "Your Text"
+			}
+],
+"presets": [{
+      "name": "Banner Landing With Button",
+      "category": "Advanced"
+    }]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

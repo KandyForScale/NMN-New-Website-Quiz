@@ -1,0 +1,314 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-landing-section",
+      "blocks": {
+        "6844532d-2d8b-463a-a7af-92030f8296ef": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/agingblue.png",
+            "title": "FIGHT MUSCLE LOSS"
+          }
+        },
+        "d0e6f1a6-e49f-4dad-a1eb-5fe2a222ad90": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/producblue_a4d24545-4991-4c32-82b2-2d2011a84a51.png",
+            "title": "INCREASE ENDURANCE"
+          }
+        },
+        "59a7f1e8-79d9-4c76-bb4e-8feee6d420bc": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/muscleb_cbe39f6b-6344-43e3-8413-af9e51eee8b9.png",
+            "title": "IMPROVE CARDIOVASCULAR FITNESS"
+          }
+        },
+        "c51ddef0-fe9d-4330-9dc8-a082d0c24d51": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_1_3x-8_f7f80cbe-7dce-4e8c-a152-76e3892621e3.png",
+            "title": "STIMULATE COLLAGEN PRODUCTION PATHWAY"
+          }
+        },
+        "4659cff9-1cae-4774-b6d2-853f78700523": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/metablue_d7dad1c3-398c-4236-94e5-e85ce7289743.png",
+            "title": "ENCHANCE INSULIN SENSITIVITY"
+          }
+        }
+      },
+      "block_order": [
+        "6844532d-2d8b-463a-a7af-92030f8296ef",
+        "d0e6f1a6-e49f-4dad-a1eb-5fe2a222ad90",
+        "59a7f1e8-79d9-4c76-bb4e-8feee6d420bc",
+        "c51ddef0-fe9d-4330-9dc8-a082d0c24d51",
+        "4659cff9-1cae-4774-b6d2-853f78700523"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_341.png",
+        "title": "KickStart Your Longevity Genes With NMN",
+        "text": "Join thousands of happy customers that are currently experiencing improvements in their strength, stamina and health.",
+        "title1": "Scientifically proven to:"
+      }
+    },
+    "1639378557a832b5b9": {
+      "type": "banner-section-with-button",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_346.jpg",
+        "image_mb": "shopify:\/\/shop_images\/Group_350.jpg",
+        "title": "",
+        "text": "",
+        "show_btn": false,
+        "show_text": true,
+        "title1": "Who should take NMN & TMG supplements?",
+        "text1": "<p>NMN is not only for people of old age.<br\/>Our supplements are suitable for anyone over 25 years old. It might seem a bit strange that you’d need anti-aging supplements so early on in your life, but the peak of your hormones and energy is at 25, and sadly it’s all downhill from there. If you fall into this age category, you might have already experienced a lack of energy and productivity. But thankfully, we have engineered a way to keep longevity in your grasp with our supplements. Customers that have taken NMN have almost instantly reported an increase in energy and focus, and these supplements have been scientifically proven to fight symptoms of aging and cell degradation. And TMG boosts these effects even more. So, if you are over 25 years old, do not hesitate until you start feeling the heavy effects of aging - turn the tables and take care of your body as early on as possible.<\/p>",
+        "title2": "",
+        "text2": ""
+      }
+    },
+    "1639119950256cc4fd": {
+      "type": "text-img-right-landing",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mask_Group_77.jpg",
+        "title": "Specially formulated to decrease the effects of aging and result in better performance and health.",
+        "text": "",
+        "show_btn": true,
+        "show_text": true,
+        "richtext": "<p>Hi, my name is Dr. Elena Seranova and I hold an MSc in Translational Neuroscience and a PhD in Stem Cell Biology and Autophagy. <\/p><p>I know how frustrating it is to experience steadily declining levels of energy, focus, stamina, endurance and more. Unfortunately, it is the reality for most people over 30 years old. <\/p><p>But it doesn’t have to be this way. <\/p><p>I launched the NMN and TMG products to increase the overall quality of life for everyone who takes them. These supplements are a way for you to naturally increase your levels of NAD+ and better the functionality of your bodies cells.<\/p>"
+      }
+    },
+    "16390746532dc486eb": {
+      "type": "landing-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_345.jpg",
+        "image_mb": "shopify:\/\/shop_images\/Group_349.jpg"
+      }
+    },
+    "163911926604909d1a": {
+      "type": "landing-plain-text",
+      "settings": {
+        "title": "How Does NMN Work?",
+        "text": "Let’s dive deeper into the science of it all:",
+        "show_btn": true,
+        "show_text": true,
+        "title1": "Why NAD+ Supplementation?",
+        "text1": "<p>NMN is a direct precursor of NAD+, and it has been proven to boost NAD+ levels in animals and humans, due to high absorption from the cells. Nicotinamide Adenine Dinucleotide, commonly known as NAD+, is a molecule that is found in every living cell and is a master regulator of human metabolism. It’s a molecule essential for multiple biological processes and is also used by the genes governing the aging process named SIRTUINS. Without NAD+, cells cannot survive. As we age, the levels of NAD+ are reducing, something that affects mitochondrial function, energy production and as a result, a plethora of vital cellular functions. NAD+ boosters are one of the most promising anti-aging breakthroughs from scientific research so far.<\/p>",
+        "title2": "The Scientific Background",
+        "text2": "<p>NAD was discovered over a hundred years ago by scientists studying fermentation. It’s levels have been shown to decline during chronological aging and this decline is both a consequence of the aging process and also a contributor to the development of age-related cellular dysfunction. NAD+ plays a vital role in cellular health, metabolic and neuro-protection plus circadian rhythms which can all contribute to greater longevity. This is the reason why so many people are keen to boost their NAD+ levels.<\/p>"
+      }
+    },
+    "16391292931d4ac9a7": {
+      "type": "banner-section-with-button",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group-333-min_9d84a016-34d9-44f5-bf5f-4b6f6a2ca9ee.png",
+        "image_mb": "shopify:\/\/shop_images\/Group_348.jpg",
+        "title": "",
+        "text": "",
+        "show_btn": true,
+        "show_text": true,
+        "title1": "What is Nicotinamide Mononucleotide (NMN)?",
+        "text1": "<p>As our cells can’t absorb NAD+ directly we need to use a “precursor”, which is a molecule that converts into NAD+. One of the precursors for NAD+ is beta nicotinamide mononucleotide or NMN. NMN is a Vitamin B3 (niacin) derivative. Put simply, NMN increases NAD+, activates the longevity genes SIRTUINS and suppresses aging. NMN has gained a lot of attention recently,especially after the release of longevity scientist, David Sinclair’s book Lifespan. In his book, the scientist discusses his research examining NMN, particularly in mice.<\/p>",
+        "title2": "Can I get NMN from food?",
+        "text2": "<p>NMN can be found naturally in foods such as broccoli, cabbage, avocados and tomatoes. However, as the concentrations are less than 1 mg per kg of food you would need to consume about 1kg of broccoli to get about 1mg of NMN! Therefore, you need a supplement to get an optimum level of NMN.<\/p>"
+      }
+    },
+    "16393787205551442f": {
+      "type": "testimonials",
+      "blocks": {
+        "16393787206ce1d8d7-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Amazing product! I have been taking it for two weeks now and I can see that my face is brighter (not having changed anything else in my routine apart from starting to take this product) and my energy levels are up by a lot! So glad to have gotten the NMN<\/p>",
+            "author": "Helen",
+            "author_info": "London, UK"
+          }
+        },
+        "16393787206ce1d8d7-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>My sugar cravings disappeared after a couple of weeks. My focus keeps on getting better and better. Thanks for an awesome product!<\/p>",
+            "author": "Mark R.",
+            "author_info": "Frankfurt, Germany"
+          }
+        },
+        "16393787206ce1d8d7-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Fantastic product and great customer service. Highly recommend trying it out.<\/p>",
+            "image": "shopify:\/\/shop_images\/Soma3.jpg",
+            "author": "Soma Marton",
+            "author_info": "Canada"
+          }
+        },
+        "16393787206ce1d8d7-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Everything feels a bit better. I suffer from arthritis and at the age of 54, I thought that there were no supplement that can help me feel better. After taking NMN for a month, my joints feel much better in the morning. <\/p>",
+            "author": "Irina S.",
+            "author_info": "Thessaloniki, Greece"
+          }
+        },
+        "16393787206ce1d8d7-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Love this product and having had this developed by a scientist with a strong vision and integrity gives me confidence. NMN is the best longevity supplement on the market, the research coming out of world leading labs makes me very excited about being able to use this for me and my family<\/p>",
+            "image": "shopify:\/\/shop_images\/Lisa3.jpg",
+            "author": "Lisa T.",
+            "author_info": "New Zealand"
+          }
+        },
+        "a7a3fa81-cf63-47af-9805-d49aa6d48940": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Order came in decent time coming across from the pond. The company reached out to me to see if I had any questions and what my goals were. Which is a pleasant surprise. I am close to placing a second order with them. Like the NMN product, most likely the best I have yet.<a href=\"https:\/\/www.trustpilot.com\/users\/5e484318bef4a44f836fbabb\"><br\/><\/a><\/p>",
+            "author": "Zach B.",
+            "author_info": "US"
+          }
+        },
+        "01e925d6-3f30-4ad7-af61-711f1842f874": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>I sleep much less and and feel more energetic and alert. I was surprised as I was previously taking NR from Chromadex and there wasn't much of an effect. I'm intrigued and looking forward to see what the longer term results would be. <\/p>",
+            "author": "Viktor K.",
+            "author_info": "Newcastle, UK"
+          }
+        },
+        "bbf0053f-9f3a-4da3-b0d4-a1c423dfcbbb": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>I started taking NMN daily since Christmas and found that my overall energy improved and noticed better performance on my workout with quicker recovery times! I am determined to keep NMN as part of my Biohackers Longevity & Wellness daily routine. I believe this is one of the most important supplements to take to add years to our lives and lives to our years!<\/p>",
+            "image": "shopify:\/\/shop_images\/Charlene.jpg",
+            "author": "Charlene Gisele",
+            "author_info": "London, UK"
+          }
+        }
+      },
+      "block_order": [
+        "16393787206ce1d8d7-0",
+        "16393787206ce1d8d7-1",
+        "16393787206ce1d8d7-2",
+        "16393787206ce1d8d7-3",
+        "16393787206ce1d8d7-4",
+        "a7a3fa81-cf63-47af-9805-d49aa6d48940",
+        "01e925d6-3f30-4ad7-af61-711f1842f874",
+        "bbf0053f-9f3a-4da3-b0d4-a1c423dfcbbb"
+      ],
+      "settings": {
+        "title": "Don't take our word for it",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "163907554816cf5852": {
+      "type": "banner-section-with-button",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_344.png",
+        "image_mb": "shopify:\/\/shop_images\/Group_365.jpg",
+        "title": "Why Should I Also Take TMG?",
+        "text": "Let’s see what this supplement has to offer:",
+        "show_btn": true,
+        "show_text": true,
+        "title1": "What can TMG do for me?",
+        "text1": "<p>Aging is a big factor in our ability to maintain efficient methylation. As we get older our methylation ability declines and without adequate methylation our abilities to read and activate the correct parts of our DNA blueprints are hampered. Trimethylglycine (TMG) also called Betaine - is a naturally occurring substance in the body. It’s involved in liver function, cellular reproduction, and it helps make essential metabolic compounds.<\/p>",
+        "title2": "An optimal supplement",
+        "text2": "<p>As we age our ‘methyl pool’ can deplete which makes TMG a very useful supplement for replenishing our bodies’ methyl groups. TMG also helps the body metabolize an amino acid called homocysteine, a process that the FDA found to be efficacious enough to endorse and approve. High homocysteine levels are a risk factor for cardiovascular and Alzheimer’s disease.<\/p>"
+      }
+    },
+    "163912973440f5ea14": {
+      "type": "banner-section-with-button",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group-343-min_6949df19-c4a6-447f-8b0e-5f168d3bc641.png",
+        "image_mb": "shopify:\/\/shop_images\/Group_338.jpg",
+        "title": "Experience Never Ending Cellular Health With NMN & TMG",
+        "text": "By addressing the problem of aging head on, we can prolong our health and lifespan.",
+        "show_btn": false,
+        "show_text": false,
+        "title1": "",
+        "text1": "",
+        "title2": "",
+        "text2": ""
+      }
+    },
+    "1639131210e01ffc78": {
+      "type": "product-template-landing",
+      "settings": {
+        "featured_product": "nmn-beta-nicotinamide-mononucleotide-500mg-capsules-30-capsules",
+        "description_style": "default",
+        "social_enable": false,
+        "image_size": "medium",
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "1639157986b40bcd52": {
+      "type": "product-template-landing2",
+      "settings": {
+        "featured_product": "tmg-trimethylglycine-500-mg-90-capsules",
+        "description_style": "default",
+        "social_enable": false,
+        "image_size": "medium",
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "16391546661f1eb095": {
+      "type": "product-template-landing-1",
+      "settings": {
+        "featured_product": "nmn-beta-nicotinamide-mononucleotide-250mg-capsules-30-capsules",
+        "description_style": "default",
+        "social_enable": false,
+        "image_size": "medium",
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "1639132414c3b0539b": {
+      "type": "landing-collection",
+      "settings": {
+        "home_featured_products": "evergreen-landing",
+        "title_name": "",
+        "collection_image_enable": true,
+        "collection_image_height": 550,
+        "parallax": true,
+        "description_position": "top",
+        "collection_subnav_style": "inline",
+        "collection_tags_style": "none",
+        "collection_sort_enable": false,
+        "per_row": 3,
+        "mobile_flush_grid": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1639378557a832b5b9",
+    "1639119950256cc4fd",
+    "16390746532dc486eb",
+    "163911926604909d1a",
+    "16391292931d4ac9a7",
+    "16393787205551442f",
+    "163907554816cf5852",
+    "163912973440f5ea14",
+    "1639131210e01ffc78",
+    "1639157986b40bcd52",
+    "16391546661f1eb095",
+    "1639132414c3b0539b"
+  ]
+}

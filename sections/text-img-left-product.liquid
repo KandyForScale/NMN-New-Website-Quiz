@@ -1,0 +1,112 @@
+<div class="flex-container-product page-width">
+  {% if product.title contains 'TMG' %}
+   <div>
+    <img class="smaller-image" src="{{section.settings.image_tmg | img_url:'master' }}">
+    
+  </div>
+  <div>
+  <h1 class="main-title_section">{{section.settings.title_tmg}}</h1>
+    {{section.settings.text_tmg}}
+  </div>
+  {% elsif product.title contains 'NMN | (beta Nicotinamide Mononucleotide) 250mg Capsules | 30 Capsules'%}
+  <div>
+    <img class="smaller-image" src="{{section.settings.image | img_url:'master' }}">
+    
+  </div>
+  <div>
+  <h1 class="main-title_section">{{section.settings.title}}</h1>
+    {{section.settings.text}}
+  </div>
+  {% elsif product.title contains 'NMN (beta Nicotinamide Mononucleotide) 500mg Capsules | 30 capsules' %}
+  <div>
+    <img class="smaller-image" src="{{section.settings.image_nmn_500 | img_url:'master' }}">
+    
+  </div>
+  <div>
+  <h1 class="main-title_section">{{section.settings.title_nmn_500}}</h1>
+    {{section.settings.text_nmn_500}}
+  </div>
+  {%  elsif product.title contains 'Course' %}
+  <div>
+    <img class="smaller-image" src="{{section.settings.image_course | img_url:'master' }}">
+    
+  </div>
+  <div>
+  <h1 class="main-title_section">{{section.settings.title_course}}</h1>
+    {{section.settings.text_course}}
+  </div>
+  {% endif %}
+</div>
+{% schema %}
+  {
+    "name": "Text With Image",
+    "settings": [
+			{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Image NMN 250"
+			},
+			{
+				"type" : "text",
+				"id" : "title",
+				"label": "Your Title NMN 250"
+			},
+			{
+				"type" : "richtext",
+				"id" : "text",
+				"label": "Your Text NMN 250"
+			},
+			{
+				"type" : "image_picker",
+				"id" : "image_tmg",
+				"label": "Your Image TMG"
+			},
+			{
+				"type" : "text",
+				"id" : "title_tmg",
+				"label": "Your Title TMG"
+			},
+			{
+				"type" : "richtext",
+				"id" : "text_tmg",
+				"label": "Your Text TMG"
+			},
+			{
+				"type" : "image_picker",
+				"id" : "image_nmn_500",
+				"label": "Your Image NMN 500"
+			},
+			{
+				"type" : "text",
+				"id" : "title_nmn_500",
+				"label": "Your Title NMN 500"
+			},
+			{
+				"type" : "richtext",
+				"id" : "text_nmn_500",
+				"label": "Your Text NMN 500"
+			},
+			{
+				"type" : "image_picker",
+				"id" : "image_course",
+				"label": "Your Image Course"
+			},
+			{
+				"type" : "text",
+				"id" : "title_course",
+				"label": "Your Title Course"
+			},
+			{
+				"type" : "richtext",
+				"id" : "text_course",
+				"label": "Your Text Course"
+			}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

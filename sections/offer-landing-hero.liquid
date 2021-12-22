@@ -1,0 +1,84 @@
+<div class="page-width">
+  <div class="offer-hero-container flex-reverse">
+    <div>
+      <div class="inner-text-offer-left">
+        <h1 class="offer-title">{{section.settings.title}}</h1>
+        {% for block in section.blocks %}
+  <div class="offer-hero-container" style="flex-wrap: nowrap">
+    <div class="icon-cell">
+    <img class="blog_img" src="{{block.settings.image | img_url:'master'}}">
+    </div>
+    <div>
+      <p class="offer-inner-dsc">{{block.settings.text}}</p>
+    </div>
+        </div>
+      {% endfor %}
+        <div class="offer-text-hero">
+        {{section.settings.offer}}
+        </div>
+        <div class="hero-offer-btn-place">
+          <a href="#ProductPhotos-5869760774309">Get It Now!</a>
+        </div>
+        <!--<div class="offer-star-place">
+        <img class="offer-hero-icon-star" src="https://cdn.shopify.com/s/files/1/0461/5222/0837/files/Group_381.png?v=1635431353">
+          <p class="reviews-text">{{section.settings.reviews}}</p>
+        </div>-->
+      </div>
+    </div>
+    <div>
+    <img class="blog_img" src="{{section.settings.image | img_url:'master'}}">
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Hero",
+    "settings": [
+			{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Image"
+			},
+			{
+				"type" : "text",
+				"id" : "title",
+				"label": "Your Title"
+			},
+			{
+				"type" : "richtext",
+				"id" : "offer",
+				"label": "Your Offer Text"
+			},
+			{
+				"type" : "text",
+				"id" : "reviews",
+				"label": "Your Reviews Text"
+			}
+],
+
+"blocks":[
+		{
+			"name":"Text",
+			"type":"text",
+			"settings":[
+			{
+				"type" : "text",
+				"id" : "text",
+				"label": "Your Line Text"
+			},
+			{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Icon"
+			}
+		]
+		}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

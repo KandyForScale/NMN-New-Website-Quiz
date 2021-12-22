@@ -1,0 +1,77 @@
+<div class="centered-items page-width">
+  <h1 class="main-title_section">{{section.settings.title1}}</h1>
+  <h4 class="blue-title mobile-text-left">{{section.settings.text1}}</h4>
+</div>
+<div class="flex-container page-width">
+  <div>
+  <img class="smaller-image" src="{{section.settings.image | img_url:'master' }}">
+  </div>
+  <div>
+    <h4 class="blue-title mobile-text-left">{{section.settings.title}}</h4>
+    <div class="landing-advantages">
+    {% for block in section.blocks %}
+      <div>
+        <div class="landing-check-cell">
+        <img class="landing-check-cell__img" src="https://cdn.shopify.com/s/files/1/0461/5222/0837/files/Icon_ionic-ios-checkmark-circle-outline.png?v=1636968653">
+        </div>
+        <div class="landing-adv-text-cell">
+        {{block.settings.text}}
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+  
+</div>
+{% schema %}
+  {
+    "name": "Text With Image",
+    "settings": [
+			{
+				"type" : "text",
+				"id" : "title1",
+				"label": "Your Text"
+			},
+			{
+				"type" : "text",
+				"id" : "text1",
+				"label": "Your Title"
+			},
+			{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Image"
+			},
+			{
+				"type" : "text",
+				"id" : "title",
+				"label": "Your Title"
+			},
+			{
+				"type" : "richtext",
+				"id" : "text",
+				"label": "Your Text"
+			}
+],
+
+"blocks": [
+{		"type": "text",
+		"name" : "Text",
+		"settings":
+[		
+		{
+		"type": "text",
+		"label": "Text",
+		"id": "text"
+		}
+]
+}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

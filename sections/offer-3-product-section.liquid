@@ -1,0 +1,231 @@
+{%- assign product = all_products[section.settings.gift_product] -%}
+<div class="page-width">
+  <div class="offer-product-flex-container">
+    <div>
+      
+        <div onclick='selected_6()' id="6_bottles_selector" class="offer-product-select-btn active_selector 6_bottles_selector">
+          <img class="value_badge_img" src="https://cdn.shopify.com/s/files/1/0461/5222/0837/files/Group_207.png?v=1637081129">
+        <div class="offer-select-icon-cell">
+          <div class="dot 6_dot active_dot"></div>
+        </div>
+        <div class="offer-select-text-cell">
+          <p>6 Bottles | NMN (beta Nicotinamide Mononucleotide) 500mg Capsules | 30 Capsules</p>
+          <img class="price_image" src="https://cdn.shopify.com/s/files/1/0461/5222/0837/files/Group_261_7bcfed5e-12d2-4299-a0c8-aef58459245c.jpg?v=1638447794">
+        </div>
+      </div>
+      <div onclick='selected_3()' style="margin-top: 40px" id="3_bottles_selector" class="offer-product-select-btn 3_bottles_selector">
+        <img class="value_badge_img" src="https://cdn.shopify.com/s/files/1/0461/5222/0837/files/Group_206.png?v=1637081129">
+      <div class="offer-select-icon-cell">
+        <div class="dot 3_dot"></div>
+        </div>
+        <div class="offer-select-text-cell">
+          <p>3 Bottles | NMN (beta Nicotinamide Mononucleotide) 500mg Capsules | 30 Capsules</p>
+          <img class="price_image" src="https://cdn.shopify.com/s/files/1/0461/5222/0837/files/Group_262_0fb7920d-ed9e-432e-87d8-96bc42b28ad1.jpg?v=1638447794">
+        </div>
+      </div>
+      <div onclick='selected_1()' id="1_bottles_selector" class="offer-product-select-btn 1_bottles_selector">
+      <div class="offer-select-icon-cell">
+        <div class="dot 1_dot"></div>
+        </div>
+        <div class="offer-select-text-cell">
+          <p>1 Bottle | NMN (beta Nicotinamide Mononucleotide) 500mg Capsules | 30 capsules</p>
+          <img class="price_image" src="https://cdn.shopify.com/s/files/1/0461/5222/0837/files/Group_263_0014b0f7-6b65-46cd-9cf0-334b67469b27.jpg?v=1638447794">
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="offer-section">
+        <div class="offer_selling_plan_selector">
+          <div class="offer_subscribe_btn autodeliver_sel" id="autodeliver_sel" onclick="autodeliver()">Subscribe<span> 10% OFF</span></div>
+        <div class="offer_subscribe_btn onetime_sel" id="onetime_sel" onclick="onetime()">One-time</div>
+        </div>
+        <div class="offer-delivery-container">
+        <h1 class="offer_section_inner">Select delivery frequency</h1>
+        
+        <select onchange="change_frequency_6()" id="deliver_frequency_6" class="offer-delivery_input deliver_frequency_6" >
+        <option value="90days">Every 90 Days</option>
+        <option value="180days">Every 180 Days</option>
+      	</select>
+        
+        <select onchange="change_frequency_3()" id="deliver_frequency_3" class="offer-delivery_input deliver_frequency_3" >
+        <option value="45days">Every 45 Days</option>
+        <option value="90days">Every 90 Days</option>
+      	</select>
+        
+        <select onchange="change_frequency_1()" id="deliver_frequency_1" class="offer-delivery_input deliver_frequency_1 " >
+        <option value="1month">Every Month</option>
+      	</select>
+        <div>
+          <img class="quiz-offer-section-cancel-img" src="https://cdn.shopify.com/s/files/1/0461/5222/0837/files/Group_202.png?v=1637055505"></div>
+        </div>
+        <div class="onetime_options">
+          <h1 class="offer_section_inner">You could save with a subscription</h1>
+          <p>You selected one-time purchase. Why not switch to our flexible subscription and save 15% on your NMN Bio?</p>
+        </div>
+      </div>
+      <div class="autodeliver_options">
+      <div class="atc_6_bottles_90 offer_buy_btn">
+        <a href="https://nmnbio.myshopify.com/cart/clear?return_to=/cart/add?items[][id]=42063483306228%26items[][quantity]=1%26items[][selling_plan]=2959442164">BUY NMN BIO</a>
+      </div>
+      <div  class="atc_6_bottles_180 offer_buy_btn">
+        <a href="https://nmnbio.myshopify.com/cart/clear?return_to=/cart/add?items[][id]=42063483306228%26items[][quantity]=1%26items[][selling_plan]=2959474932">BUY NMN BIO</a>
+      </div>
+      <div  class="atc_3_bottles_45 offer_buy_btn">
+        <a href="https://nmnbio.myshopify.com/cart/clear?return_to=/cart/add?items[][id]=42067877232884%26items[][quantity]=1%26items[][selling_plan]=2959507700">BUY NMN BIO</a>
+      </div>
+      <div  class="atc_3_bottles_90 offer_buy_btn">
+        <a href="https://nmnbio.myshopify.com/cart/clear?return_to=/cart/add?items[][id]=42067877232884%26items[][quantity]=1%26items[][selling_plan]=2959540468">BUY NMN BIO</a>
+      </div>
+      <div  class="atc_1_bottles offer_buy_btn">
+        <a href="https://nmnbio.myshopify.com/cart/clear?return_to=/cart/add?items[][id]=42067878379764%26items[][quantity]=1%26items[][selling_plan]=2959573236">BUY NMN BIO</a>
+      </div>
+      </div>
+      <div class="onetime_options">
+      <div id="atc_1_one" class="atc_1_one offer_buy_btn_one_time">
+        <a href="https://nmnbio.myshopify.com/cart/clear?return_to=/cart/add?items[][id]=42067878379764%26items[][quantity]=1">BUY NMN BIO</a>
+      </div>
+      <div id="atc_3_one" class="atc_3_one offer_buy_btn_one_time">
+        <a href="https://nmnbio.myshopify.com/cart/clear?return_to=/cart/add?items[][id]=42067877232884%26items[][quantity]=1">BUY NMN BIO</a>
+      </div>
+      <div id="atc_6_one" class="atc_6_one offer_buy_btn_one_time">
+        <a href="https://nmnbio.myshopify.com/cart/clear?return_to=/cart/add?items[][id]=42063483306228%26items[][quantity]=1">BUY NMN BIO</a>
+      </div>
+      </div>
+    <p class="after_atc">If NMN Bio didn’t work for you, you can always use our 30-day money-back guarantee for a full refund.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  
+  function onetime() {
+  $('.offer-delivery-container').hide();
+  $('.autodeliver_options').hide();
+  $('.onetime_options').show();
+  $('.onetime_sel').css('background-color','white');
+  $('.autodeliver_sel').css('background-color','#F2F2F2');    
+  }
+  
+  
+  function autodeliver() {
+  $('.offer-delivery-container').show();
+  $('.autodeliver_options').show();
+  $('.onetime_options').hide();
+  /*$('#deliver_frequency_6').show();
+  $('#atc_6_bottles_90').show();*/
+  $('.onetime_sel').css('background-color','#F2F2F2');
+  $('.autodeliver_sel').css('background-color','white'); 
+  
+  }
+  
+  function change_frequency_6() {
+  
+    var x = document.getElementById("deliver_frequency_6").value;
+    console.log(x);
+    if (x == '180days') {
+      
+    $('.atc_6_bottles_180').css('display', 'flex');
+    $('.atc_6_bottles_90').hide();
+    }
+    if (x == '90days') {
+    $('.atc_6_bottles_90').css('display', 'flex');
+    $('.atc_6_bottles_180').hide();
+    }
+  }
+  
+  
+  function change_frequency_3() {
+  
+    var x = document.getElementById("deliver_frequency_3").value;
+    if (x == '45days') {
+    $('.atc_3_bottles_45').css('display', 'flex');
+    $('.atc_3_bottles_90').hide();
+    }
+    if (x == '90days') {
+    $('.atc_3_bottles_90').css('display', 'flex');
+    $('.atc_3_bottles_45').hide();
+    }
+  }
+  
+  
+  function selected_6 () {
+  $('.6_bottles_selector').addClass('active_selector');
+  $('.3_bottles_selector').removeClass('active_selector');
+  $('.1_bottles_selector').removeClass('active_selector');
+  $('.atc_6_bottles_90').css('display', 'flex');
+  $('.atc_3_bottles_45').hide();
+  $('.atc_3_bottles_90').hide();
+  $('.atc_1_bottles').hide();
+  $('.deliver_frequency_6').show();
+  $('.deliver_frequency_3').hide();
+  $('.deliver_frequency_1').hide();
+  $('.atc_6_bottles_180').hide();
+  $('.atc_1_one').hide();
+  $('.atc_3_one').hide();
+  $('.atc_6_one').css('display', 'flex');
+  $('.6_dot').addClass('active_dot');
+  $('.3_dot').removeClass('active_dot');
+  $('.1_dot').removeClass('active_dot');
+  }
+  
+  function selected_3 () {
+  $('.3_bottles_selector').addClass('active_selector');
+  $('.6_bottles_selector').removeClass('active_selector');
+  $('.1_bottles_selector').removeClass('active_selector');
+  $('.atc_3_bottles_45').css('display', 'flex');
+  $('.atc_3_bottles_90').hide();
+  $('.atc_1_bottles').hide();
+  $('.deliver_frequency_3').show();
+  $('.deliver_frequency_6').hide();
+  $('.deliver_frequency_1').hide();
+  $('.atc_6_bottles_180').hide();
+  $('.atc_6_bottles_90').hide();
+  $('.atc_1_one').hide();
+  $('.atc_6_one').hide();
+  $('.atc_3_one').css('display', 'flex');
+  $('.3_dot').addClass('active_dot');
+  $('.6_dot').removeClass('active_dot');
+  $('.1_dot').removeClass('active_dot');
+  }
+
+  
+  function selected_1 () {
+  $('.1_bottles_selector').addClass('active_selector');
+  $('.3_bottles_selector').removeClass('active_selector');
+  $('.6_bottles_selector').removeClass('active_selector');
+  $('.atc_1_bottles').css('display', 'flex');
+  $('.atc_3_bottles_45').hide();
+  $('.atc_3_bottles_90').hide();
+  $('.deliver_frequency_1').show();
+  $('.deliver_frequency_3').hide();
+  $('.deliver_frequency_6').hide();
+  $('.atc_6_bottles_180').hide();
+  $('.atc_6_bottles_90').hide();
+  $('.atc_6_one').hide();
+  $('.atc_3_one').hide();
+  $('.atc_1_one').css('display', 'flex');
+  $('.1_dot').addClass('active_dot');
+  $('.3_dot').removeClass('active_dot');
+  $('.6_dot').removeClass('active_dot');
+  }
+
+</script>
+
+{% schema %}
+  {
+    "name": "Select product",
+    "settings": [
+{
+	"type": "product",
+      "id": "gift_product",
+      "label": "Choose Your Gift product"
+    }
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

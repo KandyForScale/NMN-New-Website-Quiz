@@ -1,0 +1,38 @@
+<div class="flex-container page-width">
+  <div class="dekstop-only">
+  <img class="smaller-image" src="{{section.settings.image | img_url:'master' }}">
+  </div>
+  <div>
+    <h1 class="main-title_section">{{section.settings.title}}</h1>
+    {{section.settings.text}}
+  </div>
+  
+</div>
+{% schema %}
+  {
+    "name": "Text With Image",
+    "settings": [
+			{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Image"
+			},
+			{
+				"type" : "text",
+				"id" : "title",
+				"label": "Your Title"
+			},
+			{
+				"type" : "richtext",
+				"id" : "text",
+				"label": "Your Text"
+			}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

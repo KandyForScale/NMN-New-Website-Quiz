@@ -1,0 +1,3151 @@
+{
+  "current": {
+    "color_body_text": "#303b96",
+    "color_borders": "rgba(0,0,0,0)",
+    "color_button": "#0e0d77",
+    "color_button_text": "#ffffff",
+    "color_header_text": "#0e0d77",
+    "color_announcement": "#0e0d77",
+    "color_announcement_text": "#ff8f12",
+    "color_footer": "#f0f1f3",
+    "color_footer_text": "#2c2c2c",
+    "color_drawer_background": "#ffffff",
+    "color_drawer_text": "#0e0d77",
+    "color_drawer_border": "#f0f1f3",
+    "color_drawer_button": "#111111",
+    "color_drawer_button_text": "#ffffff",
+    "color_modal_overlays": "#aeb1b8",
+    "color_image_2": "#000000",
+    "color_image_2_opacity": 0,
+    "color_image_1": "#000000",
+    "color_image_1_opacity": 26,
+    "color_small_image_bg": "#ffffff",
+    "color_large_image_bg": "#dedfe1",
+    "type_header_font_family": "chivo_n7",
+    "type_header_spacing": "50",
+    "type_header_base_size": 34,
+    "type_header_line_height": 1.2,
+    "type_header_accent_transform": true,
+    "type_base_font_family": "archivo_n4",
+    "type_base_spacing": "25",
+    "type_base_size": 16,
+    "type_base_line_height": 1.6,
+    "type_base_accent_transform": true,
+    "icon_weight": "2px",
+    "icon_linecaps": "round",
+    "animate_page_transitions": true,
+    "animate_page_transition_style": "page-slide-reveal-down",
+    "animate_sections": false,
+    "animate_sections_background_style": "zoom-fade",
+    "animate_sections_text_style": "rise-up",
+    "animate_images": false,
+    "animate_images_style": "fade-in",
+    "animate_buttons": true,
+    "animate_underlines": true,
+    "quick_shop_text": "Quick view",
+    "product_description_collapse": false,
+    "product_content_1": "product-information-500mg",
+    "product_content_2": "product-benefits",
+    "product_content_3": "recommended-dosage",
+    "cart_type": "page",
+    "social_facebook_link": "https:\/\/www.facebook.com\/NMN-BIO-LTD-224647868866263",
+    "social_instagram_link": "https:\/\/www.instagram.com\/nmnbio\/",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "favicon": "shopify:\/\/shop_images\/purple.png",
+    "show_breadcrumbs": true,
+    "show_breadcrumbs_collection_link": true,
+    "checkout_header_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#111111",
+    "checkout_button_color": "#111111",
+    "checkout_error_color": "#ff6d6d",
+    "color_image_bg": "#000000",
+    "breadcrumb": true,
+    "color_input": "#ffffff",
+    "checkout_banner_background_color": "#ffffff",
+    "checkout_call_to_action_color": "#a26b25",
+    "checkout_use_header_image": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "70dcbefe-8919-469d-9790-41f68d12b4b4": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/NMN_Metallic_Blue_Logo.png",
+              "desktop_logo_width": 180,
+              "mobile_logo_width": 140
+            }
+          }
+        },
+        "block_order": [
+          "70dcbefe-8919-469d-9790-41f68d12b4b4"
+        ],
+        "settings": {
+          "main_menu_link_list": "main-menu",
+          "main_menu_alignment": "left-center",
+          "header_style": "normal",
+          "sticky_index": false,
+          "sticky_collection": false,
+          "type_navigation_size": 18,
+          "type_navigation_style": false,
+          "show_announcement": true,
+          "announcement_text": "Subscribe and Save 10% + Free UK Shipping | Customer service: +44 (0)121 314 5441 Monday-Friday 9AM-5PM GMT",
+          "announcement_link": "",
+          "announcement_closable": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "64f9bfc1-6ab4-4dc3-b5dc-9546c951abad": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer",
+              "container_width": 20
+            }
+          },
+          "1494292485313": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "main-menu",
+              "container_width": 20
+            }
+          },
+          "1494292487693": {
+            "type": "newsletter",
+            "settings": {
+              "show_footer_title": true,
+              "title": "Subscribe to our newsletter",
+              "richtext": "<p>Special offers, free giveaways, and once-in-a-lifetime deals. All straight to your inbox!<\/p>",
+              "container_width": 30
+            }
+          },
+          "283b3c0d-f2e7-4c24-8537-832464b46ced": {
+            "type": "custom",
+            "settings": {
+              "show_footer_title": true,
+              "title": "NMN BIO LTD",
+              "text": "<p>Skn Business Centre, 1 Guildford Street, Birmingham, West Midlands, United Kingdom, B19 2HN<\/p><p>Company registration no: <strong>12776601<\/strong><\/p>",
+              "container_width": 20
+            }
+          },
+          "1494292481350": {
+            "type": "logo_social",
+            "settings": {
+              "desktop_logo_height": 50,
+              "container_width": 20
+            }
+          }
+        },
+        "block_order": [
+          "64f9bfc1-6ab4-4dc3-b5dc-9546c951abad",
+          "1494292485313",
+          "1494292487693",
+          "283b3c0d-f2e7-4c24-8537-832464b46ced",
+          "1494292481350"
+        ],
+        "settings": {
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "show_currency_flags": true,
+          "show_payment_icons": true,
+          "colorize_payment_icons": true,
+          "show_copyright": true,
+          "copyright_text": ""
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "collection_image_enable": true,
+          "collection_image_height": 450,
+          "parallax": true,
+          "description_position": "top",
+          "collection_subnav_style": "inline",
+          "collection_tags_style": "none",
+          "collection_sort_enable": false,
+          "per_row": 4,
+          "mobile_flush_grid": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "description_style": "default",
+          "social_enable": false,
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "thumbnail_arrows": false,
+          "enable_video_looping": true,
+          "product_video_style": "muted"
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_image": true,
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false,
+          "social_sharing_blog": true
+        }
+      },
+      "1498163293234": {
+        "type": "featured-content",
+        "disabled": true,
+        "settings": {
+          "title": "Increase Your Endurance and Feel Great!",
+          "text": "<p>Our premium range of anti-aging nutraceuticals (supplements that combine Mother Nature with cutting edge science) support healthy aging, while designed to boost NAD+ levels. Manufactured in an ISO9001 certified facility. Packaged and tested in the UK to the highest standards.<br\/><br\/>Our NAD+ boosting supplement named Nicotinamide Mononucleotide, is a perfect choice for anyone over 25 with a busy lifestyle that would like to get an extra boost in their daily<br\/>routine. We know how frustrating it is to experience steadily declining levels of energy, focus, stamina, endurance, and performance. Unfortunately, this is a reality for most people over 30. But it doesn’t have to be this way.<\/p>",
+          "align_text": "center",
+          "narrow_column": false,
+          "enlarge_text": true,
+          "divider": false
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "blog_show_tag_filter": true,
+          "blog_show_rss": false,
+          "blog_show_tags": false,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false
+        }
+      },
+      "1499790633921": {
+        "type": "background-image-text",
+        "disabled": true,
+        "settings": {
+          "subtitle": "",
+          "title": "Support Your Healthy Ageing",
+          "text": "<p>We offer powerful, third party tested, NAD+ boosting supplements so you can start your healthy ageing journey today.<\/p>",
+          "button_label": "SHOP NOW",
+          "button_link": "shopify:\/\/products\/nmn-beta-nicotinamide-mononucleotide-250mg",
+          "image": "shopify:\/\/shop_images\/Website_Lower_Banner_V2.1.jpg",
+          "focal_point": "top",
+          "layout": "left",
+          "height": 550,
+          "parallax": false
+        }
+      },
+      "1499790731541": {
+        "type": "collection-callout",
+        "disabled": true,
+        "settings": {
+          "collection": "nmn-products",
+          "subtitle": "Quality you can trust",
+          "title": "NMN",
+          "text": "The peak of NAD+ and hormonal production in humans happens around the age of 25. As a result, the production of hormones such as testosterone, growth hormone, progesterone and melatonin to name a few is being decreased after 25. That’s the reason most adults start experiencing increased fatigue at this age, sleeping less than they did in their early twenties and their sex drive and focus is on a steady decline. Increased levels of NAD+ are correlated with better mitochondrial function, increased focus and energy.",
+          "cta_text1": "Shop 500 mg",
+          "cta_link1": "shopify:\/\/products\/nmn-15-gram-pure-beta-nicotinamide-mononucleotide",
+          "cta_text2": "Shop 250 mg",
+          "cta_link2": "shopify:\/\/products\/nmn-beta-nicotinamide-mononucleotide-250mg",
+          "layout": "left",
+          "divider": false
+        }
+      },
+      "footer-promotions": {
+        "type": "footer-promotions",
+        "blocks": {
+          "footer-promotions-0": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/healthy_aging_a03b85e7-5507-435b-b825-eff1baccd7b1.jpg",
+              "image_width": 650,
+              "title": "NMN safe at 1.2g\/day!",
+              "text": "<p>Have a look at the analysis of the last human studies where participants were taking NMN at dosages up to 1.2g\/day with no side effects.<\/p>",
+              "button_label": "READ MORE",
+              "button_link": "shopify:\/\/blogs\/news\/human-studies-show-nmn-is-safe-to-take-at-high-doses"
+            }
+          },
+          "footer-promotions-1": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/NMN_Bio_500mg.jpg",
+              "image_width": 650,
+              "title": "Offer of the week!",
+              "text": "<p>Wondering what's our offer of the week is? <\/p>",
+              "button_label": "TAKE ME TO THE OFFER!",
+              "button_link": "shopify:\/\/products\/nmn-beta-nicotinamide-mononucleotide-500mg-capsules-30-capsules"
+            }
+          },
+          "footer-promotions-2": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/din_0122.jpg",
+              "image_width": 650,
+              "title": "How much NMN should I take?",
+              "text": "<p>Our full guide answers all your questions from how much NMN should you take according to your age, to how to optimise your NMN efficiency!<\/p>",
+              "button_label": "READ MORE",
+              "button_link": "shopify:\/\/blogs\/news\/how-and-how-much-nmn-i-should-take-according-to-my-age"
+            }
+          }
+        },
+        "block_order": [
+          "footer-promotions-0",
+          "footer-promotions-1",
+          "footer-promotions-2"
+        ],
+        "settings": {
+          "hide_homepage": false,
+          "image_size": "wide",
+          "align_text": "left"
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "mode": "enabled",
+          "popup_seconds": 5,
+          "popup_days": 2,
+          "popup_title": "Sign up to receive our comprehensive Longevity Guide!",
+          "popup_image": "shopify:\/\/shop_images\/Guide_cover2.png",
+          "popup_text": "<p>Join our newsletter and get the 7 tips to live longer.<\/p>",
+          "close_text": "",
+          "enable_newsletter": true,
+          "button_label": "Optional button",
+          "button_link": "",
+          "enable_button": false
+        }
+      },
+      "1604864731d2e26460": {
+        "type": "testimonials",
+        "blocks": {
+          "1604864731d2e26460-0": {
+            "type": "testimonial",
+            "settings": {
+              "icon": "5-stars",
+              "testimonial": "<p>Amazing product! I have been taking it for two weeks now and I can see that my face is brighter (not having changed anything else in my routine apart from starting to take this product) and my energy levels are up by a lot! So glad to have gotten the NMN<\/p>",
+              "author": "Helen",
+              "author_info": "London, UK"
+            }
+          },
+          "1604864731d2e26460-1": {
+            "type": "testimonial",
+            "settings": {
+              "icon": "5-stars",
+              "testimonial": "<p>My sugar cravings disappeared after a couple of weeks. My focus keeps on getting better and better. Thanks for an awesome product!<\/p>",
+              "author": "Mark R.",
+              "author_info": "Frankfurt, Germany"
+            }
+          },
+          "1604864731d2e26460-2": {
+            "type": "testimonial",
+            "settings": {
+              "icon": "5-stars",
+              "testimonial": "<p>Fantastic product and great customer service. Highly recommend trying it out.<a href=\"https:\/\/www.trustpilot.com\/users\/5ed17f61cd4c4fad629326ee\"><br\/><\/a><\/p>",
+              "image": "shopify:\/\/shop_images\/Soma3.jpg",
+              "author": "Soma Marton",
+              "author_info": "Canada"
+            }
+          },
+          "1604864731d2e26460-3": {
+            "type": "testimonial",
+            "settings": {
+              "icon": "5-stars",
+              "testimonial": "<p>Everything feels a bit better. I suffer from arthritis and at the age of 54, I thought that there were no supplement that can help me feel better. After taking NMN for a month, my joints feel much better in the morning. <\/p>",
+              "author": "Irina S.",
+              "author_info": "Thessaloniki, Greece"
+            }
+          },
+          "afc181b5-3b8a-4bd7-92e8-725dbc3473d8": {
+            "type": "testimonial",
+            "settings": {
+              "icon": "5-stars",
+              "testimonial": "<p>Love this product and having had this developed by a scientist with a strong vision and integrity gives me confidence. NMN is the best longevity supplement on the market, the research coming out of world leading labs makes me very excited about being able to use this for me and my family<\/p>",
+              "image": "shopify:\/\/shop_images\/Lisa3.jpg",
+              "author": "Lisa T.",
+              "author_info": "New Zealand"
+            }
+          },
+          "e5b2cd67-aff1-4c3d-bc05-e4184e64d938": {
+            "type": "testimonial",
+            "settings": {
+              "icon": "5-stars",
+              "testimonial": "<p>Order came in decent time coming across from the pond. The company reached out to me to see if I had any questions and what my goals were. Which is a pleasant surprise. I am close to placing a second order with them. Like the NMN product, most likely the best I have yet.<a href=\"https:\/\/www.trustpilot.com\/users\/5e484318bef4a44f836fbabb\"><br\/><\/a><\/p>",
+              "author": "Zach B.",
+              "author_info": "US"
+            }
+          },
+          "d96bfc76-3564-4e5d-941e-ecf47d0d60cf": {
+            "type": "testimonial",
+            "settings": {
+              "icon": "5-stars",
+              "testimonial": "<p>I sleep much less and and feel more energetic and alert. I was surprised as I was previously taking NR from Chromadex and there wasn't much of an effect. I'm intrigued and looking forward to see what the longer term results would be. <\/p>",
+              "author": "Viktor K.",
+              "author_info": "Newcastle, UK"
+            }
+          },
+          "553fee8d-de3d-4999-b98d-f2096e38fa77": {
+            "type": "testimonial",
+            "settings": {
+              "icon": "5-stars",
+              "testimonial": "<p>I started taking NMN daily since Christmas and found that my overall energy improved and noticed better performance on my workout with quicker recovery times! I am determined to keep NMN as part of my Biohackers Longevity & Wellness daily routine. I believe this is one of the most important supplements to take to add years to our lives and lives to our years!<\/p>",
+              "image": "shopify:\/\/shop_images\/Charlene.jpg",
+              "author": "Charlene Gisele",
+              "author_info": "London, UK"
+            }
+          }
+        },
+        "block_order": [
+          "1604864731d2e26460-0",
+          "1604864731d2e26460-1",
+          "1604864731d2e26460-2",
+          "1604864731d2e26460-3",
+          "afc181b5-3b8a-4bd7-92e8-725dbc3473d8",
+          "e5b2cd67-aff1-4c3d-bc05-e4184e64d938",
+          "d96bfc76-3564-4e5d-941e-ecf47d0d60cf",
+          "553fee8d-de3d-4999-b98d-f2096e38fa77"
+        ],
+        "settings": {
+          "title": "Don't take our word for it",
+          "round_images": true,
+          "color_background": "#f9f9f9",
+          "color_text": "#443156"
+        }
+      },
+      "page-sections-template": {
+        "type": "page-sections-template",
+        "blocks": {
+          "c6e80352-f652-42c6-b9bf-308b7263ee10": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/lenteles-01_1.jpg",
+              "image_width": 500,
+              "subtitle": "THE FACTS",
+              "title": "Why NAD+ Supplementation?",
+              "text": "<p>Nicotinamide Adenine Dinucleotide, commonly known as <strong>NAD+,<\/strong> is a molecule that is found in every living cell and is a master regulator of human metabolism. It's a molecule essential for multiple biological processes and is also used by the genes governing the aging process named SIRTUINS. Without NAD+, cells cannot survive. As we age, the levels of NAD+ are reducing, something that affects mitochondrial function, energy production and as a result, a plethora of vital cellular functions.<\/p><p>NAD+ boosters are one of the most promising anti-ageing breakthroughs from scientific research so far.  <\/p>",
+              "button_label": "SHOP NOW",
+              "button_link": "shopify:\/\/products\/nmn-15-gram-pure-beta-nicotinamide-mononucleotide",
+              "layout": "right"
+            }
+          },
+          "4cc9c883-cc1a-4ea6-b880-e174be783fc5": {
+            "type": "rich-text",
+            "settings": {
+              "title": "The Scientific Background",
+              "text": "<p>NAD was discovered over a hundred years ago by scientists studying fermentation. Recently it has been hailed as a super-centenarian molecule. This is because its role in the biological process of ageing is being recognized.  NAD levels have been shown to decline during chronological ageing and this decline is both a consequence of the ageing process and also a contributor to the development of age-related cellular dysfunction.<\/p><p>NAD+ plays a vital role in cellular health, metabolic and neuro-protection plus circadian rhythms which can all contribute to greater longevity. This is the reasons why so many people are keen to boost their NAD+ levels. <\/p><p>A decrease in NAD+ can a lead to a number of harmful outcomes including:<\/p><p>·     Increased risk of sunburn and skin cancer<\/p><p>·     Cell suffocation (Hypoxia)<\/p><p>·     Accelerated cardiovascular disease<\/p><p>·     Decreased metabolism<\/p><p>·     Impaired brain function<\/p><p><strong>What is Nicotinamide Mononucleotide (NMN)?<\/strong><\/p><p>As our cells can’t absorb NAD+ directly we need to use a “precursor”, which is a molecule that converts into NAD+. One of the precursors for NAD+ is beta nicotinamide mononucleotide or NMN<strong>. <\/strong>NMN is a Vitamin B3 (niacin) derivative. Put simply, NMN increases NAD+, activates the longevity genes SIRTUINS and suppresses ageing.<\/p><p>NMN has gained a lot of attention recently,especially after the release of longevity scientist, David Sinclair’s book <em>Lifespan<\/em>. In his book, the scientist discusses his research examining NMN, particularly in mice.<\/p><p><\/p><p><strong>Can I get NMN from food?<\/strong><\/p><p>NMN can be found naturally in foods such as broccoli, cabbage, avocados and tomatoes. However, as the concentrations are less than 1 mg per kg of food you would need to consume about 1kg of broccoli to get about 1mg of NMN! Therefore, you need a supplement to get an optimum level of NMN. <\/p>",
+              "align_text": "left",
+              "narrow_column": true,
+              "enlarge_text": false
+            }
+          },
+          "6bea9de1-05d1-4715-8207-2f1ff670d797": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_72.jpg",
+              "image_width": 400,
+              "subtitle": "12 months study in mice",
+              "title": "INCREASED HEALTHSPAN IN MICE",
+              "text": "<p>In a study with mice, NMN was added to their drinking water. According to the authors \"We found that a 12 month-long NMN administration:<\/p><p>1) is well-tolerated without any obvious deleterious effects<\/p><p> 2) suppresses age-associated body weight gain<\/p><p>3) enhances food intake, oxygen consumption, energy expenditure, and physical activity <\/p><p>4) improves insulin sensitivity and plasma lipid profile, independent of its effect on body weight<\/p><p>5) improves eye function, bone density, and myeloid-lymphoid composition. <\/p><p>NMN administration was also able to prevent age-associated gene expression changes in a tissue-dependent manner and enhance mitochondrial respiratory capability in skeletal muscle.\"<\/p>",
+              "button_label": "Read the study",
+              "button_link": "https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC5668137\/",
+              "layout": "right"
+            }
+          },
+          "e0c89d9a-c244-40ad-839b-56d930cbdc55": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/lenteles-02_d7d7505e-53af-4725-9b6c-28cd00411845.jpg",
+              "image_width": 500,
+              "subtitle": "The biology of aging",
+              "title": "Why NAD+ Boosters?",
+              "text": "<p>As we age, the levels of NAD, which have been been correlated to mitochondrial function, are significantly decreasing (Image reference: <a href=\"https:\/\/www.sciencedirect.com\/science\/article\/pii\/S1550413116302248\" target=\"_blank\" title=\"https:\/\/www.sciencedirect.com\/science\/article\/pii\/S1550413116302248\">CD38 Dictates Age-Related NAD Decline and Mitochondrial Dysfunction through an SIRT3-Dependent Mechanism<\/a>). This translates to inevitable health and energy decline. The reason behind this is the consumption of NAD+ by multiple NADases, aka enzymes that use NAD+ to function and perform biological reactions. Certain enzymes such as PARPs and CD38, have increased activity as we age, due to their reaction to inflammation, DNA damage etc. They are competing for NAD+ with SIRTUINS, which are the genes that are suggested to correlate with healthy aging. <\/p><p>This latest research is the reason behind the NAD+ boosting supplements becoming more and more popular among longevity enthusiasts and wellness specialists. It is worth noting that Nicotinamide Mononucleotide is a direct precursor to NAD+, meaning that it enters the cell and is converted to NAD+ in one step. Other NAD+ boosters require more steps in order to be converted to NAD+. For example, Nicotinamide Riboside (NR) needs to be converted to NMN first before it can boost your NAD+ levels. <br\/><br\/><\/p>",
+              "button_label": "SHOP NOW",
+              "button_link": "shopify:\/\/collections\/all",
+              "layout": "left"
+            }
+          },
+          "ff5eb68f-5874-465b-ab51-1988f4c35fdf": {
+            "type": "rich-text",
+            "settings": {
+              "title": "References",
+              "text": "<p>1) The Role of NAD+ in Anti-Aging Therapies: <a href=\"https:\/\/biomedgrid.com\/fulltext\/volume6\/the-role-of-nad-in-anti-aging-therapies.001080.php\" target=\"_blank\" title=\"https:\/\/biomedgrid.com\/fulltext\/volume6\/the-role-of-nad-in-anti-aging-therapies.001080.php\">https:\/\/biomedgrid.com\/fulltext\/volume6\/the-role-of-nad-in-anti-aging-therapies.001080.php<\/a><\/p><p>2) Q&A: How Harvard's David Sinclair is Fighting Aging—and How You Can, Too: <a href=\"https:\/\/blog.insidetracker.com\/david-sinclair-fighting-aging-lifespan\" title=\"https:\/\/blog.insidetracker.com\/david-sinclair-fighting-aging-lifespan\">https:\/\/blog.insidetracker.com\/david-sinclair-fighting-aging-lifespan<\/a><\/p><p>3) It takes two to tango: NAD+ and sirtuins in aging\/longevity control: <a href=\"https:\/\/www.nature.com\/articles\/npjamd201617\" target=\"_blank\" title=\"https:\/\/www.nature.com\/articles\/npjamd201617\">https:\/\/www.nature.com\/articles\/npjamd201617<\/a><\/p><p>4) Long-term administration of nicotinamide mononucleotide mitigates age-associated physiological decline in mice: <a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC5668137\/\" target=\"_blank\" title=\"https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC5668137\/\">https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC5668137\/<\/a><\/p><p>5) CD38 Dictates Age-Related NAD Decline and Mitochondrial Dysfunction through an SIRT3-Dependent Mechanism: <a href=\"https:\/\/www.sciencedirect.com\/science\/article\/pii\/S1550413116302248\" target=\"_blank\" title=\"https:\/\/www.sciencedirect.com\/science\/article\/pii\/S1550413116302248\">https:\/\/www.sciencedirect.com\/science\/article\/pii\/S1550413116302248<\/a><\/p>",
+              "align_text": "left",
+              "narrow_column": true,
+              "enlarge_text": false
+            }
+          }
+        },
+        "block_order": [
+          "c6e80352-f652-42c6-b9bf-308b7263ee10",
+          "4cc9c883-cc1a-4ea6-b880-e174be783fc5",
+          "6bea9de1-05d1-4715-8207-2f1ff670d797",
+          "e0c89d9a-c244-40ad-839b-56d930cbdc55",
+          "ff5eb68f-5874-465b-ab51-1988f4c35fdf"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false,
+          "overlaid_header": true
+        }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "4b8b12a2-bdbf-43a1-9c12-ce94bec7bf97": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Frequently Asked Questions",
+              "text": "",
+              "align_text": "left"
+            }
+          },
+          "eb6787c7-5eaa-46d2-baea-0b5c145b91f4": {
+            "type": "question",
+            "settings": {
+              "title": "Does NMN have any known side effects?",
+              "text": "<p>The <a href=\"https:\/\/pubmed.ncbi.nlm.nih.gov\/31685720\/\" title=\"https:\/\/pubmed.ncbi.nlm.nih.gov\/31685720\/\" target=\"_blank\">first human safety trial of NMN in humans was published in 2019 <\/a>and showed that a single dose of up to 500mg was tolerable.<\/p><p>Three major studies of NMN are also currently underway involving human subjects. The first is being carried out by the Washington School of Medicine in St. Louis, and the second by Keio University Medical School in Tokyo, in conjunction with Washington School of Medicine. The third and perhaps most important study is being carried out by Brigham and Women&#x27;s hospital in Boston, under the watchful eyes of Harvard longevity scientists. The results of these trials should be published soon.<\/p>"
+            }
+          },
+          "d59b6e13-4428-4beb-82fe-b61d181a535f": {
+            "type": "question",
+            "settings": {
+              "title": "Why should I take NMN before breakfast?",
+              "text": "<p>It increases absorption.<\/p>"
+            }
+          },
+          "6002e6aa-dd51-4dd0-acf5-f64450d910e6": {
+            "type": "question",
+            "settings": {
+              "title": "How much NMN should I take?",
+              "text": "<p>If you&#x27;re younger than 35, you can start with 250mg\/day and after 1-2weeks increase to 500mg to see what feels better.If you&#x27;re older than 35, start with 500mg\/day, then increase to 1g to see what feels better.<\/p>"
+            }
+          },
+          "7bd09e68-f642-4e3f-8b6f-76c1caf6cddf": {
+            "type": "question",
+            "settings": {
+              "title": "Should I  take one capsule in the morning and one in the afternoon?",
+              "text": "<p>No. Take your NMN in the morning to synchronize your NMN consumption with your Circardian rhythms.<\/p>"
+            }
+          },
+          "cdfd79bc-9108-4e93-93ca-d26ec384d99c": {
+            "type": "question",
+            "settings": {
+              "title": "Should I break down the capsule for better absorption?",
+              "text": "<p>Dr David Sinclair and our founder Dr Elena Seranova don&#x27;t bother and just take the capsule. There are actually no studies showing that sublingual powder or powder intake results in better absorption than the capsule. <\/p>"
+            }
+          },
+          "365e641d-bb4b-4c29-aec0-bf763b81df8a": {
+            "type": "question",
+            "settings": {
+              "title": "What can amplify the effect of NMN supplementation?",
+              "text": "<p>Along with your NMN, take one tablespoonof extra virgin olive oil in the morning. Oleic acid, one of the ingredients inolive oil, is also shown to activate the <em>SIRTUINS<\/em>, the so-called longevity genes. <\/p>"
+            }
+          },
+          "5c198196-4f8f-4f91-8383-397bc2b35c49": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Privacy Policy",
+              "text": "<p>Find attached our Privacy Policy below.<\/p>",
+              "align_text": "left"
+            }
+          },
+          "ceff8727-df63-4d90-b8f1-78f56ad944aa": {
+            "type": "question",
+            "settings": {
+              "title": "What is NMN Bio's Privacy Policy?",
+              "text": "<p>This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from nmnbio.co.uk (the “Site”).<br\/><br\/><strong>Personal information we collect<\/strong><br\/>When you visit the Site, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and some of the cookies that are installed on your device. Additionally, as you browse the Site, we collect information about the individual web pages or products that you view, what websites or search terms referred you to the Site, and information about how you interact with the Site. We refer to this automatically-collected information as “Device Information”.<br\/><br\/>We collect Device Information using the following technologies:<br\/>- “Cookies” are data files that are placed on your device or computer and often include an anonymous unique identifier. For more information about cookies, and how to disable cookies, visit http:\/\/www.allaboutcookies.org.<br\/>- “Log files” track actions occurring on the Site, and collect data including your IP address, browser type, Internet service provider, referring\/exit pages, and date\/time stamps.<br\/>- “Web beacons”, “tags”, and “pixels” are electronic files used to record information about how you browse the Site.<br\/><br\/>Additionally when you make a purchase or attempt to make a purchase through the Site, we collect certain information from you, including your name, billing address, shipping address, payment information (including credit card numbers, email address, and phone number. We refer to this information as “Order Information”.<br\/><br\/><br\/>When we talk about “Personal Information” in this Privacy Policy, we are talking both about Device Information and Order Information.<br\/><br\/><strong>How do we use your personal information?<\/strong><br\/>We use the Order Information that we collect generally to fulfill any orders placed through the Site (including processing your payment information, arranging for shipping, and providing you with invoices and\/or order confirmations). Additionally, we use this Order Information to:<br\/>- Communicate with you;<br\/>- Screen our orders for potential risk or fraud; and<br\/>- When in line with the preferences you have shared with us, provide you with information or advertising relating to our products or services.<br\/>We use the Device Information that we collect to help us screen for potential risk and fraud (in particular, your IP address), and more generally to improve and optimize our Site (for example, by generating analytics about how our customers browse and interact with the Site, and to assess the success of our marketing and advertising campaigns).<br\/><br\/><strong>Sharing you personal Information<\/strong><br\/>We share your Personal Information with third parties to help us use your Personal Information, as described above. For example, we use Shopify to power our online store--you can read more about how Shopify uses your Personal Information here: https:\/\/www.shopify.com\/legal\/privacy. We also use Google Analytics to help us understand how our customers use the Site -- you can read more about how Google uses your Personal Information here: https:\/\/www.google.com\/intl\/en\/policies\/privacy\/. You can also opt-out of Google Analytics here: https:\/\/tools.google.com\/dlpage\/gaoptout.<br\/><br\/>Finally, we may also share your Personal Information to comply with applicable laws and regulations, to respond to a subpoena, search warrant or other lawful request for information we receive, or to otherwise protect our rights.<br\/><br\/><strong>Behavioural advertising<\/strong><br\/>As described above, we use your Personal Information to provide you with targeted advertisements or marketing communications we believe may be of interest to you. For more information about how targeted advertising works, you can visit the Network Advertising Initiative’s (“NAI”) educational page at http:\/\/www.networkadvertising.org\/understanding-online-advertising\/how-does-it-work.<br\/><br\/>You can opt out of targeted advertising by using the links below:<br\/>- Facebook: https:\/\/www.facebook.com\/settings\/?tab=ads<br\/>- Google: https:\/\/www.google.com\/settings\/ads\/anonymous<br\/>- Bing: https:\/\/advertise.bingads.microsoft.com\/en-us\/resources\/policies\/personalized-ads<br\/><br\/>Additionally, you can opt out of some of these services by visiting the Digital Advertising Alliance’s opt-out portal at: http:\/\/optout.aboutads.info\/.<br\/><br\/><strong>Do not track<\/strong><br\/>Please note that we do not alter our Site’s data collection and use practices when we see a Do Not Track signal from your browser.<br\/><br\/><strong>Your rights<\/strong><br\/>If you are a European resident, you have the right to access personal information we hold about you and to ask that your personal information be corrected, updated, or deleted. If you would like to exercise this right, please contact us through the contact information below.<br\/><br\/>Additionally, if you are a European resident we note that we are processing your information in order to fulfill contracts we might have with you (for example if you make an order through the Site), or otherwise to pursue our legitimate business interests listed above. Additionally, please note that your information will be transferred outside of Europe, including to Canada and the United States.<br\/><br\/><strong>Data retention<\/strong><br\/>When you place an order through the Site, we will maintain your Order Information for our records unless and until you ask us to delete this information.<br\/><br\/><strong>Changes<\/strong><br\/>We may update this privacy policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal or regulatory reasons.<br\/><br\/><br\/><br\/><strong>Contact us<\/strong><br\/>For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e‑mail at info@nmnbio.co.uk or by mail using the details provided below:<br\/><br\/>NMN Bio LTD<br\/>[Re: Privacy Compliance Officer]<br\/>Skn Business Centre, 1 Guildford Street, Birmingham, West Midlands, United Kingdom, B19 2HN<\/p>"
+            }
+          },
+          "page-faq-template-0": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Shipping policy & payments",
+              "text": "<p>The details of our shipping policy can be found below.<\/p>",
+              "align_text": "left"
+            }
+          },
+          "page-faq-template-1": {
+            "type": "question",
+            "settings": {
+              "title": "Where do you ship to?",
+              "text": "<p>We ship internationally from our warehouse in the UK. If you are based in Australia or New Zealand, please order from our NZ branch as the shipping will be cheaper and faster. Visit their website here: https:\/\/nmnbio.nz\/<\/p>"
+            }
+          },
+          "fceddadf-0d31-4591-a187-9cfbe1bd7a8a": {
+            "type": "question",
+            "settings": {
+              "title": "Will custom charges apply?",
+              "text": "<p>We are now operating 2 warehouses. One in the UK, from where we ship internationally and one in the EU, from where we ship to all European countries. This way, you no longer have to worry about customs and duty charges!<\/p>"
+            }
+          },
+          "67c0d4c6-320f-48bd-b7a3-db0db19eb623": {
+            "type": "question",
+            "settings": {
+              "title": "I live in the US and I was notified that there is a Prior Notice to be submitted to the FDA. What do I do?",
+              "text": "<p>Some shipment coming into the US are now requiring an FDA Prior Notice to be submitted, before the shipment arrives in the US. This is not the case for all of our shipments. But if you do get such a notification, please email us at info@nmnbio.co.uk and we will be happy to sort out the prior notice for you, so you don't have to do it yourself!<\/p>"
+            }
+          },
+          "page-faq-template-2": {
+            "type": "question",
+            "settings": {
+              "title": "How long will my order take?",
+              "text": "<p>Most parcels get delivered to UK addresses within 2 working days.<\/p><p>We also ship internationally. Specific shipping rates and delivery times apply.<\/p>"
+            }
+          },
+          "95dc20fb-ed18-4522-afd0-a0c3b3c2317f": {
+            "type": "question",
+            "settings": {
+              "title": "Do you accept cryptocurrency payments?",
+              "text": "<p>We had a few customers asking us if we accept payments in cryptocurrencies and for this reason, we now do! If you would like to purchase your NMN with Bitcoin, Ethereum or any other major cryptocurrency, you can now do it. Simply send us your order to <a href=\"mailto:info@nmnbiol.co.uk,\">info@nmnbio.co.uk,<\/a> along with your shipping address, and we will provide a payment link that will be valid for 24 hours. <\/p>"
+            }
+          },
+          "page-faq-template-3": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Returns and exchanges",
+              "text": "",
+              "align_text": "left"
+            }
+          },
+          "page-faq-template-4": {
+            "type": "question",
+            "settings": {
+              "title": "Refund Policy",
+              "text": "<p>If you changed your mind, you can ship your unopened order back to us within 14 days and get a refund. Please contact us and we will provide you with shipping details for your package return. <\/p>"
+            }
+          },
+          "566cb3d9-73be-4906-8c14-5bcd563eaa07": {
+            "type": "question",
+            "settings": {
+              "title": "Terms of Service",
+              "text": "<p>OVERVIEW<br\/><\/p><p><\/p><p>This website is operated by NMN BIO LTD. Throughout the site, the terms “we”, “us” and “our” refer to NMN BIO LTD. NMN BIO LTD offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.<br\/><\/p><p><\/p><p>By visiting our site and\/ or purchasing something from us, you engage in our “Service” and agree to be bound by the following terms and conditions (“Terms of Service”, “Terms”), including those additional terms and conditions and policies referenced herein and\/or available by hyperlink. These Terms of Service apply  to all users of the site, including without limitation users who are browsers, vendors, customers, merchants, and\/ or contributors of content.<br\/><\/p><p><\/p><p>Please read these Terms of Service carefully before accessing or using our website. By accessing or using any part of the site, you agree to be bound by these Terms of Service. If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any services. If these Terms of Service are considered an offer, acceptance is expressly limited to these Terms of Service.<br\/><\/p><p><\/p><p>Any new features or tools which are added to the current store shall also be subject to the Terms of Service. You can review the most current version of the Terms of Service at any time on this page. We reserve the right to update, change or replace any part of these Terms of Service by posting updates and\/or changes to our website. It is your responsibility to check this page periodically for changes. Your continued use of or access to the website following the posting of any changes constitutes acceptance of those changes.<br\/><\/p><p><\/p><p>Our store is hosted on Shopify Inc. They provide us with the online e-commerce platform that allows us to sell our products and services to you.<br\/><\/p><p><\/p><p><\/p><p>SECTION 1 - ONLINE STORE TERMS<br\/><\/p><p><\/p><p>By agreeing to these Terms of Service, you represent that you are at least the age of majority in your state or province of residence, or that you are the age of majority in your state or province of residence and you have given us your consent to allow any of your minor dependents to use this site.<br\/><\/p><p><\/p><p>You may not use our products for any illegal or unauthorized purpose nor may you, in the use of the Service, violate any laws in your jurisdiction (including but not limited to copyright laws).<br\/><\/p><p><\/p><p>You must not transmit any worms or viruses or any code of a destructive nature.<br\/><\/p><p><\/p><p>A breach or violation of any of the Terms will result in an immediate termination of your Services.<br\/><\/p><p><\/p><p><\/p><p>SECTION 2 - GENERAL CONDITIONS<br\/><\/p><p><\/p><p>We reserve the right to refuse service to anyone for any reason at any time.<br\/><\/p><p><\/p><p>You understand that your content (not including credit card information), may be transferred unencrypted and involve (a) transmissions over various networks; and (b) changes to conform and adapt to technical requirements of connecting networks or devices. Credit card information is always encrypted during transfer over networks.<br\/><\/p><p><\/p><p>You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service, use of the Service, or access to the Service or any contact on the website through which the service is provided, without express written permission by us.<br\/><\/p><p><\/p><p>The headings used in this agreement are included for convenience only and will not limit or otherwise affect these Terms.<br\/><\/p><p><\/p><p><\/p><p>SECTION 3 - ACCURACY, COMPLETENESS AND TIMELINESS OF INFORMATION<br\/><\/p><p><\/p><p>We are not responsible if information made available on this site is not accurate, complete or current. The material on this site is provided for general information only and should not be relied upon or used as the sole basis for making decisions without consulting primary, more accurate, more complete or more timely sources of information. Any reliance on the material on this site is at your own risk.<br\/><\/p><p><\/p><p>This site may contain certain historical information. Historical information, necessarily, is not current and is provided for your reference only. We reserve the right to modify the contents of this site at any time, but we have no obligation to update any information on our site. You agree that it is your responsibility to monitor changes to our site.<br\/><\/p><p><\/p><p><\/p><p>SECTION 4 - MODIFICATIONS TO THE SERVICE AND PRICES<br\/><\/p><p><\/p><p>Prices for our products are subject to change without notice.<br\/><\/p><p><\/p><p>We reserve the right at any time to modify or discontinue the Service (or any part or content thereof) without notice at any time.<br\/><\/p><p><\/p><p>We shall not be liable to you or to any third-party for any modification, price change, suspension or discontinuance of the Service.<br\/><\/p><p><\/p><p><\/p><p>SECTION 5 - PRODUCTS OR SERVICES (if applicable)<br\/><\/p><p><\/p><p>Certain products or services may be available exclusively online through the website. These products or services may have limited quantities and are subject to return or exchange only according to our Return Policy.<br\/><\/p><p><\/p><p>We have made every effort to display as accurately as possible the colors and images of our products that appear at the store. We cannot guarantee that your computer monitor&#x27;s display of any color will be accurate.<br\/><\/p><p><\/p><p>We reserve the right, but are not obligated, to limit the sales of our products or Services to any person, geographic region or jurisdiction. We may exercise this right on a case-by-case basis. We reserve the right to limit the quantities of any products or services that we offer. All descriptions of products or product pricing are subject to change at anytime without notice, at the sole discretion of us. We reserve the right to discontinue any product at any time. Any offer for any product or service made on this site is void where prohibited.<br\/><\/p><p><\/p><p>We do not warrant that the quality of any products, services, information, or other material purchased or obtained by you will meet your expectations, or that any errors in the Service will be corrected.<br\/><\/p><p><\/p><p><\/p><p>SECTION 6 - ACCURACY OF BILLING AND ACCOUNT INFORMATION<br\/><\/p><p><\/p><p>We reserve the right to refuse any order you place with us. We may, in our sole discretion, limit or cancel quantities purchased per person, per household or per order. These restrictions may include orders placed by or under the same customer account, the same credit card, and\/or orders that use the same billing and\/or shipping address. In the event that we make a change to or cancel an order, we may attempt to notify you by contacting the e-mail and\/or billing address\/phone number provided at the time the order was made. We reserve the right to limit or prohibit orders that, in our sole judgment, appear to be placed by dealers, resellers or distributors.<br\/><\/p><p><\/p><p>You agree to provide current, complete and accurate purchase and account information for all purchases made at our store. You agree to promptly update your account and other information, including your email address and credit card numbers and expiration dates, so that we can complete your transactions and contact you as needed.<br\/><\/p><p><\/p><p>For more detail, please review our Returns Policy.<br\/><\/p><p><\/p><p><\/p><p>SECTION 7 - OPTIONAL TOOLS<br\/><\/p><p><\/p><p>We may provide you with access to third-party tools over which we neither monitor nor have any control nor input.<br\/><\/p><p><\/p><p>You acknowledge and agree that we provide access to such tools ”as is” and “as available” without any warranties, representations or conditions of any kind and without any endorsement. We shall have no liability whatsoever arising from or relating to your use of optional third-party tools.<br\/><\/p><p><\/p><p>Any use by you of optional tools offered through the site is entirely at your own risk and discretion and you should ensure that you are familiar with and approve of the terms on which tools are provided by the relevant third-party provider(s).<br\/><\/p><p><\/p><p>We may also, in the future, offer new services and\/or features through the website (including, the release of new tools and resources). Such new features and\/or services shall also be subject to these Terms of Service.<br\/><\/p><p><\/p><p><\/p><p>SECTION 8 - THIRD-PARTY LINKS<br\/><\/p><p><\/p><p>Certain content, products and services available via our Service may include materials from third-parties.<br\/><\/p><p><\/p><p>Third-party links on this site may direct you to third-party websites that are not affiliated with us. We are not responsible for examining or evaluating the content or accuracy and we do not warrant and will not have any liability or responsibility for any third-party materials or websites, or for any other materials, products, or services of third-parties.<br\/><\/p><p><\/p><p>We are not liable for any harm or damages related to the purchase or use of goods, services, resources, content, or any other transactions made in connection with any third-party websites. Please review carefully the third-party&#x27;s policies and practices and make sure you understand them before you engage in any transaction. Complaints, claims, concerns, or questions regarding third-party products should be directed to the third-party.<br\/><\/p><p><\/p><p><\/p><p>SECTION 9 - USER COMMENTS, FEEDBACK AND OTHER SUBMISSIONS<br\/><\/p><p><\/p><p>If, at our request, you send certain specific submissions (for example contest entries) or without a request from us you send creative ideas, suggestions, proposals, plans, or other materials, whether online, by email, by postal mail, or otherwise (collectively, &#x27;comments&#x27;), you agree that we may, at any time, without restriction, edit, copy, publish, distribute, translate and otherwise use in any medium any comments that you forward to us. We are and shall be under no obligation (1) to maintain any comments in confidence; (2) to pay compensation for any comments; or (3) to respond to any comments.<br\/><\/p><p><\/p><p>We may, but have no obligation to, monitor, edit or remove content that we determine in our sole discretion are unlawful, offensive, threatening, libelous, defamatory, pornographic, obscene or otherwise objectionable or violates any party’s intellectual property or these Terms of Service.<br\/><\/p><p><\/p><p>You agree that your comments will not violate any right of any third-party, including copyright, trademark, privacy, personality or other personal or proprietary right. You further agree that your comments will not contain libelous or otherwise unlawful, abusive or obscene material, or contain any computer virus or other malware that could in any way affect the operation of the Service or any related website. You may not use a false e-mail address, pretend to be someone other than yourself, or otherwise mislead us or third-parties as to the origin of any comments. You are solely responsible for any comments you make and their accuracy. We take no responsibility and assume no liability for any comments posted by you or any third-party.<br\/><\/p><p><\/p><p><\/p><p>SECTION 10 - PERSONAL INFORMATION<br\/><\/p><p><\/p><p>Your submission of personal information through the store is governed by our Privacy Policy. To view our Privacy Policy.<br\/><\/p><p><\/p><p><\/p><p>SECTION 11 - ERRORS, INACCURACIES AND OMISSIONS<br\/><\/p><p><\/p><p>Occasionally there may be information on our site or in the Service that contains typographical errors, inaccuracies or omissions that may relate to product descriptions, pricing, promotions, offers, product shipping charges, transit times and availability. We reserve the right to correct any errors, inaccuracies or omissions, and to change or update information or cancel orders if any information in the Service or on any related website is inaccurate at any time without prior notice (including after you have submitted your order).<br\/><\/p><p><\/p><p>We undertake no obligation to update, amend or clarify information in the Service or on any related website, including without limitation, pricing information, except as required by law. No specified update or refresh date applied in the Service or on any related website, should be taken to indicate that all information in the Service or on any related website has been modified or updated.<br\/><\/p><p><\/p><p><\/p><p><\/p><p>SECTION 12 - PROHIBITED USES<br\/><\/p><p><\/p><p>In addition to other prohibitions as set forth in the Terms of Service, you are prohibited from using the site or its content: (a) for any unlawful purpose; (b) to solicit others to perform or participate in any unlawful acts; (c) to violate any international, federal, provincial or state regulations, rules, laws, or local ordinances; (d) to infringe upon or violate our intellectual property rights or the intellectual property rights of others; (e) to harass, abuse, insult, harm, defame, slander, disparage, intimidate, or discriminate based on gender, sexual orientation, religion, ethnicity, race, age, national origin, or disability; (f) to submit false or misleading information; (g) to upload or transmit viruses or any other type of malicious code that will or may be used in any way that will affect the functionality or operation of the Service or of any related website, other websites, or the Internet; (h) to collect or track the personal information of others; (i) to spam, phish, pharm, pretext, spider, crawl, or scrape; (j) for any obscene or immoral purpose; or (k) to interfere with or circumvent the security features of the Service or any related website, other websites, or the Internet. We reserve the right to terminate your use of the Service or any related website for violating any of the prohibited uses.<br\/><\/p><p><\/p><p><\/p><p>SECTION 13 - DISCLAIMER OF WARRANTIES; LIMITATION OF LIABILITY<br\/><\/p><p><\/p><p>We do not guarantee, represent or warrant that your use of our service will be uninterrupted, timely, secure or error-free.<br\/><\/p><p><\/p><p>We do not warrant that the results that may be obtained from the use of the service will be accurate or reliable.<br\/><\/p><p><\/p><p>You agree that from time to time we may remove the service for indefinite periods of time or cancel the service at any time, without notice to you.<br\/><\/p><p><\/p><p>You expressly agree that your use of, or inability to use, the service is at your sole risk. The service and all products and services delivered to you through the service are (except as expressly stated by us) provided &#x27;as is&#x27; and &#x27;as available&#x27; for your use, without any representation, warranties or conditions of any kind, either express or implied, including all implied warranties or conditions of merchantability, merchantable quality, fitness for a particular purpose, durability, title, and non-infringement.<br\/><\/p><p><\/p><p>In no case shall NMN BIO LTD, our directors, officers, employees, affiliates, agents, contractors, interns, suppliers, service providers or licensors be liable for any injury, loss, claim, or any direct, indirect, incidental, punitive, special, or consequential damages of any kind, including, without limitation lost profits, lost revenue, lost savings, loss of data, replacement costs, or any similar damages, whether based in contract, tort (including negligence), strict liability or otherwise, arising from your use of any of the service or any products procured using the service, or for any other claim related in any way to your use of the service or any product, including, but not limited to, any errors or omissions in any content, or any loss or damage of any kind incurred as a result of the use of the service or any content (or product) posted, transmitted, or otherwise made available via the service, even if advised of their possibility. Because some states or jurisdictions do not allow the exclusion or the limitation of liability for consequential or incidental damages, in such states or jurisdictions, our liability shall be limited to the maximum extent permitted by law.<br\/><\/p><p><\/p><p><\/p><p><\/p><p>SECTION 14 - INDEMNIFICATION<br\/><\/p><p><\/p><p>You agree to indemnify, defend and hold harmless NMN BIO LTD and our parent, subsidiaries, affiliates, partners, officers, directors, agents, contractors, licensors, service providers, subcontractors, suppliers, interns and employees, harmless from any claim or demand, including reasonable attorneys’ fees, made by any third-party due to or arising out of your breach of these Terms of Service or the documents they incorporate by reference, or your violation of any law or the rights of a third-party.<br\/><\/p><p><\/p><p><\/p><p>SECTION 15 - SEVERABILITY<br\/><\/p><p><\/p><p>In the event that any provision of these Terms of Service is determined to be unlawful, void or unenforceable, such provision shall nonetheless be enforceable to the fullest extent permitted by applicable law, and the unenforceable portion shall be deemed to be severed from these Terms of Service, such determination shall not affect the validity and enforceability of any other remaining provisions.<br\/><\/p><p><\/p><p><\/p><p>SECTION 16 - TERMINATION<br\/><\/p><p><\/p><p>The obligations and liabilities of the parties incurred prior to the termination date shall survive the termination of this agreement for all purposes.<br\/><\/p><p><\/p><p>These Terms of Service are effective unless and until terminated by either you or us. You may terminate these Terms of Service at any time by notifying us that you no longer wish to use our Services, or when you cease using our site.<br\/><\/p><p><\/p><p>If in our sole judgment you fail, or we suspect that you have failed, to comply with any term or provision of these Terms of Service, we also may terminate this agreement at any time without notice and you will remain liable for all amounts due up to and including the date of termination; and\/or accordingly may deny you access to our Services (or any part thereof).<br\/><\/p><p><\/p><p><\/p><p>SECTION 17 - ENTIRE AGREEMENT<br\/><\/p><p><\/p><p>The failure of us to exercise or enforce any right or provision of these Terms of Service shall not constitute a waiver of such right or provision.<br\/><\/p><p><\/p><p>These Terms of Service and any policies or operating rules posted by us on this site or in respect to The Service constitutes the entire agreement and understanding between you and us and govern your use of the Service, superseding any prior or contemporaneous agreements, communications and proposals, whether oral or written, between you and us (including, but not limited to, any prior versions of the Terms of Service).<br\/><\/p><p><\/p><p>Any ambiguities in the interpretation of these Terms of Service shall not be construed against the drafting party.<br\/><\/p><p><\/p><p><\/p><p>SECTION 18 - GOVERNING LAW<br\/><\/p><p><\/p><p>These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of SKN Business Centre, 1 Guildford Street, Birmingham, UKM, B15 3JA, United Kingdom.<br\/><\/p><p><\/p><p><\/p><p>SECTION 19 - CHANGES TO TERMS OF SERVICE<br\/><\/p><p><\/p><p>You can review the most current version of the Terms of Service at any time at this page.<br\/><\/p><p><\/p><p>We reserve the right, at our sole discretion, to update, change or replace any part of these Terms of Service by posting updates and changes to our website. It is your responsibility to check our website periodically for changes. Your continued use of or access to our website or the Service following the posting of any changes to these Terms of Service constitutes acceptance of those changes.<br\/><\/p><p><\/p><p><\/p><p>SECTION 20 - CONTACT INFORMATION<br\/><\/p><p><\/p><p>Questions about the Terms of Service should be sent to us at info@nmnbio.co.uk.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "4b8b12a2-bdbf-43a1-9c12-ce94bec7bf97",
+          "eb6787c7-5eaa-46d2-baea-0b5c145b91f4",
+          "d59b6e13-4428-4beb-82fe-b61d181a535f",
+          "6002e6aa-dd51-4dd0-acf5-f64450d910e6",
+          "7bd09e68-f642-4e3f-8b6f-76c1caf6cddf",
+          "cdfd79bc-9108-4e93-93ca-d26ec384d99c",
+          "365e641d-bb4b-4c29-aec0-bf763b81df8a",
+          "5c198196-4f8f-4f91-8383-397bc2b35c49",
+          "ceff8727-df63-4d90-b8f1-78f56ad944aa",
+          "page-faq-template-0",
+          "page-faq-template-1",
+          "fceddadf-0d31-4591-a187-9cfbe1bd7a8a",
+          "67c0d4c6-320f-48bd-b7a3-db0db19eb623",
+          "page-faq-template-2",
+          "95dc20fb-ed18-4522-afd0-a0c3b3c2317f",
+          "page-faq-template-3",
+          "page-faq-template-4",
+          "566cb3d9-73be-4906-8c14-5bcd563eaa07"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "blocks": {
+          "page-contact-template-0": {
+            "type": "contact-form",
+            "settings": {
+              "title": "",
+              "show_phone": false,
+              "narrow_column": true
+            }
+          },
+          "6d40144e-3e53-4989-8671-02156e29d1f3": {
+            "type": "rich-text",
+            "settings": {
+              "title": "",
+              "text": "<p>Alternatively, you can contact us at +44 (0)121 314 5441 Monday-Friday 9AM-5PM GMT or at info@nmnbio.co.uk<\/p>",
+              "align_text": "left",
+              "narrow_column": true,
+              "enlarge_text": true
+            }
+          }
+        },
+        "block_order": [
+          "page-contact-template-0",
+          "6d40144e-3e53-4989-8671-02156e29d1f3"
+        ],
+        "settings": {
+          "page_title_enable": true,
+          "page_content_enable": true,
+          "overlaid_header": true
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "product_recommendations_heading": "You may also like",
+          "related_count": 5
+        }
+      },
+      "product-collection-links": {
+        "type": "product-collection-links",
+        "settings": {
+          "collection_links_enable": true
+        }
+      },
+      "1609185983339b3b6e": {
+        "type": "background-image-text",
+        "disabled": true,
+        "settings": {
+          "subtitle": "Boost your NAD+ Levels",
+          "title": "Healthy Ageing: Redefined",
+          "text": "<p>Cellular Health<br\/>Energy &amp; Focus<br\/>Bone Density<br\/>Skin Elasticity<br\/>DNA Repair<\/p>",
+          "button_label": "BUY NMN",
+          "button_link": "https:\/\/nmnbio.myshopify.com\/?oseid=nYHFtTKT1NZP3gCfkeLeJVLU&editor_domain=nmnbio.myshopify.com&ose_preview_version=1&ose_end_param=1",
+          "image": "shopify:\/\/shop_images\/fit-healthy-NMN.jpg",
+          "focal_point": "80% 0",
+          "layout": "left",
+          "height": 650,
+          "parallax": true
+        }
+      },
+      "160942969867905ed3": {
+        "type": "text-and-image",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/profile_cropped.jpg",
+          "image_width": 430,
+          "subtitle": "Founded by",
+          "title": "Dr. Elena Seranova",
+          "text": "<p>Meet our founder that holds a PhD in Stem Cell Biology and has a bold vision for the future. A vision that doesn't include ageing.<\/p>",
+          "button_label": "Read more",
+          "button_link": "shopify:\/\/pages\/about",
+          "layout": "left",
+          "divider": false
+        }
+      },
+      "16225023284167c894": {
+        "type": "featured-product",
+        "disabled": true,
+        "settings": {
+          "subtitle": "Best seller",
+          "featured_product": "3-bottles-nmn-beta-nicotinamide-mononucleotide-500mg-capsules-30-capsules-free-uk-delivery",
+          "show_description": false,
+          "divider": false,
+          "thumbnail_position": "beside",
+          "thumbnail_arrows": false,
+          "enable_video_looping": true,
+          "product_video_style": "muted"
+        }
+      },
+      "16225024257ff9924c": {
+        "type": "featured-content",
+        "disabled": true,
+        "settings": {
+          "title": "Why should I take anti-aging supplements?",
+          "text": "<p>Nicotinamide Adenine Dinucleotide or NAD+, a master regulator of metabolism and a molecule essential for the functionality of all human cells, is being dramatically decreased over time.<br\/><\/p><p>Repleted levels of NAD+ are correlated with better mitochondrial function, increased cognitive function and energy levels. Better cellular health = better performance.<\/p>",
+          "align_text": "center",
+          "narrow_column": false,
+          "enlarge_text": true,
+          "divider": false
+        }
+      },
+      "162904149260e863e2": {
+        "type": "quiz-kit",
+        "settings": {
+          "key": "7enIIMN5gQ"
+        }
+      },
+      "NewProduct": {
+        "type": "NewProduct",
+        "settings": {
+          "description_style": "default",
+          "social_enable": true,
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "thumbnail_arrows": false,
+          "enable_video_looping": true,
+          "product_video_style": "muted",
+          "product_content_1": "product-information-500mg",
+          "product_content_2": "product-benefits",
+          "product_content_3": "recommended-dosage"
+        }
+      },
+      "New-recommendations": {
+        "type": "New-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "product_recommendations_heading": "You may also like",
+          "related_count": 5
+        }
+      },
+      "new-collection-links": {
+        "type": "new-collection-links",
+        "settings": {
+          "collection_links_enable": true
+        }
+      },
+      "16330916318cdaf89e": {
+        "type": "featured-video",
+        "settings": {
+          "title": "Rejuvenate Your Cells from the Inside Out.",
+          "video_url": "https:\/\/youtu.be\/sAJAIGvkYQI",
+          "divider": false
+        }
+      },
+      "article-custom": {
+        "type": "article-custom",
+        "blocks": {
+          "920bf8f0-fe4a-4da3-8da5-6655e22d399b": {
+            "type": "text",
+            "settings": {
+              "par": "<p><\/p><p>There are so many articles and blog posts online which recommend an insane amount of tips on how to maintain your energy throughout the day. <br\/><br\/>To be honest most of the tips are just bad, either they don't work or they’re just short term solutions.<\/p><p>We believe we have some solid tips that can actually help you maintain your energy, so without further ado, we present to you our top 4 tips to maintain your energy throughout the day.<br\/><br\/><strong>Solution 1 - Diet<br\/><br\/><\/strong>Food is key when it comes to energy.  After all, food is the fuel for our body.  What you eat is very important, but it’s also important to know what not to eat.  Keep track of what you are eating for each meal and log how you feel after. Do you feel the same? Do you feel worse? Do you feel better?  When you eat a proper meal you should feel good and energetic. <br\/>It will take trial and error to find the right foods that always deliver a positive, energetic result.  After you have found the right diet, remember to not overeat and stick with the diet that makes you feel the best. As a rule of thumb, processed foods are usually the ones you should limit or eliminate from your diet, in order to feel better after consuming a meal.<br\/><br\/><strong>Solution 2 - Sleep <br\/><\/strong><br\/>We are still amazed how many people don’t take their sleep seriously. The human body needs at least 7-8 hours of sleep, which means you need to spend about 30% of your life sleeping.<\/p><p>Optimizing sleep your sleep schedule is one of the best pieces of advice for maintaining great energy levels and even increasing happiness.<br\/><br\/><strong>Let's talk about the following points in more detail.<br\/><br\/><\/strong>·   Sleeping position and mattress softness.<\/p><p>·   Not eating 3-4 hours before bed.<\/p><p>·   How to prepare for sleep.<\/p><p>·   Tips to overcome problems falling asleep.<br\/><\/p><p><strong>Sleeping position and mattress softness.<\/strong><\/p><p>If you are a belly sleeper - choose a soft mattress.<br\/><br\/>If you are side sleeper - choose medium mattress<\/p><p>If you are back sleeper - choose hard mattress<\/p><p>Mattresses are a personal choice, but too many people sleep on poor quality mattresses and don't get the good rest they deserve.<br\/><br\/><strong>Don’t eat a big meal 3-4 hours before bed.<br\/><br\/><\/strong>A simple rule that many of us tend to forget.<br\/><br\/><strong>How to prepare for sleep.<br\/><br\/><\/strong>·   Reduce blue light exposure in the evening.<\/p><p>·   Don’t consume caffeine after 4pm.<\/p><p>·   Make sure your bedroom is a quiet, relaxing, clean, and an enjoyable place.<\/p><p>·   Test different room temperatures to find out which is most comfortable for you. Around 70°F (20°C) is best for most people.<br\/><br\/><br\/><br\/><strong>Having problems falling asleep?<br\/><br\/><\/strong>Falling asleep is something a lot of people have trouble with.  There are many things that can help remedy this problem, but the best advice is to calm your mind.  A restless mind can keep you from falling asleep, since your mind is still busy working away.  Most of the time you worry about things and that in turn creates stress.   <\/p><p><\/p><p>To solve this you must  learn how to meditate or clear your mind.  Meditation will help you to calm your mind and you will fall asleep faster.  A lot of people depend on sleeping pills to get the rest they need,  but there is nothing better than natural sleep with a clear mind.<br\/><\/p><p><strong>Solution 3 - Stress management<\/strong><\/p><p><\/p><p>Are you stressed and anxious all the time?  Work, daily life, responsibilities, and the people around you can all contribute to stress and anxiety.  When life goes bad, how do you deal with stress and anxiety?<br\/><br\/>A lot of people turn to alcohol and sugar, but that’s a short term solution with harsh consequences.<br\/><br\/><strong>How should you deal with stress?<br\/><br\/><\/strong>·   Eliminate foods that stress your digestive system.<\/p><p>·   Eliminate negative people around you and keep your attention focussed on the positive.<\/p><p>·   When feeling bad or lost, meditate to calm your mind and think of alternative solutions to the problem you are stuck in at the moment.<br\/><br\/>Meditation works by calming your mind.  It’s important to stay in the present and not dwell on perceived future worries.  There is no future, there is only the present.  A lot of problems we worry about don’t ever happen or are not of much consequence if and when they do happen..  Meditation helps to calm your mind.  A calm mind = a calm body =  much great energy and happiness.<br\/><br\/><strong>Solution 4 - Smart supplements (advanced)<br\/><br\/><\/strong>There are a lot of different supplements on the market, but how do you know which one works?  The problem is that 95% of the supplements on the market are not made by scientists.  Researching and developing scientific based supplements is very hard and a lot of companies skip the research to take supplements directly to market.<\/p><p><\/p><p>We have found a few supplements we take daily which help tremendously with energy.   Food can provide the most basic nutrients like vitamins and minerals, but there are a lot of other useful things out there you can supplement your diet with to get the most energy.<br\/><br\/><strong>L-theanine with green tea extract<br\/><br\/><\/strong>Most known for helping people relax, L-theanine has other potential health benefits, including: <\/p><p><\/p><p>·   Anxiety and stress relief<\/p><p>·   Increased focus<\/p><p>·   Better immunity<\/p><p>·   Tumor and cancer treatment<\/p><p>·   Blood pressure management<br\/><br\/><strong>Caffeine<br\/><br\/><\/strong>Coffee is one of the world’s most popular beverages.  Thanks to its high levels of antioxidants and beneficial nutrients, it also seems to be quite healthy.  Studies show that coffee drinkers have a much lower risk of several serious diseases.<\/p><p>·   Can Improve Reaction Times<\/p><p>·   Just don't drink it too much.<\/p><p>·   Contains Essential Nutrients (Vitamin B2, B3, B5, potassium)<\/p><p>·   Can Drastically Improve Physical Performance<\/p><p>·   Can Help You Burn Fat<\/p><p>·   Can Improve Reaction Times<br\/><br\/>·   Just don't drink it too much.<br\/><br\/><br\/><strong>Magnesium<br\/><br\/><\/strong>Magnesium is the fourth most abundant mineral in the human body.  It plays several important roles in the health of your body and brain.  However, you may not be getting enough of it, even if you eat a healthy diet. Magnesium is  involved in more than 600 reactions in your body, including:<br\/><br\/>·   Energy creation: Helps convert food into energy.<\/p><p>·   Protein formation: Helps create new proteins from amino acids.<\/p><p>·   Gene maintenance: Helps create and repair DNA and RNA.<\/p><p>·   Muscle movements: Is part of the contraction and relaxation of muscles.<\/p><p>·   Nervous system regulation: Helps regulate neurotransmitters, which send messages throughout your brain and nervous system.<br\/><br\/>The best types of magnesium to try out is glycinate (or biglycinate) or threonate.<br\/><br\/><strong>The benefits of magnesium<br\/><\/strong><br\/>·   May Boost Exercise Performance<br\/><br\/>·   Can Help to Fight Depression<\/p><p>·   Benefits Against Type 2 Diabetes<\/p><p>·   Can Lower Blood Pressure<\/p><p>·   Has Anti-Inflammatory Benefits<\/p><p>·   Can Help Prevent Migraines<\/p><p>·   Reduces Insulin Resistance<\/p><p>·   Improves PMS Symptoms<\/p><p>·   Safe and Widely Available<br\/><br\/><strong>NMN | (beta Nicotinamide Mononucleotide) <br\/><\/strong>Without NAD+, cells cannot survive.<br\/><br\/>As we age, the levels of NAD+ reduce, something that affects mitochondrial function, energy production and as a result a plethora of vital cellular functions.<br\/><br\/>NAD+ boosters are one of the most promising anti-ageing breakthroughs from scientific research so far.<br\/><br\/>Every year Americans spend billions of dollars on anti-aging products. <br\/><br\/>Most anti-aging products try to reverse the signs of aging on your skin.  <br\/>NMN (beta Nicotinamide Mononucleotide) aims to reverse signs of aging from the inside out. <br\/><br\/>Within your body, nicotinamide riboside is converted into NAD+, a helper molecule that exists inside each of your cells and supports many aspects of healthy aging.<br\/><br\/><strong>How does NMN work?<br\/><\/strong><br\/>Nicotinamide Adenine Dinucleotide, commonly known as NAD+, is a molecule that is found in every living cell and is a master regulator of human metabolism.<br\/><br\/>It's a molecule essential for multiple biological processes and is also used by the genes governing the aging process named SIRTUINS.<br\/><br\/>Without NAD+, cells cannot survive. As we age, the levels of NAD+ are reducing, something that affects mitochondrial function, energy production and as a result, a plethora of vital cellular functions.<br\/><br\/><strong>A decrease in NAD+ can a lead to a number of harmful outcomes including:<br\/><br\/><\/strong>·     Increased risk of sunburn and skin cancer<br\/><br\/>·     Cell suffocation (Hypoxia)<\/p><p>·     Accelerated cardiovascular disease<\/p><p>·     Decreased metabolism<\/p><p>·     Impaired brain function<br\/><br\/><strong>What is Nicotinamide Mononucleotide (NMN)?<br\/><br\/><\/strong>As our cells can’t absorb NAD+ directly we need to use a “precursor”, which is a molecule that converts into NAD+. One of the precursors for NAD+ is beta nicotinamide mononucleotide or NMN. NMN is a Vitamin B3 (niacin) derivative. Put simply, NMN increases NAD+, activates the longevity genes SIRTUINS and suppresses ageing.<br\/><br\/>NMN has gained a lot of attention recently,especially after the release of longevity scientist, David Sinclair’s book Lifespan. In his book, the scientist discusses his research examining NMN, particularly in mice.<br\/><br\/><strong>Can I get NMN from food?<br\/><br\/><\/strong>NMN can be found naturally in foods such as broccoli, cabbage, avocados and tomatoes. However, as the concentrations are less than 1 mg per kg of food you would need to consume about 1kg of broccoli to get about 1mg of NMN! Therefore, you need a supplement to get an optimum level of NMN.<br\/><br\/><strong>What does it feel like after you start taking NMN? <\/strong><\/p><p>Day 1 - NMN starts working towards restoring your NAD+ levels that are essential for energy production.<\/p><p>Day 2-3 - You might start noticing a difference in energy levels and focus. Dreams usually start becoming more vivid, as your deep sleep is improved.<\/p><p>Day 7 - You realise that it’s late evening but you are not as  tired as usual.<\/p><p>Day 14 - Focus, concentration, and physical well-being are notably different. You get more done during the day. No need for an afternoon nap. <\/p><p>Day 21 - You might start noticing that your sugar craving has decreased.<br\/><br\/><strong>How and when should I take NMN?<\/strong><\/p><p>You should take it before breakfast to increase its absorption.<br\/><br\/>If you're younger than 35, you can start with 250mg a day and after 1-2 weeks increase to 500 mg to see which works better for you.  If you're older than 35, start with 500mg a day, then increase to 1g to see which works better for you.<br\/><br\/><strong>Is it safe?<br\/><\/strong><br\/>Nicotinamide Adenine Dinucleotide is safe with few  if any side effects. Some people have reported mild to moderate side effects, such as nausea, fatigue, headaches, diarrhea, stomach discomfort and indigestion.  However, these side effects are very rare and unlikely to happen to you.<\/p><p><\/p><p>In human studies, taking 1,000–2,000 mg per day had no harmful effects.  In animals, taking 300 mg per kg of body weight (136 mg per pound) daily for 90 days had no harmful effects.<br\/><br\/><strong>Where Can I find NMN?<br\/><\/strong><br\/>We couldn’t find the high purity, third-party tested NMN we wanted to take and after taking NMN for a short time, we knew right away we wanted to keep taking NMN. <br\/><br\/>It provided us so much more energy and a clear head throughout the day.<br\/><br\/>However, we couldn't find a reliable NMN brand with top quality products.<br\/><br\/>That’s how NMN Bio was born.  <br\/><br\/>Our goal is to provide the best NMN on the market.  <br\/><br\/>We are careful about what we put in our bodies  and we believe you should be too.  <br\/><br\/>Supplements should make you feel better and make your body perform at it’s best. <br\/><br\/>A good  supplement doesn’t have any additional unnecessary ingredients that your body doesn’t need.<\/p><p><strong>Try our NMN here:<\/strong><\/p>"
+            }
+          },
+          "43961b06-eeb0-494f-b53f-299aef38c4dd": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2021-10-20_at_13.13.42.png"
+            }
+          }
+        },
+        "block_order": [
+          "920bf8f0-fe4a-4da3-8da5-6655e22d399b",
+          "43961b06-eeb0-494f-b53f-299aef38c4dd"
+        ],
+        "settings": {
+          "title": "Top 4 tips on how to maintain energy throughout the day with minimal to no effort",
+          "image": "shopify:\/\/shop_images\/blog.jpg"
+        }
+      },
+      "product-template-custom": {
+        "type": "product-template-custom",
+        "settings": {
+          "featured_product": "3-bottles-nmn-beta-nicotinamide-mononucleotide-500mg-capsules-30-capsules-free-uk-delivery",
+          "bottom_bucket_list": "<p>·  Lucky customer will be randomly selected over email on November 14<br\/>·  Expect shipping to take 7-12 days. We full fill and ship your order ASAP (same day).<br\/>·  It will last you 3 months, only $2.2 per day<\/p>",
+          "description_style": "default",
+          "social_enable": true,
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "thumbnail_arrows": false,
+          "enable_video_looping": true,
+          "product_video_style": "muted"
+        }
+      },
+      "product-recommendations-custo": {
+        "type": "product-recommendations-custo",
+        "settings": {
+          "featured_product": "nmn-beta-nicotinamide-mononucleotide-250mg",
+          "show_product_recommendations": true,
+          "product_recommendations_heading": "You may also like",
+          "related_count": 5
+        }
+      },
+      "offer-landing-hero": {
+        "type": "offer-landing-hero",
+        "blocks": {
+          "31c49f41-2696-4590-99cd-e9befb4a6034": {
+            "type": "text",
+            "settings": {
+              "text": "Fights age-related muscle degeneration",
+              "image": "shopify:\/\/shop_images\/Icon_feather-check-circle.png"
+            }
+          },
+          "1c5addea-1bb0-438e-adeb-ba59e5d54bcd": {
+            "type": "text",
+            "settings": {
+              "text": "Enhances endurance, aerobic capacity and cardiovascular fitness",
+              "image": "shopify:\/\/shop_images\/Icon_feather-check-circle.png"
+            }
+          },
+          "a2208376-459e-48b0-9eef-da06b180a38e": {
+            "type": "text",
+            "settings": {
+              "text": "Pharmaceutical Grade",
+              "image": "shopify:\/\/shop_images\/Icon_feather-check-circle.png"
+            }
+          },
+          "0bfd6e42-714d-48ae-8833-668863a9e470": {
+            "type": "text",
+            "settings": {
+              "text": "Founded by a Scientist",
+              "image": "shopify:\/\/shop_images\/Icon_feather-check-circle.png"
+            }
+          },
+          "c962b5d7-faba-4dc6-a021-262f806bdfdf": {
+            "type": "text",
+            "settings": {
+              "text": "It will last you for 3 months",
+              "image": "shopify:\/\/shop_images\/Icon_feather-check-circle.png"
+            }
+          },
+          "80f403e0-e6f2-4d8d-bb78-d7bfb85267fc": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "text": "Supplementation with NMN is demonstrated to enhance endurance, aerobic capacity and cardiovascular fitness in healthy, adult, amateur runners of both genders.",
+              "image": "shopify:\/\/shop_images\/Icon_feather-check-circle.png"
+            }
+          },
+          "58a84dc7-e87a-4f85-beb5-72d9a99a524c": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "text": "Our NMN capsules contain 500mg of NMN each and there are 30 capsules per bottle.",
+              "image": "shopify:\/\/shop_images\/Icon_feather-check-circle.png"
+            }
+          },
+          "8b11be71-69f6-4530-ac4f-e7168e81f5a2": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "text": "NMN Bio is founded by a scientist and is committed to offering transparency when it comes to the volume of product that you are paying for.",
+              "image": "shopify:\/\/shop_images\/Icon_feather-check-circle.png"
+            }
+          },
+          "67eae74b-7377-458f-960a-dfd3dcf8c0e4": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "text": "Ingredients: NMN, Capsule Shell (Vegetable Cellulose).",
+              "image": "shopify:\/\/shop_images\/Icon_feather-check-circle.png"
+            }
+          }
+        },
+        "block_order": [
+          "31c49f41-2696-4590-99cd-e9befb4a6034",
+          "1c5addea-1bb0-438e-adeb-ba59e5d54bcd",
+          "a2208376-459e-48b0-9eef-da06b180a38e",
+          "0bfd6e42-714d-48ae-8833-668863a9e470",
+          "c962b5d7-faba-4dc6-a021-262f806bdfdf",
+          "80f403e0-e6f2-4d8d-bb78-d7bfb85267fc",
+          "58a84dc7-e87a-4f85-beb5-72d9a99a524c",
+          "8b11be71-69f6-4530-ac4f-e7168e81f5a2",
+          "67eae74b-7377-458f-960a-dfd3dcf8c0e4"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/banner.jpg",
+          "title": "Take Control of Your Energy Levels and Health with Innovative Anti-aging Supplement",
+          "offer": "<p>Starting at <strong>$2.2<\/strong> per 1 day<\/p>",
+          "reviews": "500+ five-star reviews"
+        }
+      },
+      "article-custom-1": {
+        "type": "article-custom-1",
+        "blocks": {
+          "ed6a2c54-db4b-4d91-97e2-197299b28986": {
+            "type": "text",
+            "settings": {
+              "par": "<p>Aging is something that all of us would like to stop in it's tracks. The main causes of aging include cellular damage caused by reactive molecules also known as free radicals and the shortening of telomere which are located at the end of chromosomes and play an important part in cellular division.<br\/>While we can’t stop aging all together, there are steps we can take to slow the process and supplements that have anti-aging effects. Here are a few ways that you can show those wrinkles and loss of energy who is boss.<br\/><br\/>___<br\/><strong>1. Exercise<\/strong><br\/>Did you know that less that one fifth of Americans exercise as much as they are suppose too? In case you’re wondering, you are supposed to exercise everyday. The human body evolved to chase down our meals, not eat them while we watch TV on the couch.<br\/>Thirty minutes of daily vigorous exercise is recommended as the bare minimum to keep our bodies in peak condition. This means reducing the risk of obesity, heart disease, and drastically reducing the amount of stress in your body. So get off that couch and make sure to elevate your heart rate everyday. This can be as simple as going for a walk everyday after dinner. You’ll feel better and you’ll live longer.<br\/><br\/>___<br\/><strong>2. Fasting<\/strong><br\/>Not many people realize the true benefits of fasting. Fasting can effect your body right down to the way your cells function, as well as gene expression. While it can help you lose weight, more importantly it can help you live a longer and healthier life.<br\/>A few benefits of fasting include, lowering levels of insulin in the blood and increasing fat burning, increasing your levels of human growth hormone which facilitates muscle growth, and cellular repair which removes waste material from cells.<br\/>You don’t have to fast for days on end either. Fasting during certain hours of the day or a couple days a week can help you to live a better life while pushing back those effects of aging.<br\/><br\/>___<br\/><strong>3. Sleep<\/strong><br\/>This is a big one! Did you know most people are not getting enough sleep? It’s true and the downside to your late night work sessions are major. Sleep is just as important as exercise and diet to maintain health as well as slow the effects of aging.<br\/>Research has shown that poor sleep has immediate negative effects on your hormones, physical performance, and brain function. Not to mention, it can cause weight gain and increase your risk of heart disease. So do yourself a favor and get at least seven to eight hours of sleep every night, your body will thank you in the morning<br\/><br\/>___<br\/><strong>4. Morning Journaling<\/strong><br\/>How does morning journaling help you stop the effects of aging? Well research has shown that keeping track of your moods throughout the day, your anxiety, and what causes you stress is an effective tool to help you deal with them in a positive way. It allows you to indentify what triggers your stress thoughout the day and come up with ways to feel better. I guess the pen is mightier than the sword.<br\/><br\/>___<br\/><strong>5. Social Media Scrolling<\/strong><br\/>Ok folks this is a big one. Time to put down those screens and unplug from social media. While social media can be used to help us connect with others, it also can have a negative impact on our mental and physical health. Recent research has shown that overuse of social media can cause, low self esteem, increased feelings of isolation and loneliness, anxiety or depression, and even disrupt your sleeping patterns.<br\/>As we’ve learned, if you want to stop the effects of aging, reducing your daily stress and increasing the number of hours you get quality sleep each night are vital. So just say no to endless scrolling and use that time to get in that much needed daily exercise or sleep.<br\/><br\/>___<br\/><strong>6. Hydrate First Thing in the Morning<\/strong><br\/>This might seem like a no-brainer, but you’d be surprised how many people wake up dehydrated and continue their day that way. After sleeping for seven to eight hours your body needs more water to function at it’s best, and that’s not even taking into account the wine or beer you might have drank the night before.<br\/>Two cups of water in the morning is recommended to keep you in optimal condition. This will flush your body of any toxins, keep you hydrated, and jump start your metabolism.<br\/><br\/>___<br\/><strong>7. NMN Bio<\/strong><br\/>Not all supplements are created equal, literally. Not only do you have to be cautious of what supplements can do to your body, but you also want a supplement that is pure and manufactured by a reputable company. Which brings us to NMN Bio.<br\/>So what is Nicotinamide Mononucleotide (NMN)? Put simply, NMN increases NAD+, activates the longevity genes SIRTUINS and suppresses ageing. As our cells can’t absorb NAD+ directly we need to use a “precursor”, which is a molecule that converts into NAD+. One of the precursors for NAD+ is beta nicotinamide mononucleotide or NMN<strong>. <\/strong>NMN is a Vitamin B3 (niacin) derivative.<br\/><br\/>NMN has gained a lot of attention recently,especially after the release of longevity scientist, David Sinclair’s book <em>Lifespan<\/em>. In his book, the scientist discusses his research examining NMN, particularly in mice.<br\/><br\/>Can you get NMN from food? NMN can be found naturally in foods such as broccoli, cabbage, avocados and tomatoes. However, as the concentrations are less than 1 mg per kg of food you would need to consume about 1kg of broccoli to get about 1mg of NMN! Therefore, you need a supplement to get an optimum level of NMN.<\/p><p><\/p><p><br\/><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "ed6a2c54-db4b-4d91-97e2-197299b28986"
+        ],
+        "settings": {
+          "title": "Anti-Aging: How to prolong your health and perform better every day",
+          "image": "shopify:\/\/shop_images\/blog.jpg"
+        }
+      },
+      "hero-top": {
+        "type": "hero-top",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Mask_Group_53.jpg",
+          "imagemb": "shopify:\/\/shop_images\/Mask_Group_55.jpg",
+          "title": "Fight Ageing",
+          "title1": "Higher energy. Better sleep. Confidence",
+          "text": "<p>Ageing is something we all fear and experience - you’re not alone. Complete this simple quiz and take control of the ageing process with one innovative supplement.<\/p>",
+          "title2": "Start by selecting your gender:"
+        }
+      },
+      "landing-img-right": {
+        "type": "landing-img-right",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/C38A9909_copy.jpg",
+          "title": "Why NMN Bio?",
+          "text": "<p>NNAD+ is a molecule that is essential for over 50% of all physiological processes including energy production and metabolism.<br\/><br\/>Supplementation with NMN is demonstrated to enhance endurance, aerobic capacity and cardiovascular fitness in healthy, adult, amateur runners of both genders. <br\/><br\/>NMN Bio is founded by a scientist and is committed to offering transparency when it comes to the volume of product that you are paying for.<br\/><\/p>"
+        }
+      },
+      "landing-img-left": {
+        "type": "landing-img-left",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/C38A9915_copy_1.jpg",
+          "title": "",
+          "text": "<p>Just in 1-2 weeks, you will notice improvements in your energy levels, fewer sugar cravings and better sleep.<\/p>"
+        }
+      },
+      "bottom-hero": {
+        "type": "bottom-hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Mask_Group_54.jpg",
+          "imagemb": "shopify:\/\/shop_images\/Mask_Group_56.jpg",
+          "title": "Regain joy in life at  your own pace,  one task at a time",
+          "title1": "Start by selecting your gender:",
+          "text": "",
+          "title2": ""
+        }
+      },
+      "testimonials": {
+        "type": "testimonials",
+        "blocks": {
+          "70f36d79-99c8-4fd0-aadb-a389ac589757": {
+            "type": "testimonial",
+            "settings": {
+              "icon": "5-stars",
+              "testimonial": "<p>Amazing product! I have been taking it for two weeks now and I can see that my face is brighter (not having changed anything else in my routine apart from starting to take this product) and my energy levels are up by a lot! So glad to have gotten the NMN<\/p>",
+              "author": "Helen",
+              "author_info": "London, UK"
+            }
+          },
+          "330a06db-c0ad-4ac9-b63c-a609c24522e1": {
+            "type": "testimonial",
+            "settings": {
+              "icon": "5-stars",
+              "testimonial": "<p>My sugar cravings disappeared after a couple of weeks. My focus keeps on getting better and better. Thanks for an awesome product!<\/p>",
+              "author": "Mark R.",
+              "author_info": "Frankfurt, Germany"
+            }
+          },
+          "d10016c4-512b-4f37-acf7-389b97b8aa1f": {
+            "type": "testimonial",
+            "settings": {
+              "icon": "5-stars",
+              "testimonial": "<p>Fantastic product and great customer service. Highly recommend trying it out.<\/p>",
+              "image": "shopify:\/\/shop_images\/Soma2.jpg",
+              "author": "Soma Marton",
+              "author_info": "Canada"
+            }
+          },
+          "537413c5-cd63-4d34-96b1-ecd4d9306b6d": {
+            "type": "testimonial",
+            "settings": {
+              "icon": "5-stars",
+              "testimonial": "<p>Everything feels a bit better. I suffer from arthritis and at the age of 54, I thought that there were no supplement that can help me feel better. After taking NMN for a month, my joints feel much better in the morning. <\/p>",
+              "author": "Irina S.",
+              "author_info": "Thessaloniki, Greece"
+            }
+          },
+          "11ddbd0d-3c37-44cf-8450-b927ca4339c3": {
+            "type": "testimonial",
+            "settings": {
+              "icon": "5-stars",
+              "testimonial": "<p>Love this product and having had this developed by a scientist with a strong vision and integrity gives me confidence. NMN is the best longevity supplement on the market, the research coming out of world leading labs makes me very excited about being able to use this for me and my family<\/p>",
+              "image": "shopify:\/\/shop_images\/Lisa3.jpg",
+              "author": "Lisa T.",
+              "author_info": "New Zealand"
+            }
+          },
+          "536040b7-983c-4cba-8862-9be4e5db7083": {
+            "type": "testimonial",
+            "settings": {
+              "icon": "5-stars",
+              "testimonial": "<p>Order came in decent time coming across from the pond. The company reached out to me to see if I had any questions and what my goals were. Which is a pleasant surprise. I am close to placing a second order with them. Like the NMN product, most likely the best I have yet.<\/p>",
+              "author": "Zach B",
+              "author_info": "US"
+            }
+          },
+          "6bdfc036-d10a-4b6b-b443-e95fe0014db3": {
+            "type": "testimonial",
+            "settings": {
+              "icon": "5-stars",
+              "testimonial": "<p>I sleep much less and and feel more energetic and alert. I was surprised as I was previously taking NR from Chromadex and there wasn't much of an effect. I'm intrigued and looking forward to see what the longer term results would be. <\/p>",
+              "author": "Viktor K.",
+              "author_info": "Newcastle, UK"
+            }
+          },
+          "38efe3ad-def7-4501-b00d-fe2415395604": {
+            "type": "testimonial",
+            "settings": {
+              "icon": "5-stars",
+              "testimonial": "<p>I started taking NMN daily since Christmas and found that my overall energy improved and noticed better performance on my workout with quicker recovery times! I am determined to keep NMN as part of my Biohackers Longevity & Wellness daily routine. I believe this is one of the most important supplements to take to add years to our lives and lives to our years!<\/p>",
+              "author": "Charlene Gisele",
+              "author_info": "London, UK"
+            }
+          }
+        },
+        "block_order": [
+          "70f36d79-99c8-4fd0-aadb-a389ac589757",
+          "330a06db-c0ad-4ac9-b63c-a609c24522e1",
+          "d10016c4-512b-4f37-acf7-389b97b8aa1f",
+          "537413c5-cd63-4d34-96b1-ecd4d9306b6d",
+          "11ddbd0d-3c37-44cf-8450-b927ca4339c3",
+          "536040b7-983c-4cba-8862-9be4e5db7083",
+          "6bdfc036-d10a-4b6b-b443-e95fe0014db3",
+          "38efe3ad-def7-4501-b00d-fe2415395604"
+        ],
+        "settings": {
+          "title": "Don't take our word for it",
+          "round_images": true,
+          "color_background": "#f9f9f9",
+          "color_text": "#1c1d1d"
+        }
+      },
+      "quiz-images-grid-section": {
+        "type": "quiz-images-grid-section",
+        "settings": {
+          "title": "Your fresh start is here",
+          "title1": "According to your answers, you may…",
+          "title2": "A natural way to increase your energy levels and fight ageing",
+          "title3": "Your personal summary",
+          "title4": "Your answers indicate you may be experiencing:",
+          "text_blue": "Your results indicate that you may be experiencing several symptoms of low energy levels, stress and anxiety.",
+          "text_blue2": "Prevent them from becoming a problem and learn how to deal with them at your own pace."
+        }
+      },
+      "text-img-right-2": {
+        "type": "text-img-right-2",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/din_0220.jpg",
+          "title": "NMN Bio was founded by an interdisciplinary,  female scientist Dr. Elena Seranova.",
+          "text": "<p>Without NAD+ we would die in the time it takes to boil a kettle! 😲<br\/><br\/>It is obvious why this molecule is important, however, this molecule sadly does not ‘age’ well in our bodies. It’s been anecdotally mentioned that by the time you are 20 you have lost half of your NAD+ levels and when you’re 40 you may be down to just 25% of your original NAD+ levels.<br\/><br\/>Lower NAD+ levels correlate to many health problems including:<br\/><br\/>• Weakened immune system<br\/>• Increased feelings of fatigue<br\/>• Skin ageing<br\/>• Weight gain<br\/><br\/>Ageing and decreased NAD+ levels are very highly correlated which is why a lot of important research has gone into finding ways to increase NAD+ levels. This is where NMN & NR come into play.<br\/><\/p>"
+        }
+      },
+      "text-img-left-2": {
+        "type": "text-img-left-2",
+        "blocks": {
+          "d5325930-f799-4b24-af5a-a47059081bd2": {
+            "type": "text",
+            "settings": {
+              "text": "NMN boosts NAD+ levels, which deplete as we age"
+            }
+          },
+          "8fe43534-170b-40ae-8d92-35a0b191ed0d": {
+            "type": "text",
+            "settings": {
+              "text": "Boost energy levels"
+            }
+          },
+          "f9c5d12e-57b3-49cc-81fa-efa1aacd288e": {
+            "type": "text",
+            "settings": {
+              "text": "Fights the signs of ageing"
+            }
+          },
+          "fececf71-593c-4cca-a90e-3af35e287634": {
+            "type": "text",
+            "settings": {
+              "text": "Enhance focus"
+            }
+          },
+          "89e48a7b-16b9-4c9a-aca2-4506ca6bd0a3": {
+            "type": "text",
+            "settings": {
+              "text": "Optimise mitochondrial function – as well as a myriad of other benefits"
+            }
+          },
+          "b85bf5ce-8e0d-47fc-b4d2-2e557c171d09": {
+            "type": "text",
+            "settings": {
+              "text": "Enhance endurance, aerobic capacity and cardiovascular fitness"
+            }
+          },
+          "2c45fd2d-f455-4353-bba5-2dad71191573": {
+            "type": "text",
+            "settings": {
+              "text": "Allows the cells in our bodies to repair and function at optimum levels"
+            }
+          }
+        },
+        "block_order": [
+          "d5325930-f799-4b24-af5a-a47059081bd2",
+          "8fe43534-170b-40ae-8d92-35a0b191ed0d",
+          "f9c5d12e-57b3-49cc-81fa-efa1aacd288e",
+          "fececf71-593c-4cca-a90e-3af35e287634",
+          "89e48a7b-16b9-4c9a-aca2-4506ca6bd0a3",
+          "b85bf5ce-8e0d-47fc-b4d2-2e557c171d09",
+          "2c45fd2d-f455-4353-bba5-2dad71191573"
+        ],
+        "settings": {
+          "title1": "Your anti-aging assistant",
+          "text1": "Start now and feel better by using simple yet  effective anti-aging supplement",
+          "image": "shopify:\/\/shop_images\/C38A9988_copy.jpg",
+          "title": "How NMN Bio supplement will help you",
+          "text": ""
+        }
+      },
+      "landing-promise": {
+        "type": "landing-promise",
+        "settings": {
+          "title": "Our promise",
+          "text": "<p>Our team of scientists has built NMN Bio to make sure everyone can access affordable and great quality NMN supplements to improve their health, energy levels and fight ageing.<br\/><br\/>With NMN Bio, we are tailoring even smallest details in our products for you to help you feel better. You will not get bad quality, random, expensive NMN supplement. Instead, NMN Bio will help you explore more possibilities in managing your energy levels and fight ageing backed by scientists.<br\/><br\/>We know that many things feel overwhelming right now, and it can be hard to make the right decision. Don’t worry! We will figure this out together.<br\/><br\/>Team NMN Bio.<br\/><\/p>"
+        }
+      },
+      "landing-2-offer-top": {
+        "type": "landing-2-offer-top",
+        "settings": {
+          "text1": "Simple way to boost your daily life",
+          "title1": "Higher energy levels",
+          "text2": "Taking care of your body brings fresh and sunny mornings",
+          "title2": "Better sleep",
+          "text3": "Take control of ageing process in your hands",
+          "title3": "Fight Ageing"
+        }
+      },
+      "your-journey": {
+        "type": "your-journey",
+        "settings": {
+          "title": "It’s your journey. It’s all about YOU",
+          "text1": "Supplement NMN Bio at your own pace. If you skip a day or need some time off, you can pick up right where you left off.",
+          "title1": "Your life - your rules",
+          "text2": "NMNBio will bring you more energy and help fight ageing",
+          "title2": "Lifetime results",
+          "text3": "Your are not alone. We will guide you step by step, using simple techniques to implement, positive changes on you daily routine. Which fits you.",
+          "title3": "Daily guidance + Community",
+          "image1": "shopify:\/\/shop_images\/Group_197.jpg",
+          "image2": "shopify:\/\/shop_images\/Group_199.jpg",
+          "image3": "shopify:\/\/shop_images\/Group_198.jpg"
+        }
+      },
+      "quiz-2-offer-landing-bot-img-r": {
+        "type": "quiz-2-offer-landing-bot-img-r",
+        "blocks": {
+          "6831f1d4-d2a5-4402-b691-dc409d2ef302": {
+            "type": "text",
+            "settings": {
+              "text": "Feel the effect after a few days"
+            }
+          },
+          "88f58ec4-9360-4695-bed7-9b4ae9c69090": {
+            "type": "text",
+            "settings": {
+              "text": "Boost your NAD + levels which leads  to higher energy"
+            }
+          },
+          "7854eb1d-5e7a-43cb-9f85-d5578cc8703f": {
+            "type": "text",
+            "settings": {
+              "text": "Increase focus and cognition⁠"
+            }
+          },
+          "f7246db4-d14d-480f-b742-72151ee41f55": {
+            "type": "text",
+            "settings": {
+              "text": "Sleep better"
+            }
+          },
+          "94fa7a77-e4c6-42df-9f31-841a4893fb96": {
+            "type": "text",
+            "settings": {
+              "text": "Improve quality of skin"
+            }
+          },
+          "ed874feb-11fa-4f0a-85af-cac61936170a": {
+            "type": "text",
+            "settings": {
+              "text": "Support the function of SIRTUINS  (genes that are associated with healthy aging)"
+            }
+          }
+        },
+        "block_order": [
+          "6831f1d4-d2a5-4402-b691-dc409d2ef302",
+          "88f58ec4-9360-4695-bed7-9b4ae9c69090",
+          "7854eb1d-5e7a-43cb-9f85-d5578cc8703f",
+          "f7246db4-d14d-480f-b742-72151ee41f55",
+          "94fa7a77-e4c6-42df-9f31-841a4893fb96",
+          "ed874feb-11fa-4f0a-85af-cac61936170a"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_195.png"
+        }
+      },
+      "quiz-2-offer-landing-bot-img-l": {
+        "type": "quiz-2-offer-landing-bot-img-l",
+        "blocks": {
+          "ae54dcf3-954c-45e6-978d-1102c2fc4cce": {
+            "type": "text",
+            "settings": {
+              "text": "Control your aging process."
+            }
+          },
+          "a31e4ffa-d43b-45fb-a89d-cd2656a16ff7": {
+            "type": "text",
+            "settings": {
+              "text": "No expensive treatments"
+            }
+          },
+          "b721f584-f41d-421f-9ed8-280c645b589f": {
+            "type": "text",
+            "settings": {
+              "text": "Less than a half of the daily take away coffee  price"
+            }
+          },
+          "9e66f120-9cb4-48c9-93f1-9643382bc1c2": {
+            "type": "text",
+            "settings": {
+              "text": "Only 1 pill a day"
+            }
+          }
+        },
+        "block_order": [
+          "ae54dcf3-954c-45e6-978d-1102c2fc4cce",
+          "a31e4ffa-d43b-45fb-a89d-cd2656a16ff7",
+          "b721f584-f41d-421f-9ed8-280c645b589f",
+          "9e66f120-9cb4-48c9-93f1-9643382bc1c2"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_196.png"
+        }
+      },
+      "offer-2-middle-section": {
+        "type": "offer-2-middle-section",
+        "blocks": {
+          "ae03fa69-291e-408f-9724-b6cbe41a506e": {
+            "type": "text",
+            "settings": {
+              "text": "Start taking 250mg daily if you are under 35 yeras old, after 1-2 weeks increase to 500mg to see what feels better."
+            }
+          },
+          "fe261aab-c31a-4481-b010-1cf720888254": {
+            "type": "text",
+            "settings": {
+              "text": "If you are 35+, start with 500mg\/day, then increase to 1g to see what feels better.⁠"
+            }
+          }
+        },
+        "block_order": [
+          "ae03fa69-291e-408f-9724-b6cbe41a506e",
+          "fe261aab-c31a-4481-b010-1cf720888254"
+        ],
+        "settings": {
+          "title": "How will your supplement routine look like? Supplementing NMN Bio is easy.",
+          "image": "shopify:\/\/shop_images\/Group_191.png",
+          "full_text": "<p>Our team of scientists has built NMN Bio to make sure everyone can access affordable and great quality NMN supplements to improve their health, energy levels and fight ageing. <\/p><p>With NMN Bio, we are tailoring even smallest details in our products for you to help you feel better. You will not get bad quality, random, expensive NMN supplement. Instead, NMN Bio will help you explore more possibilities in managing your energy levels and fight ageing backed by scientists. <\/p><p>We know that many things feel overwhelming right now, and it can be hard to make the right decision. Don’t worry! We will figure this out together. <\/p><p>We hope, to hear from you soon! With love, <\/p><p>Team NMN Bio<\/p>"
+        }
+      },
+      "offer-2-product-section": {
+        "type": "offer-2-product-section",
+        "settings": {
+          "gift_product": "6-bottles-nmn-beta-nicotinamide-mononucleotide-500mg-capsules-30-capsules"
+        }
+      },
+      "163752203336f3279c": {
+        "type": "hero-bf",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_123_8f0613d3-a53b-4adc-bc89-055304e2989f.jpg",
+          "imagemb": "shopify:\/\/shop_images\/Group_122_dadcb2c7-b7ad-4a7b-9889-e07252e01b37.jpg",
+          "link": ""
+        }
+      },
+      "163752301948e95d80": {
+        "type": "product-selection-carousel",
+        "blocks": {
+          "be365b3b-8bd8-44be-a513-e1289eb3580b": {
+            "type": "comment",
+            "settings": {
+              "link": "shopify:\/\/products\/nmn-beta-nicotinamide-mononucleotide-500mg-capsules-30-capsules",
+              "image": "shopify:\/\/shop_images\/Group_97.png",
+              "btn_text": "SHOP 500MG NMN",
+              "atc_text": "<p>SUBSCRIPTIONS 10% OFF<\/p>"
+            }
+          },
+          "94f7585a-069e-4cf7-8bd9-bfec161fab57": {
+            "type": "comment",
+            "settings": {
+              "link": "shopify:\/\/products\/nmn-beta-nicotinamide-mononucleotide-250mg-capsules-30-capsules",
+              "image": "shopify:\/\/shop_images\/Group_98.png",
+              "btn_text": "SHOP 250MG NMN",
+              "atc_text": "<p>SUBSCRIPTIONS 10% OFF<\/p>"
+            }
+          },
+          "01d88bde-6590-450a-bd04-b5de398aa07b": {
+            "type": "comment",
+            "settings": {
+              "link": "shopify:\/\/products\/tmg-trimethylglycine-500-mg-90-capsules",
+              "image": "shopify:\/\/shop_images\/Group_99.png",
+              "btn_text": "SHOP TMG",
+              "atc_text": "<p>SUBSCRIPTIONS 10% OFF<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "be365b3b-8bd8-44be-a513-e1289eb3580b",
+          "94f7585a-069e-4cf7-8bd9-bfec161fab57",
+          "01d88bde-6590-450a-bd04-b5de398aa07b"
+        ],
+        "settings": {
+        }
+      },
+      "hero_nmn_6": {
+        "type": "hero_nmn_6",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_123.jpg",
+          "imagemb": "shopify:\/\/shop_images\/Group_122.jpg",
+          "link": ""
+        }
+      },
+      "hero_nmn_3": {
+        "type": "hero_nmn_3",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_123.jpg",
+          "imagemb": "shopify:\/\/shop_images\/Group_122.jpg",
+          "link": ""
+        }
+      },
+      "163757916301511a49": {
+        "type": "hero_bundle",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_104.png",
+          "imagemb": "shopify:\/\/shop_images\/Group_103.png"
+        }
+      },
+      "hero_tmg": {
+        "type": "hero_tmg",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_-2.png",
+          "imagemb": "shopify:\/\/shop_images\/Group_-1.png",
+          "link": ""
+        }
+      },
+      "hero-course": {
+        "type": "hero-course",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_126.jpg",
+          "imagemb": "shopify:\/\/shop_images\/Group_127.jpg",
+          "link": ""
+        }
+      },
+      "1637690463482bcdae": {
+        "type": "logo-section-homepage",
+        "blocks": {
+          "74a42bfc-180e-40c4-b56a-268afdf86692": {
+            "type": "text",
+            "settings": {
+              "text": "Vegan",
+              "image": "shopify:\/\/shop_images\/2_1.png"
+            }
+          },
+          "288f06ca-e19c-40d5-b37b-201b73cccd8e": {
+            "type": "text",
+            "settings": {
+              "text": "Non GMO",
+              "image": "shopify:\/\/shop_images\/4_1.png"
+            }
+          },
+          "197a6de4-34b0-43e8-93b5-1ddada73808e": {
+            "type": "text",
+            "settings": {
+              "text": "Gluten Free",
+              "image": "shopify:\/\/shop_images\/5_1.png"
+            }
+          },
+          "1032835c-99b0-4418-a5b1-71f88c3d836b": {
+            "type": "text",
+            "settings": {
+              "text": "Satisfaction Gurantee",
+              "image": "shopify:\/\/shop_images\/3_1.png"
+            }
+          },
+          "02a92e1a-549f-4e9d-b43d-4310a5bbc3ec": {
+            "type": "text",
+            "settings": {
+              "text": "Tested In The UK",
+              "image": "shopify:\/\/shop_images\/1_1.png"
+            }
+          }
+        },
+        "block_order": [
+          "74a42bfc-180e-40c4-b56a-268afdf86692",
+          "288f06ca-e19c-40d5-b37b-201b73cccd8e",
+          "197a6de4-34b0-43e8-93b5-1ddada73808e",
+          "1032835c-99b0-4418-a5b1-71f88c3d836b",
+          "02a92e1a-549f-4e9d-b43d-4310a5bbc3ec"
+        ],
+        "settings": {
+          "title": "100% Safe, 100% Effective"
+        }
+      },
+      "1637693365e8a27001": {
+        "type": "text-img-right-homepage",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_255.jpg",
+          "title": "Increased Quality Of Life.",
+          "text": "<p>We know how frustrating it is to experience steadily declining levels of energy, focus, stamina, endurance, and performance. Unfortunately, this is a reality for most people over 30. But it doesn’t have to be this way. <\/p><p>With NMN, you can increase your endurance and cardiovascular fitness, which is correlated with more energy, and increase your insulin sensitivity, which is correlated with healthy metabolism.<\/p>"
+        }
+      },
+      "16376935215029e242": {
+        "type": "text-img-left-homepage",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_254_33faae0f-378b-4ab4-a123-fb0259bda55f.jpg",
+          "title": "Youth In A Bottle.",
+          "text": "<p>Our NMN supplements contain NMN or Nicotinamide Mononucleotide. NMN is a precursor to another molecule called NAD+ or Nicotinamide Adeninine Dinucleotide, a master regulator of metabolism and a molecule essential for the functionality of all human cells.<br\/>Repleted levels of NAD+ are correlated with better mitochondrial function, increased cognitive function and energy levels.<\/p>"
+        }
+      },
+      "1637818449fe57afc9": {
+        "type": "faq_section",
+        "blocks": {
+          "04dd49f8-18ef-4573-b97d-3767e3a6704d": {
+            "type": "question",
+            "settings": {
+              "title": "Does NMN have any known side effects?",
+              "text": "<p>The <a href=\"https:\/\/pubmed.ncbi.nlm.nih.gov\/31685720\/\" target=\"_blank\" title=\"https:\/\/pubmed.ncbi.nlm.nih.gov\/31685720\/\">first human safety trial of NMN in humans was published in 2019 <\/a>and showed that a single dose of up to 500mg was tolerable.<\/p><p>Three major studies of NMN are also currently underway involving human subjects. The first is being carried out by the Washington School of Medicine in St. Louis, and the second by Keio University Medical School in Tokyo, in conjunction with Washington School of Medicine. The third and perhaps most important study is being carried out by Brigham and Women's hospital in Boston, under the watchful eyes of Harvard longevity scientists. The results of these trials should be published soon.<\/p>"
+            }
+          },
+          "275681bb-181d-41e1-8525-13361233f1ad": {
+            "type": "question",
+            "settings": {
+              "title": "Why should I take NMN before breakfast?",
+              "text": "<p>It increases absorption.<\/p>"
+            }
+          },
+          "766df6a3-043e-40aa-9734-85aa47d8aa84": {
+            "type": "question",
+            "settings": {
+              "title": "How much NMN should I take?",
+              "text": "<p>If you're younger than 35, you can start with 250mg\/day and after 1-2weeks increase to 500mg to see what feels better.If you're older than 35, start with 500mg\/day, then increase to 1g to see what feels better.<\/p>"
+            }
+          },
+          "6109fd01-83d8-4b7b-900b-a6ccd884649b": {
+            "type": "question",
+            "settings": {
+              "title": "Should I take one capsule in the morning and one in the afternoon?",
+              "text": "<p>No. Take your NMN in the morning to synchronize your NMN consumption with your Circardian rhythms.<\/p>"
+            }
+          },
+          "0d8ac11b-dbb9-45aa-a03c-67220cd99eec": {
+            "type": "question",
+            "settings": {
+              "title": "Should I break down the capsule for better absorption?",
+              "text": "<p>Dr David Sinclair and our founder Dr Elena Seranova don't bother and just take the capsule. There are actually no studies showing that sublingual powder or powder intake results in better absorption than the capsule.<\/p>"
+            }
+          },
+          "9e0ce798-bfdb-4b0c-86bd-140ae5c6dcad": {
+            "type": "question",
+            "settings": {
+              "title": "What can amplify the effect of NMN supplementation?",
+              "text": "<p>Along with your NMN, take one tablespoon of extra virgin olive oil in the morning. Oleic acid, one of the ingredients in olive oil, is also shown to activate the <em>SIRTUINS<\/em>, the so-called longevity genes.<br\/><br\/>In addition, by supplementing with TMG (Trimethylglycine), you increase the methyl groups available in the cell (which NMN utilises). Adding TMG to your NMN supplementation is an excellent way to boost NMN efficiency and ensure balanced homocysteine levels.<\/p>"
+            }
+          },
+          "d5c20f22-e967-413b-80a9-70b59c4b8a80": {
+            "type": "question",
+            "disabled": true,
+            "settings": {
+              "title": "Your title",
+              "text": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "04dd49f8-18ef-4573-b97d-3767e3a6704d",
+          "275681bb-181d-41e1-8525-13361233f1ad",
+          "766df6a3-043e-40aa-9734-85aa47d8aa84",
+          "6109fd01-83d8-4b7b-900b-a6ccd884649b",
+          "0d8ac11b-dbb9-45aa-a03c-67220cd99eec",
+          "9e0ce798-bfdb-4b0c-86bd-140ae5c6dcad",
+          "d5c20f22-e967-413b-80a9-70b59c4b8a80"
+        ],
+        "settings": {
+          "title": "FAQ"
+        }
+      },
+      "1637845805760e6b05": {
+        "type": "collection-slider",
+        "settings": {
+          "title": "",
+          "text": "",
+          "home_featured_products": "grouped-products",
+          "per_row": 5,
+          "rows": 1,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "logo-section-homepage": {
+        "type": "logo-section-homepage",
+        "blocks": {
+          "f451d6ad-f754-484c-80bc-2646b5541bf3": {
+            "type": "text",
+            "settings": {
+              "text": "Vegan",
+              "image": "shopify:\/\/shop_images\/2_1_c42326a1-0a5d-4f4c-9ecf-ffc76e74d9a5.png"
+            }
+          },
+          "ecb63fe6-4373-4317-afc3-96b77bad2e6d": {
+            "type": "text",
+            "settings": {
+              "text": "Non Gmo",
+              "image": "shopify:\/\/shop_images\/4_1_94f9e7c4-75fb-4a6b-b651-20a19d5ecb3f.png"
+            }
+          },
+          "95daba3d-08cd-4db3-93bc-bd1897628ce6": {
+            "type": "text",
+            "settings": {
+              "text": "Gluten Free",
+              "image": "shopify:\/\/shop_images\/5_1_69523c41-bf7d-4748-99d4-b40ee5b29d6d.png"
+            }
+          },
+          "b7972cf6-f29d-4c74-8d01-8b1743e5ffdf": {
+            "type": "text",
+            "settings": {
+              "text": "Satisfaction Guarantee",
+              "image": "shopify:\/\/shop_images\/3_1_b1117560-d403-465f-a2c6-414069e53957.png"
+            }
+          },
+          "ca6f5f19-1795-4647-86c3-096b8847613e": {
+            "type": "text",
+            "settings": {
+              "text": "Tested In The Uk",
+              "image": "shopify:\/\/shop_images\/1_1_7225ccaa-509c-4d0a-949a-5ae815db0e86.png"
+            }
+          }
+        },
+        "block_order": [
+          "f451d6ad-f754-484c-80bc-2646b5541bf3",
+          "ecb63fe6-4373-4317-afc3-96b77bad2e6d",
+          "95daba3d-08cd-4db3-93bc-bd1897628ce6",
+          "b7972cf6-f29d-4c74-8d01-8b1743e5ffdf",
+          "ca6f5f19-1795-4647-86c3-096b8847613e"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "text-img-right-product": {
+        "type": "text-img-right-product",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Mask_Group_1.jpg",
+          "title": "Why should I take anti-aging supplements?",
+          "text": "<p>Nicotinamide Adenine Dinucleotide or NAD+, a master regulator of metabolism and a molecule essential for the functionality of all human cells, is being dramatically decreased over time. <\/p><p>Repleted levels of NAD+ are correlated with better mitochondrial function, increased cognitive function and energy levels.<\/p>",
+          "image_tmg": "shopify:\/\/shop_images\/1.jpg",
+          "title_tmg": "Why is methylation important?",
+          "text_tmg": "<p>The methylation process is vital for many of our body’s most important functions, such as:<\/p><p>• Creating neurotransmitters<\/p><p>• Cell division (Mitosis)<\/p><p>• Energy production<\/p><p>• Metabolism<\/p><p>• DNA expression (epigenetics)<\/p><p>• Fighting free radicals<\/p>",
+          "image_nmn_500": "shopify:\/\/shop_images\/Mask_Group_1.jpg",
+          "title_nmn_500": "Why should I take  anti-aging supplements?",
+          "text_nmn_500": "<p>Nicotinamide Adenine Dinucleotide or NAD+, a master regulator of metabolism and a molecule essential for the functionality of all human cells, is being dramatically decreased over time.<br\/><br\/>Repleted levels of NAD+ are correlated with better mitochondrial function, increased cognitive function and energy levels.<\/p>",
+          "image_course": "shopify:\/\/shop_images\/3_75bfca08-646a-4a33-b1cf-3d76e4f31582.jpg",
+          "title_course": "Who is this course for?",
+          "text_course": "<p>The aging process starts at the age of 25. This is when our hormone production peaks and people start experiencing decline in energy and focus around 25-27 years old. You have probably already experienced this yourself. <\/p><p><br\/>This is the best time to start exploring the interventions that you can implement today to avoid a further decline in overall health. The second best time is now, even if you are much older than 25 already. <\/p>"
+        }
+      },
+      "text-img-left-product": {
+        "type": "text-img-left-product",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Mask_Group_15.jpg",
+          "title": "Increase Your Endurance and Feel Great!",
+          "text": "<p>We know how frustrating it is to experience steadily declining levels of energy, focus, stamina, endurance, and performance. Unfortunately, this is a reality for most people over 30. But it doesn’t have to be this way.<br\/>With NMN, you can increase your focus, stamina, regulate your metabolism, restore your sleeping patterns and more.<\/p>",
+          "image_tmg": "shopify:\/\/shop_images\/2.jpg",
+          "title_tmg": "Why should I use a methylation donor such as TMG?",
+          "text_tmg": "<p>Aging is a big factor in our ability to maintain efficient methylation. As we get older our methylation ability declines and without adequate methylation our abilities to read and activate the correct parts of our DNA blueprints are hampered. Trimethylglycine (TMG) also called Betaine - is a naturally occurring substance in the body. It’s involved in liver function, cellular reproduction, and it helps make essential metabolic compounds.<\/p>",
+          "image_nmn_500": "shopify:\/\/shop_images\/Mask_Group_15.jpg",
+          "title_nmn_500": "Increase Your Endurance  and Feel Great!",
+          "text_nmn_500": "<p>We know how frustrating it is to experience steadily declining levels of energy, focus, stamina, endurance, and performance. Unfortunately, this is a reality for most people over 30. But it doesn’t have to be this way.<\/p>",
+          "image_course": "shopify:\/\/shop_images\/2_1b82d9dc-87ff-4832-843b-e794328b0cf2.jpg",
+          "title_course": "Why should you care?",
+          "text_course": "<p>As we grow older, our performance decreases dramatically. From work to taking on new family challenges you can keep up with, slowing down aging is crucial for your daily life and for making the most out of your day. Whether you are a performance driven individual or a just someone that wants to spend more time with their family in good health, preventing health decline is something that can make you live longer and happier.<\/p>"
+        }
+      },
+      "text-img-right-product-2": {
+        "type": "text-img-right-product-2",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Mask_Group_16_e5daac37-3d5e-496e-a40a-65db482e4fb2.jpg",
+          "title": "",
+          "text": "<p>Our NAD+ boosting supplement named Nicotinamide Mononucleotide, is a perfect choice for anyone over 25 with a busy lifestyle that would like to get an extra boost in their daily routine. <\/p><p>NMN is designed to increase focus, stamina, regulate your metabolism and keep your body healthy & happy.<\/p>",
+          "image_tmg": "shopify:\/\/shop_images\/3.jpg",
+          "title_tmg": "TMG as an optimal methylation supplement",
+          "text_tmg": "<p>As we age our ‘methyl pool’ can deplete which makes TMG a very useful supplement for replenishing our bodies’ methyl groups. TMG also helps the body metabolize an amino acid called homocysteine, a process that the FDA found to be efficacious enough to endorse and approve. High homocysteine levels are a risk factor for cardiovascular and Alzheimer’s disease.<\/p>",
+          "image_nmn_500": "shopify:\/\/shop_images\/Mask_Group_16_e5daac37-3d5e-496e-a40a-65db482e4fb2.jpg",
+          "title_nmn_500": "",
+          "text_nmn_500": "<p>Our NAD+ boosting supplement named Nicotinamide Mononucleotide, is a perfect choice for anyone over 25 with a busy lifestyle that would like to get an extra boost in their daily routine. <br\/><br\/>NMN is designed to increase focus, stamina, regulate your metabolism and keep your body healthy & happy.<\/p>",
+          "image_course": "shopify:\/\/shop_images\/1_a376526b-09b5-4655-a503-1f1adb87379f.jpg",
+          "title_course": "What will I learn?",
+          "text_course": "<p>This course is a holistic approach to health. You can view it as a system to ensure you are aging as slowly as possible. The top 4 diseases today (cardiovascular diseases, cancer, diabetes, neurodegeneration) are all having the age of the patient as the highest risk for their appearance. By slowing down your aging, you minimise your risk of serious disease and prolong the amount of years you spend in good health. All information provided in the course is aimed at lifestyle interventions you can implement today to ensure a healthier tomorrow.<\/p>"
+        }
+      },
+      "faq_section": {
+        "type": "faq_section",
+        "blocks": {
+          "0b77eb6a-5757-448e-bfe4-8cae487b2cc3": {
+            "type": "question",
+            "settings": {
+              "title": "Does NMN have any known side effects?",
+              "text": "<p>The <a href=\"https:\/\/pubmed.ncbi.nlm.nih.gov\/31685720\/\" target=\"_blank\" title=\"https:\/\/pubmed.ncbi.nlm.nih.gov\/31685720\/\">first human safety trial of NMN in humans was published in 2019 <\/a>and showed that a single dose of up to 500mg was tolerable.<\/p><p>Three major studies of NMN are also currently underway involving human subjects. The first is being carried out by the Washington School of Medicine in St. Louis, and the second by Keio University Medical School in Tokyo, in conjunction with Washington School of Medicine. The third and perhaps most important study is being carried out by Brigham and Women's hospital in Boston, under the watchful eyes of Harvard longevity scientists. The results of these trials should be published soon.<\/p>"
+            }
+          },
+          "603d6773-dd42-47d2-a69e-10ba96d11163": {
+            "type": "question",
+            "settings": {
+              "title": "Why should I take NMN before breakfast?",
+              "text": "<p>It increases absorption.<\/p>"
+            }
+          },
+          "821de64b-1cfd-4504-9487-9b48075d33fb": {
+            "type": "question",
+            "settings": {
+              "title": "How much NMN should I take?",
+              "text": "<p>If you're younger than 35, you can start with 250mg\/day and after 1-2weeks increase to 500mg to see what feels better.If you're older than 35, start with 500mg\/day, then increase to 1g to see what feels better.<\/p>"
+            }
+          },
+          "84799721-5440-43d0-a561-297a32677ab2": {
+            "type": "question",
+            "settings": {
+              "title": "Should I take one capsule in the morning and one in the afternoon?",
+              "text": "<p>No. Take your NMN in the morning to synchronize your NMN consumption with your Circardian rhythms.<\/p>"
+            }
+          },
+          "160cd134-1681-4a16-8b2f-b043d2e0c3fa": {
+            "type": "question",
+            "settings": {
+              "title": "Should I break down the capsule for better absorption?",
+              "text": "<p>Dr David Sinclair and our founder Dr Elena Seranova don't bother and just take the capsule. There are actually no studies showing that sublingual powder or powder intake results in better absorption than the capsule.<\/p>"
+            }
+          },
+          "279398c5-5ae3-4a72-8f90-61c7641682bb": {
+            "type": "question",
+            "settings": {
+              "title": "What can amplify the effect of NMN supplementation?",
+              "text": "<p>Along with your NMN, take one tablespoon of extra virgin olive oil in the morning. Oleic acid, one of the ingredients in olive oil, is also shown to activate the <em>SIRTUINS<\/em>, the so-called longevity genes.<br\/><br\/>In addition, by supplementing with TMG (Trimethylglycine), you increase the methyl groups available in the cell (which NMN utilises). Adding TMG to your NMN supplementation is an excellent way to boost NMN efficiency and ensure balanced homocysteine levels.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "0b77eb6a-5757-448e-bfe4-8cae487b2cc3",
+          "603d6773-dd42-47d2-a69e-10ba96d11163",
+          "821de64b-1cfd-4504-9487-9b48075d33fb",
+          "84799721-5440-43d0-a561-297a32677ab2",
+          "160cd134-1681-4a16-8b2f-b043d2e0c3fa",
+          "279398c5-5ae3-4a72-8f90-61c7641682bb"
+        ],
+        "settings": {
+          "title": "You can always ask a question"
+        }
+      },
+      "collection-slider": {
+        "type": "collection-slider",
+        "settings": {
+          "title": "Worth to try",
+          "text": "NMN Bio products that you may like",
+          "home_featured_products": "grouped-products",
+          "per_row": 5,
+          "rows": 1,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "about-us-founder": {
+        "type": "about-us-founder",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/din_0220_0714134e-c00d-46fa-8545-b4d620c91814.jpg",
+          "title": "Dr. Elena Seranova",
+          "text": "<p>Dr. Seranova holds an MSc in Translational Neuroscience from the University of Sheffield (2016) and a PhD in Stem Cell Biology and Autophagy from the University of Birmingham, UK (2020).<\/p><p><a href=\"https:\/\/scholar.google.gr\/citations?user=IxTeuswAAAAJ&hl=en&oi=ao\">Publications<\/a><\/p>"
+        }
+      },
+      "plain-text-about-us": {
+        "type": "plain-text-about-us",
+        "settings": {
+          "title": "Our Mission Statement",
+          "text": "<p>NMN Bio Ltd (company registration number: 12776601) was founded by an interdisciplinary, female scientist Dr. Elena Seranova.<\/p><p>After struggling to find a reliable supplier of NMN, Dr. Seranova decided to address this problem herself and founded a company that would provide consumers with only highest purity supplements, coming to the market via a transparent supply chain.<\/p><p>For this reason, we are happy to disclose all of our suppliers upon request. The encapsulation, packaging, testing and shipping of our products are performed in the UK. So if you are tired of other companies distributing NMN, not revealing who their founders are and exhibiting certificates of analysis from random countries.... NMN Bio has got you covered.<\/p><p>Our vision is to become the No. 1 reliable provider of anti-ageing supplements in the UK and Europe, with the consumer being completely confident that they get what they pay for.<\/p><p>Looking ahead to the future, we are planning to develop a range of novel, proprietary anti-ageing supplements to complement our NAD+ booster.<\/p><p>We are passionate about promoting health, wellbeing, and longevity to the over 30s in the UK and across Europe.<\/p>"
+        }
+      },
+      "hero_product": {
+        "type": "hero_product",
+        "settings": {
+          "image_nmn_500": "shopify:\/\/shop_images\/Group_377_aba8d899-b4e8-4bf9-8a9b-0738f4164d4d.jpg",
+          "imagemb_nmn_500": "shopify:\/\/shop_images\/Group_378_c00c8f77-2d0a-4b85-9324-c64ce5255f05.jpg",
+          "image_nmn_250": "shopify:\/\/shop_images\/Group_379_afbd2bcf-451d-41fc-80b0-5db5c4f8fad1.jpg",
+          "imagemb_nmn_250": "shopify:\/\/shop_images\/Group_380_e750700c-2322-4e0c-9114-e0b66d5e9791.jpg",
+          "image_tmg": "shopify:\/\/shop_images\/Group_374_b0969c1e-cc46-4d73-b690-c05e454428f6.jpg",
+          "imagemb_tmg": "shopify:\/\/shop_images\/Group_376_444f7db7-646d-46d9-b954-404226a479e1.jpg",
+          "image_course": "shopify:\/\/shop_images\/Group_126_392986da-8099-4a15-ab82-179d12f2ab62.jpg",
+          "imagemb_course": "shopify:\/\/shop_images\/Group_127_3d4018db-4fd5-400a-b951-3164ed603d60.jpg"
+        }
+      },
+      "product-template-gift": {
+        "type": "product-template-gift",
+        "settings": {
+          "description_style": "default",
+          "social_enable": true,
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "thumbnail_arrows": false,
+          "enable_video_looping": true,
+          "product_video_style": "muted"
+        }
+      },
+      "hero-with-popup": {
+        "type": "hero-with-popup",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Artboard_1.jpg",
+          "image_mb": "shopify:\/\/shop_images\/Artboard_1_copy.jpg",
+          "title": "“The Foundations of Longevity and Life Extension” Online Course",
+          "headline": "Discover Longevity, Strength, Happiness & More in One Digital Course"
+        }
+      },
+      "key-points-product": {
+        "type": "key-points-product",
+        "blocks": {
+          "4b8bf45d-0a67-47bc-a6b8-b1023b0508e6": {
+            "type": "text",
+            "settings": {
+              "title": "Who Is This Course For?",
+              "text": "<p>The aging process starts at the age of 25. This is when our hormone production peaks and people start experiencing decline in energy and focus around 25-27 years old. You have probably already experienced this yourself. <\/p><p>This is the best time to start exploring the interventions that you can implement today to avoid a further decline in overall health. The second best time is now, even if you are much older than 25 years old already.<\/p>"
+            }
+          },
+          "1e0c1966-c4e0-48a9-845c-e5186cf548fd": {
+            "type": "text",
+            "settings": {
+              "title": "Why Should You Care?",
+              "text": "<p>As we grow older, our performance decreases dramatically. From work to taking on new family challenges you can keep up with, slowing down aging is crucial for your daily life and for making the most out of your day. Whether you are a performance driven individual or a just someone that wants to spend more time with their family in good health, preventing health decline is something that can make you live longer and happier.<\/p>"
+            }
+          },
+          "459fc75a-7569-45fd-b1dd-0a74dc7d110e": {
+            "type": "text",
+            "settings": {
+              "title": "What Will I Learn?",
+              "text": "<p>This course is a holistic approach to health. You can view it as a system to ensure you are aging as slowly as possible. The top 4 diseases today (cardiovascular diseases, cancer, diabetes, neurodegeneration) are all having the age of the patient as the highest risk for their appearance. By slowing down your aging, you minimise your risk of serious disease and prolong the amount of years you spend in good health. All information provided in the course is aimed at lifestyle interventions you can implement today to ensure a healthier tomorrow.<\/p>"
+            }
+          },
+          "9d564c91-da9c-42bd-9ebc-73955ced3ecb": {
+            "type": "text",
+            "settings": {
+              "title": "Why This Course?",
+              "text": "<p>The course will provide you with tools to fight aging back today, and start your cellular rejuvenation journey now. We’ve put together a plethora of practical lessons that could be implemented in your daily life to ensure that your circadian rhythms, nutrition, longevity pathways and daily habits are optimised to prolong your healthspan (the amount of time you spend in good health, with no disease) and lifespan.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "4b8bf45d-0a67-47bc-a6b8-b1023b0508e6",
+          "1e0c1966-c4e0-48a9-845c-e5186cf548fd",
+          "459fc75a-7569-45fd-b1dd-0a74dc7d110e",
+          "9d564c91-da9c-42bd-9ebc-73955ced3ecb"
+        ],
+        "settings": {
+        }
+      },
+      "product-instructors": {
+        "type": "product-instructors",
+        "settings": {
+          "title": "What does each instructor teach you?",
+          "name_1": "Dr. Elena Seranova",
+          "instructor_dsc1": "<p>Dr. Seranova holds an MSc in Translational Neuroscience from the University of Sheffield and a PhD in Stem Cell Biology and Autophagy from the University of Birmingham, UK.<\/p>",
+          "image_1": "shopify:\/\/shop_images\/Artboard_1_copy_3.jpg",
+          "text_1": "<p>As her passion was always longevity research, Dr Seranova has a personal and professional interest in the field of anti-aging science. In this course, you’ll be able to learn about topics like metabolism optimisation and practical tips and strategies to extend the amount of time you spend in good health. Specifically, what is the optimal longevity diet according to the latest research? What time you of the day is the best to consume calories to get the most out of your nutrition and ensure that your food intake does not hinder your longevity efforts? All these questions are being answered for you in the pre-recorded lectures. <\/p><p>With detailed explanations on the mechanics of cellular processes like autophagy (detoxification of the cells), NAD+ biology (our main metabolic regulator) and AMPK\/mTOR longevity pathways, this course will give you the arsenal needed in the fight against aging, in a simplified and practical manner.<\/p>",
+          "name_2": "Jesse Coomer",
+          "instructor_dsc2": "<p>Jesse Coomer is a Human Performance Specialist, Breathworker, and Author in the field of Breathwork. He is a certified Personal Trainer and Nutrition Coach by the National Academy of Sports Medicine.<\/p>",
+          "image_2": "shopify:\/\/shop_images\/Artboard_1_copy_2.jpg",
+          "text_2": "<p>Learn from Human Health and Performance Coach, Jesse Coomer, to move and breathe better for a longer and more stress-free life. In this course, Coomer teaches valuable tools for correcting common imbalances in your posture that lead to health-span restricting injuries and pains and clarifies the common confusion around exercise. Enjoy clear and concise lectures to learn to implement cryotherapy and heat therapy to activate your genetic potential. Learn to use physical stressors intelligently to become stronger and healthier over your lifespan.<\/p>"
+        }
+      },
+      "questions-product": {
+        "type": "questions-product",
+        "blocks": {
+          "3464189a-2b7e-4e86-ae05-35b9db6ce61d": {
+            "type": "text",
+            "settings": {
+              "title": "Get This Class If You Want To Improve Your Health",
+              "text": "<p>There are several pillars that regulate aging. There is a common misconception that anti-aging has to do with only skincare, and most people don’t bother looking further. This has partly to do with the fact that we are used to think of aging as something inevitable. Recent research over the past years has made significant discoveries with regards to the mechanisms of aging. In fact, in the last 20 or so years, we haven’t discovered any new mechanisms of aging, besides the 9 known hallmarks of aging. This points towards our full, or at least very good understanding of aging mechanisms. And it means that we are now in a very good position to fight aging back. This could mean that aging does not have to be inevitable anymore. It means that, we can now slow down the aging process because we understand how exactly it works. <\/p><p>In the course, we take a deep dive into the biology of aging, and with the practical tips, we aim to address most hallmarks of aging, with lifestyle interventions, supplements, breath work and other strategies that will help you live well for longer.<\/p>"
+            }
+          },
+          "081d21a1-3d2e-41c4-b14b-eed3932b095e": {
+            "type": "text",
+            "settings": {
+              "title": "When Will I See Results From Your Protocols?",
+              "text": "<p>This depends on several factors. One of the most important skills that are needed to slow down your aging might surprise you. It’s your dedication and your discipline. And this applies to many aspects of your life, but it is also particularly important when you start your longevity journey. As long as you can stay consistent to some longevity principles on a daily basis, the results will surprise you within a few weeks.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "3464189a-2b7e-4e86-ae05-35b9db6ce61d",
+          "081d21a1-3d2e-41c4-b14b-eed3932b095e"
+        ],
+        "settings": {
+        }
+      },
+      "faq-course": {
+        "type": "faq-course",
+        "blocks": {
+          "7da455b7-8a12-44e3-9a4f-eb61c37d416e": {
+            "type": "question",
+            "settings": {
+              "title": "When does the course start and finish?",
+              "text": "<p>You get access to this course on demand, while being able to view the lectures at your own time. All lectures are pre-recorded from both Instructors and once you purchased the course, you will be sent the access to the Teachable platform, where the course is hosted. <\/p>"
+            }
+          },
+          "39e18af5-365c-4c4d-bf00-e83c187587bc": {
+            "type": "question",
+            "settings": {
+              "title": "How long do I have access to the course?",
+              "text": "<p>Once purchased, you have permanent access to the course materials. Whether you’d like to watch the lectures for 10 minutes a day or an hour a day, this is totally up to you and you can take your time to absorb and implement all the information in the course. <\/p>"
+            }
+          },
+          "1c1c003e-7dfe-485e-8852-d14fb0d27b0b": {
+            "type": "question",
+            "settings": {
+              "title": "Is this course for me?",
+              "text": "<p>The Foundations of Longevity and Life Extension is a course made by 2 instructors passionate about anti-aging. Since the process of aging virtually starts around the age of 25, this course is suitable for anyone over 25 years old. The course will serve as a preventative mechanism to ensure that you remain in your biological prime for as long as possible. For individuals over the age of 30 or 40 that have already felt the effects of aging (such as decreased energy and concentration), the curriculum will be indispensable to restore vitality and a youthful state of both mind and body.<\/p>"
+            }
+          },
+          "6524d8f9-097b-4506-abff-95d508b847a2": {
+            "type": "question",
+            "settings": {
+              "title": "Is the information in the course medical advice?",
+              "text": "<p>The information in this course is not intended to be a substitute for professional medical advice and should not be relied on as health or personal advice. Always seek the guidance of your doctor or other qualified health professional with any questions you may have regarding your health or a medical condition.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "7da455b7-8a12-44e3-9a4f-eb61c37d416e",
+          "39e18af5-365c-4c4d-bf00-e83c187587bc",
+          "1c1c003e-7dfe-485e-8852-d14fb0d27b0b",
+          "6524d8f9-097b-4506-abff-95d508b847a2"
+        ],
+        "settings": {
+          "title": "FAQ's"
+        }
+      },
+      "product_text_tmg_1": {
+        "type": "product_text_tmg_1",
+        "blocks": {
+          "0d30a5d1-c9f1-4406-abb9-d2a6630e487c": {
+            "type": "text",
+            "settings": {
+              "title": "How to get back your energy and focus",
+              "text": "<p>Remember when you used to be 20 years old, full of energy and capable partying the whole night and still go to uni the next day after 2 hours of sleep? How is that going for you after the age of 25? The hormonal production peaks at the age of 25. This is also the peak of vital cellular processes in the body that are responsible for optimal cellular function and energy. This explains decreased energy levels, deteriorating focus and endurance after 25 in the vast majority of humans. You know you want to be different. You know you could use more energy and focus to reach your goals, be more productive and energetic, and live life to the fullest. Anti-aging supplements are not only for people of old age. Our range of potent, high quality anti-aging supplements is designed for anyone over 25 that has already experienced the symptoms of the aging process.<\/p>"
+            }
+          },
+          "90bcf9ac-6db4-46c2-8913-be349dae22fc": {
+            "type": "text",
+            "settings": {
+              "title": "Why Should I Use A Methylation Donor Such As TMG?",
+              "text": "<p>Aging is a big factor in our ability to maintain efficient methylation. As we get older our methylation ability declines and without adequate methylation our abilities to read and activate the correct parts of our DNA blueprints are hampered. Trimethylglycine (TMG) also called Betaine - is a naturally occurring substance in the body. It’s involved in liver function, cellular reproduction, and it helps make essential metabolic compounds.<\/p>"
+            }
+          },
+          "ecabe81d-8668-47f2-bcc1-96d6ac18bf7d": {
+            "type": "text",
+            "settings": {
+              "title": "Support Your Liver And Heart Health With TMG (Trimethylglycine)",
+              "text": "<p>TMG is a glycine molecule with 3 methyl groups attached to it, making it a supplement capable of supporting the vital process of methylation in the body. It also is proven to lover the levels of the harmful amino acid homocysteine, converting it into harmless methionine, according to multiple clinical studies. High levels of homocysteine are associated with cardiovascular and Alzheimer’s disease. Optimal levels of methylation are correlated with healthy liver and heart. TMG is an essential supplement that will nourish your cells and ensure your cellular maintenance is taken care of.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "0d30a5d1-c9f1-4406-abb9-d2a6630e487c",
+          "90bcf9ac-6db4-46c2-8913-be349dae22fc",
+          "ecabe81d-8668-47f2-bcc1-96d6ac18bf7d"
+        ],
+        "settings": {
+        }
+      },
+      "product_text_tmg_2": {
+        "type": "product_text_tmg_2",
+        "blocks": {
+          "f83a0eab-e0ab-449d-99a4-70cabdb894e4": {
+            "type": "text",
+            "settings": {
+              "title": "Supports DNA Repair",
+              "text": "<p>Research shows healthy methylation is important in keeping DNA healthy in every cell and organ of the body and by supporting healthy methylation TMG also helps facilitate DNA repair.<\/p>"
+            }
+          },
+          "721ac4c4-e113-4fcd-a18d-666e8978003d": {
+            "type": "text",
+            "settings": {
+              "title": "Excellent Addition To NMN Supplementation",
+              "text": "<p>TMG can be taken with NMN (which utilises methyl groups) for optimal efficacy. TMG will provide the necessary methyl groups for NMN to be as efficient as possible.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "f83a0eab-e0ab-449d-99a4-70cabdb894e4",
+          "721ac4c4-e113-4fcd-a18d-666e8978003d"
+        ],
+        "settings": {
+        }
+      },
+      "product_text_500_1": {
+        "type": "product_text_500_1",
+        "blocks": {
+          "37be0a51-796a-4abb-86bc-aa91758a5789": {
+            "type": "text",
+            "settings": {
+              "title": "How to get back your energy and focus",
+              "text": "<p>Remember when you used to be 20 years old, full of energy and capable partying the whole night and still go to uni the next day after 2 hours of sleep? How is that going for you after the age of 25? The hormonal production peaks at the age of 25. This is also the peak of vital cellular processes in the body that are responsible for optimal cellular function and energy. This explains decreased energy levels, deteriorating focus and endurance after 25 in the vast majority of humans. You know you want to be different. You know you could use more energy and focus to reach your goals, be more productive and energetic, and live life to the fullest. Anti-aging supplements are not only for people of old age. Our range of potent, high quality anti-aging supplements is designed for anyone over 25 that has already experienced the symptoms of the aging process.<\/p>"
+            }
+          },
+          "565f10b4-e417-4192-ad82-70f6e43ed0ee": {
+            "type": "text",
+            "settings": {
+              "title": "Why NAD+ Supplementation?",
+              "text": "<p>Nicotinamide Adenine Dinucleotide, commonly known as NAD+, is a molecule that is found in every living cell and is a master regulator of human metabolism. It’s a molecule essential for multiple biological processes and is also used by the genes governing the aging process named SIRTUINS. Without NAD+, cells cannot survive. As we age, the levels of NAD+ are reducing, something that affects mitochondrial function, energy production and as a result, a plethora of vital cellular functions. NAD+ boosters are one of the most promising anti-ageing breakthroughs from scientific research so far.<\/p>"
+            }
+          },
+          "a8706365-86bf-48ff-a3b7-1c0a20978a2f": {
+            "type": "text",
+            "settings": {
+              "title": "The Scientific Background",
+              "text": "<p>NAD was discovered over a hundred years ago by scientists studying fermentation. It’s levels have been shown to decline during chronological aging and this decline is both a consequence of the aging process and also a contributor to the development of age-related cellular dysfunction. NAD+ plays a vital role in cellular health, metabolic and neuro-protection plus circadian rhythms which can all contribute to greater longevity. This is the reason why so many people are keen to boost their NAD+ levels.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "37be0a51-796a-4abb-86bc-aa91758a5789",
+          "565f10b4-e417-4192-ad82-70f6e43ed0ee",
+          "a8706365-86bf-48ff-a3b7-1c0a20978a2f"
+        ],
+        "settings": {
+        }
+      },
+      "product_text_500_2": {
+        "type": "product_text_500_2",
+        "blocks": {
+          "01e8c0e4-7d36-455e-a790-8e0e9d613100": {
+            "type": "text",
+            "settings": {
+              "title": "What Is Nicotinamide Mononucleotide (NMN)?",
+              "text": "<p>As our cells can’t absorb NAD+ directly we need to use a “precursor”, which is a molecule that converts into NAD+. One of the precursors for NAD+ is beta nicotinamide mononucleotide or NMN. NMN is a Vitamin B3 (niacin) derivative. Put simply, NMN increases NAD+, activates the longevity genes SIRTUINS and suppresses aging. NMN has gained a lot of attention recently,especially after the release of longevity scientist, David Sinclair’s book Lifespan. In his book, the scientist discusses his research examining NMN, particularly in mice.<\/p>"
+            }
+          },
+          "88e5d7bf-b1cc-456f-9474-6588e475b74c": {
+            "type": "text",
+            "settings": {
+              "title": "Can I Get NMN From Food?",
+              "text": "<p>NMN can be found naturally in foods such as broccoli, cabbage, avocados and tomatoes. However, as the concentrations are less than 1 mg per kg of food you would need to consume about 1kg of broccoli to get about 1mg of NMN! Therefore, you need a supplement to get an optimum level of NMN.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "01e8c0e4-7d36-455e-a790-8e0e9d613100",
+          "88e5d7bf-b1cc-456f-9474-6588e475b74c"
+        ],
+        "settings": {
+        }
+      },
+      "banner-section-with-button_250": {
+        "type": "banner-section-with-button_250",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_382.png",
+          "image_mb": "shopify:\/\/shop_images\/Group_381.jpg",
+          "title": "",
+          "text": "",
+          "show_btn": true,
+          "show_text": false,
+          "title1": "",
+          "text1": "",
+          "title2": "",
+          "text2": ""
+        }
+      },
+      "banner-section-with-button_tmg": {
+        "type": "banner-section-with-button_tmg",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_386.png",
+          "image_mb": "shopify:\/\/shop_images\/Group_385.jpg",
+          "title": "",
+          "text": "",
+          "show_btn": true,
+          "show_text": true,
+          "title1": "",
+          "text1": "",
+          "title2": "",
+          "text2": ""
+        }
+      },
+      "banner-section-with-button_500": {
+        "type": "banner-section-with-button_500",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_384.png",
+          "image_mb": "shopify:\/\/shop_images\/Group_383.jpg",
+          "title": "",
+          "text": "",
+          "show_btn": true,
+          "show_text": true,
+          "title1": "",
+          "text1": "",
+          "title2": "",
+          "text2": ""
+        }
+      },
+      "product-reviews": {
+        "type": "product-reviews",
+        "settings": {
+        }
+      },
+      "faq_tmg": {
+        "type": "faq_tmg",
+        "blocks": {
+          "9efd9a83-28f3-4739-8f24-b32f6e725b76": {
+            "type": "question",
+            "settings": {
+              "title": "At what age I should start supplementing with TMG?",
+              "text": "<p>TMG is an excellent supplement for anyone over 25.<br\/>As our hormones and our NAD+ production peaks at this age, this is when the methylation starts being less and less efficient. TMG comes to the rescue, ensuring optimal DNA methylation (the housekeeping of your genes), preventing the toxic build up of the amino acid homocysteine and making sure your liver and heart maintain optimal function.<\/p>"
+            }
+          },
+          "b906a470-898a-44e4-91f6-a77c6200aec9": {
+            "type": "question",
+            "settings": {
+              "title": "What is the optimal NMN to TMG ratio?",
+              "text": "<p>This depends on your age and your individual genetics. Usually people start with a 1:1 ration of NMN and TMG. To ensure optimal methylation (as NMN utilises methyl groups to work its magic in your body), you can eventually (in 3-6 weeks) increase the ratio to 1:2, meaning that for each 500mg of NMN, you would need 1g of TMG. If you are supplementing with NMN for a long time already, you can start with 1:2 ratio, and then increase the ratio to 1:3 (1g of NMN to be taken with 3g of TMG). This can be done after about a month on the 1:2 ratio.<\/p>"
+            }
+          },
+          "d68f677c-2974-4939-b0b6-995890844317": {
+            "type": "question",
+            "settings": {
+              "title": "When should I take my TMG?",
+              "text": "<p>You can take TMG either first thing in the morning along with your NMN, or right after breakfast with a glass of water<\/p>"
+            }
+          },
+          "67ed6023-7801-4023-bbf1-d50e4cad9731": {
+            "type": "question",
+            "settings": {
+              "title": "Does TMG have any side effects?",
+              "text": "<p>TMG has no major side effects for most people. However, it is worth noting that TMG is an osmoregulator. This means that it is a molecule that helps your cells staying hydrated.<br\/>In very high dosages(over 20g\/day), this property can lead to a laxative effect, but this will not be the case if you stick to the recommended dosages of up to 3-4g a day.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "9efd9a83-28f3-4739-8f24-b32f6e725b76",
+          "b906a470-898a-44e4-91f6-a77c6200aec9",
+          "d68f677c-2974-4939-b0b6-995890844317",
+          "67ed6023-7801-4023-bbf1-d50e4cad9731"
+        ],
+        "settings": {
+          "title": "FAQ"
+        }
+      }
+    },
+    "content_for_index": [
+      "163752203336f3279c",
+      "163752301948e95d80",
+      "163757916301511a49",
+      "1637690463482bcdae",
+      "16376935215029e242",
+      "1637693365e8a27001",
+      "1604864731d2e26460",
+      "1498163293234",
+      "16225023284167c894",
+      "16225024257ff9924c",
+      "1499790633921",
+      "160942969867905ed3",
+      "1499790731541",
+      "1609185983339b3b6e",
+      "1637845805760e6b05",
+      "1637818449fe57afc9",
+      "162904149260e863e2",
+      "16330916318cdaf89e"
+    ]
+  },
+  "presets": {
+    "Classic": {
+      "color_borders": "#e8e8e1",
+      "color_button": "#111111",
+      "color_button_text": "#ffffff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_footer": "#111111",
+      "color_footer_text": "#ffffff",
+      "color_image_1": "#000000",
+      "color_image_1_opacity": 62,
+      "color_image_2": "#000000",
+      "color_image_2_opacity": 0,
+      "color_small_image_bg": "#ffffff",
+      "color_large_image_bg": "#111111",
+      "type_header_spacing": "0",
+      "type_header_font_family": "itc_avant_garde_gothic_n7",
+      "type_header_base_size": 35,
+      "type_header_line_height": 1.2,
+      "type_header_accent_transform": true,
+      "type_base_font_family": "futura_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.6,
+      "type_base_accent_transform": true,
+      "icon_weight": "3px",
+      "icon_linecaps": "miter",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slow-fade",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "zoom-fade",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "page",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_enable": true,
+            "collection_sort_enable": false,
+            "per_row": 4
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "social_enable": true,
+            "image_size": "medium"
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000000",
+            "color_overlay_opacity": 30
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1566999869051": {
+          "type": "featured-collection-switcher",
+          "settings": {
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "",
+            "link_text": "Watch",
+            "link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        },
+        "product-sections-template": {
+          "type": "product-sections-template",
+          "blocks": {
+            "product-image-row": {
+              "type": "image-row",
+              "settings": {
+              }
+            },
+            "product-text-and-image": {
+              "type": "text-and-image",
+              "settings": {
+              }
+            },
+            "product-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "layout": "right"
+              }
+            },
+            "product-text-columns": {
+              "type": "text-columns",
+              "settings": {
+              }
+            },
+            "product-hero-video": {
+              "type": "hero-video",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "product-image-row",
+            "product-text-and-image",
+            "product-background-image-text",
+            "product-text-columns",
+            "product-hero-video"
+          ],
+          "settings": {
+          }
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "page-fading-images": {
+              "type": "fading-images",
+              "settings": {
+              }
+            },
+            "page-rich-text": {
+              "type": "rich-text",
+              "settings": {
+                "title": "",
+                "enlarge_text": true
+              }
+            },
+            "page-text-columns": {
+              "type": "text-columns",
+              "settings": {
+              }
+            },
+            "page-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "layout": "right"
+              }
+            },
+            "page-featured-collection": {
+              "type": "featured-collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "page-fading-images",
+            "page-rich-text",
+            "page-text-columns",
+            "page-background-image-text",
+            "page-featured-collection"
+          ],
+          "settings": {
+          }
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1566999869051",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921"
+      ]
+    },
+    "Elegant": {
+      "color_borders": "#e8e8e1",
+      "color_button": "#353956",
+      "color_button_text": "#ffffff",
+      "color_footer": "#17172c",
+      "color_footer_text": "#ffffff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#17172c",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#353956",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#17172c",
+      "color_image_2": "#17172c",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#17172c",
+      "color_image_1_opacity": 32,
+      "color_small_image_bg": "#f4f4f4",
+      "color_large_image_bg": "#17172c",
+      "type_header_spacing": "0",
+      "type_header_font_family": "bauer_bodoni_n7",
+      "type_header_base_size": 42,
+      "type_header_line_height": 1.3,
+      "type_base_font_family": "futura_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.6,
+      "icon_weight": "3px",
+      "icon_linecaps": "miter",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slow-fade",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "zoom-fade",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "page",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_enable": true,
+            "collection_sort_enable": false,
+            "per_row": 4
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "social_enable": true,
+            "image_size": "medium"
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000000",
+            "color_overlay_opacity": 30
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1566999869051": {
+          "type": "featured-collection-switcher",
+          "settings": {
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "",
+            "link_text": "Watch",
+            "link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1566999869051",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921"
+      ]
+    },
+    "Minimal": {
+      "color_borders": "#f0f1f3",
+      "color_button": "#111111",
+      "color_button_text": "#ffffff",
+      "color_footer": "#f0f1f3",
+      "color_footer_text": "#2c2c2c",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#f0f1f3",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#aeb1b8",
+      "color_image_2": "#000000",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#000000",
+      "color_image_1_opacity": 26,
+      "color_small_image_bg": "#ffffff",
+      "color_large_image_bg": "#dedfe1",
+      "type_header_spacing": "50",
+      "type_header_font_family": "chivo_n7",
+      "type_header_base_size": 34,
+      "type_header_line_height": 1.2,
+      "type_header_accent_transform": true,
+      "type_base_font_family": "neuzeit_office_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 16,
+      "type_base_line_height": 1.6,
+      "type_base_accent_transform": true,
+      "icon_weight": "2px",
+      "icon_linecaps": "round",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slide-reveal-down",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "fade-in",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "page",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": false,
+            "sticky_collection": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_enable": true,
+            "collection_sort_enable": false,
+            "per_row": 4
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "social_enable": true,
+            "image_size": "medium"
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000000",
+            "color_overlay_opacity": 30
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1566999869051": {
+          "type": "featured-collection-switcher",
+          "settings": {
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "",
+            "link_text": "Watch",
+            "link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1566999869051",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921"
+      ]
+    }
+  }
+}

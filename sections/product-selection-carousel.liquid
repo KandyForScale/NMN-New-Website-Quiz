@@ -1,0 +1,80 @@
+<div id="buy_selector">
+<div class="page-width dekstop-only product_selection">
+  {% for block in section.blocks %}
+  <a href="{{block.settings.link}}">
+  <div class="product_selection_cell">
+    {% if block.settings.btn_text contains 'TMG' %}
+    <div class="product_grid_badge">NEW</div>
+    {% endif %}
+  <img class="product_selector_img" src="{{block.settings.image | img_url: 'master'}}">
+    <div class="product-selector-btn">{{block.settings.btn_text}}</div>
+    {{block.settings.atc_text}}
+  </div>
+  </a>
+  {% endfor %}
+</div>
+
+<div class="page-width mobile-only  carousel_product_selector">
+  {% for block in section.blocks %}
+  <a href="{{block.settings.link}}">
+  <div class="product_selection_cell">
+    {% if block.settings.btn_text contains 'TMG' %}
+    <div class="product_grid_badge">NEW</div>
+    {% endif %}
+  <img class="product_selector_img" src="{{block.settings.image | img_url: 'master'}}">
+    <div class="product-selector-btn">{{block.settings.btn_text}}</div>
+    {{block.settings.atc_text}}
+  </div>
+  </a>
+  {% endfor %}
+</div>
+</div>
+{% schema %}
+ {
+    "name": "Product Selector",
+    "settings": [
+
+],
+"blocks": [
+      
+  {
+        "type": "comment",
+        "name": "Comment",
+        "settings": [
+			{
+            "id": "link",
+            "type": "url",
+            "label": "Link"
+          },
+
+          {
+            "id": "image",
+            "type": "image_picker",
+            "label": "Image"
+          },
+{
+            "id": "btn_text",
+            "type": "text",
+            "label": "Button Text"
+          },
+			{
+            "id": "atc_text",
+            "type": "richtext",
+            "label": "ATC Text"
+          }
+        ]
+      }],
+"presets": [
+    {
+      "name": "Product Selector",
+      "category": "Advanced"
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

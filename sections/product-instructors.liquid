@@ -1,0 +1,88 @@
+<div class="whole-hero-course whole-teacher_container">
+  <div class="whole-teacher__inner">
+   <h1 class="product-medium-title white_title centered_title">{{section.settings.title}}</h1>
+    <div class="instructor-block__inner">
+      <div class="instructor_role">
+        <div class="smaller-cell">
+        <img class="instructor_image" src="{{section.settings.image_1 | img_url: 'master'}}">
+        </div>
+        <div class="larger-cell">
+    		<h1 class="product-medium-title">{{section.settings.name_1}}</h1>
+          {{ section.settings.instructor_dsc1 }}
+        </div>
+      </div>
+      {{section.settings.text_1}}
+    </div>
+    <div class="instructor-block__inner">
+   <div class="instructor_role flex-reverse__product">
+        <div class="larger-cell">
+        	<h1 class="product-medium-title">{{section.settings.name_2}}</h1>
+          {{ section.settings.instructor_dsc2 }}
+        </div>
+        <div class="smaller-cell">
+     <img class="instructor_image" src="{{section.settings.image_2 | img_url: 'master'}}">
+     </div>
+        
+      </div>
+      {{section.settings.text_2}}
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Teachers",
+    "settings": [
+			{
+				"type" : "text",
+				"id" : "title",
+				"label": "Your Title"
+			},
+			{
+				"type" : "text",
+				"id" : "name_1",
+				"label": "First Name"
+			},
+			{
+				"type" : "richtext",
+				"id" : "instructor_dsc1",
+				"label": "Description"
+			},
+			{
+				"type" : "image_picker",
+				"id" : "image_1",
+				"label": "Instructor Image"
+			},
+			{
+				"type" : "richtext",
+				"id" : "text_1",
+				"label": "Description"
+			},
+			{
+				"type" : "text",
+				"id" : "name_2",
+				"label": "Second Name"
+			},
+			{
+				"type" : "richtext",
+				"id" : "instructor_dsc2",
+				"label": "Description"
+			},
+			{
+				"type" : "image_picker",
+				"id" : "image_2",
+				"label": "Instructor Image"
+			},
+			{
+				"type" : "richtext",
+				"id" : "text_2",
+				"label": "Description"
+			}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

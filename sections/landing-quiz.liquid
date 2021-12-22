@@ -1,0 +1,37 @@
+<div class="Whole_quiz">
+  <div class="Quiz_inner">
+    <h1 class="section-title">{{section.settings.title}}</h1>
+  </div>
+</div>
+
+<style>
+  .Whole_quiz {
+  background-color: #F2F2F2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  }
+  .Quiz_inner{
+  max-width: 650px;
+  margin: auto;
+  text-align: center;
+  }
+</style>
+{% schema %}
+  {
+    "name": "Quiz",
+    "settings": [
+		{
+         "type": "text",
+         "id": "title",
+         "label": "TItle",
+         "default": "Your title"
+        }
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

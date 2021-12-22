@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "main": {
+      "type": "landing-quiz",
+      "settings": {
+        "title": "How Many Years Have You Graced Our Planet?"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

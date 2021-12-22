@@ -1,0 +1,107 @@
+<div class="page-width">
+  <div class="your-journey-container" style="align-items:center">
+    <div class="flex-cell">
+    <h1 class="main-title_section smaller-section-black-title">{{section.settings.title}}</h1>
+    <div class="landing-advantages">
+      {% for block in section.blocks %}
+      <div>
+        <div class="landing-check-cell">
+        <img class="landing-check-cell__img" src="https://cdn.shopify.com/s/files/1/0461/5222/0837/files/Icon_ionic-ios-checkmark-circle-outline.png?v=1636968653">
+        </div>
+        <div class="landing-adv-text-cell">
+        <p>{{block.settings.text}}</p>
+        </div>
+      </div>
+    {% endfor %}
+      </div>
+    </div>
+    <div class="flex-cell">
+     <img class="fw_image" src={{ section.settings.image | img_url: 'master' }}>
+    </div>
+  </div>
+  <div class="centered-div ">
+    <h1>Genuine people.<span class="black_main_title"> Genuine results.</span></h1>
+    <div class="offer_narrowe-text">
+    {{section.settings.full_text}}
+    </div>
+     <h1>It’s time to start regaining joy in your life</h1>
+    <p>We are glad to be here for you and guide you on your new path</p>
+    <div class="offer-middle-list-section">
+    <div class="landing-advantages">
+    <div>
+        <div class="landing-check-cell">
+        <img class="landing-check-cell__img" src="https://cdn.shopify.com/s/files/1/0461/5222/0837/files/Icon_ionic-ios-checkmark-circle-outline.png?v=1636968653">
+        </div>
+        <div class="landing-adv-text-cell">
+        <h4 class="blue-title offer-page-h4 h4_with_margins">Innovative anti-aging supplement in 1 pill</h4>
+        <p>NAD+ is a master regulator of metabolism and repleted NAD+ levels are correlated with better overall health.⁠</p>
+        </div>
+      </div>
+    </div>
+    <div class="landing-advantages">
+    <div>
+        <div class="landing-check-cell">
+        <img class="landing-check-cell__img" src="https://cdn.shopify.com/s/files/1/0461/5222/0837/files/Icon_ionic-ios-checkmark-circle-outline.png?v=1636968653">
+        </div>
+        <div class="landing-adv-text-cell">
+        <h4 class="blue-title offer-page-h4 h4_with_margins">More energy - more joy</h4>
+        <p>Whether you want to have better energy of fight ageing, NMN Bio supplements will take care of both.⁠</p>
+        </div>
+      </div>
+    </div>
+    <div class="landing-advantages">
+    <div>
+        <div class="landing-check-cell">
+        <img class="landing-check-cell__img" src="https://cdn.shopify.com/s/files/1/0461/5222/0837/files/Icon_ionic-ios-checkmark-circle-outline.png?v=1636968653">
+        </div>
+        <div class="landing-adv-text-cell">
+        <h4 class="blue-title offer-page-h4 h4_with_margins">Everything you need to feel better now – and later</h4>
+        <p>Start supplementing, get access to our community and take control of ageing process.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Middle Content",
+    "settings": [
+			{
+				"type" : "text",
+				"id" : "title",
+				"label": "Your Text"
+			},
+			{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Image"
+			},
+			{
+				"type" : "richtext",
+				"id" : "full_text",
+				"label": "Your Text"
+			}
+],
+
+"blocks": [
+{		"type": "text",
+		"name" : "Text",
+		"settings":
+[		
+		{
+		"type": "text",
+		"label": "Text",
+		"id": "text"
+		}
+]
+}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

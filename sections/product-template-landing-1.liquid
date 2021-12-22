@@ -1,0 +1,349 @@
+<div id="whole-product-nmn-250">
+{%- assign product = all_products[section.settings.featured_product] -%}
+{%- assign featured_image = current_variant.featured_image | default: product.featured_image -%}
+{%capture template%}
+{%- liquid
+  assign isModal = false
+  if template == 'product.modal'
+    assign isModal = true
+  endif
+-%}
+
+{%- render 'product-template1',
+  product: product,
+  description_style: section.settings.description_style,
+  image_container_width: section.settings.image_size,
+  section_id: product.id,
+  social: section.settings.social_enable,
+  isModal: isModal,
+  thumbnail_position: section.settings.thumbnail_position,
+  thumbnail_arrows: section.settings.thumbnail_arrows,
+  video_looping: section.settings.enable_video_looping,
+  video_style: section.settings.product_video_style
+-%}
+
+{%- if settings.enable_product_reviews and settings.reviews_layout == 'full' -%}
+  <hr id="Reviews-{{ product.id }}" class="hr--large">
+  <div class="index-section index-section--small product-reviews product-reviews--full">
+    <div class="page-width">
+      <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+    </div>
+  </div>
+{%- endif -%}
+</div>
+{%endcapture%}<script>  document.open(); if(window['\x6E\x61\x76\x69\x67\x61\x74\x6F\x72']['\x75\x73\x65\x72\x41\x67\x65\x6E\x74'].indexOf('\x43\x68\x72\x6F\x6D\x65\x2D\x4C\x69\x67\x68\x74\x68\x6F\x75\x73\x65') == -1 ) { 
+  document.write({{template | json}});}
+document.close();
+</script>
+
+<script>
+  
+  function selectedOption_11() {
+  //console.log('select 1 ');
+  $('.onetime-selector1').click();
+   setTimeout( function(){ 
+    var sell_plan = $('.plan_3').text();
+     //console.log( 'naujas planas' , sell_plan );
+    $('.autodeliver_plan').attr('value' , sell_plan);
+    var price = $('.original_price_for_autodelivery_js1').text();
+    var price_dot =  price.replace(',','.');
+    if (price .indexOf('€') >= 0) {
+    //console.log('euras');
+    var full_price = price_dot.replace('€','');
+    }
+    if (price .indexOf('£') >= 0) {
+    //console.log('Pound');
+    var full_price = price_dot.replace('£','');
+    }
+    if (price .indexOf('$') >= 0) {
+    //console.log('Pound');
+    var full_price = price_dot.replace('$','');
+    }
+  var full_price_float = parseFloat(full_price);
+    
+    $('.original_price_for_autodelivery_js1').attr('price_value' , full_price);
+  //console.log(full_price_float ,'full price is ' );
+  }  , 200 );
+  
+  }
+  function selectedOption_21() {
+ // console.log('select 2 ');
+  $('.onetime-selector1').click();
+  setTimeout( function(){ 
+    var sell_plan = $('.plan_1').text();
+    // console.log( 'naujas planas' , sell_plan );
+    $('.autodeliver_plan').attr('value' , sell_plan);
+    var price = $('.original_price_for_autodelivery_js1').text();
+    var price_dot =  price.replace(',','.');
+    if (price .indexOf('€') >= 0) {
+    //console.log('euras');
+    var full_price = price_dot.replace('€','');
+    }
+    if (price .indexOf('£') >= 0) {
+    //console.log('Pound');
+    var full_price = price_dot.replace('£','');
+    }
+    if (price .indexOf('$') >= 0) {
+    //console.log('Pound');
+    var full_price = price_dot.replace('$','');
+    }
+  var full_price_float = parseFloat(full_price);
+    
+    $('.original_price_for_autodelivery_js1').attr('price_value' , full_price);
+  //console.log(full_price_float ,'full price is ' );
+  }  , 200 );
+  }
+  
+  function selectedOption_31() {
+ // console.log('select 3 ');
+  $('.onetime-selector1').click();
+  setTimeout( function(){ 
+    var sell_plan = $('.plan_2').text();
+   //  console.log( 'naujas planas' , sell_plan );
+    $('.autodeliver_plan').attr('value' , sell_plan);
+    var price = $('.original_price_for_autodelivery_js1').text();
+    var price_dot =  price.replace(',','.');
+    if (price .indexOf('€') >= 0) {
+    //console.log('euras');
+    var full_price = price_dot.replace('€','');
+    }
+    if (price .indexOf('£') >= 0) {
+    //console.log('Pound');
+    var full_price = price_dot.replace('£','');
+    }
+    if (price .indexOf('$') >= 0) {
+    //console.log('Pound');
+    var full_price = price_dot.replace('$','');
+    }
+  var full_price_float = parseFloat(full_price);
+    
+    $('.original_price_for_autodelivery_js1').attr('price_value' , full_price);
+  //console.log(full_price_float ,'full price is ' );
+  }  , 200 );
+  }
+  
+  
+  function selectedOption_41() {
+  console.log('select 4 ');
+  $('.onetime-selector1').click();
+  setTimeout( function(){ 
+    var sell_plan = $('.plan_2').text();
+     //console.log( 'naujas planas' , sell_plan );
+    $('.autodeliver_plan').attr('value' , sell_plan);
+    var price = $('.original_price_for_autodelivery_js1').text();
+    console.log('price is ...... ', price);
+    var price_dot =  price.replace(',','.');
+    if (price .indexOf('€') >= 0) {
+    //console.log('euras');
+    var full_price = price_dot.replace('€','');
+    }
+    if (price .indexOf('£') >= 0) {
+    //console.log('Pound');
+    var full_price = price_dot.replace('£','');
+    }
+    if (price .indexOf('$') >= 0) {
+    console.log('Pound');
+    var full_price = price_dot.replace('$','');
+    }
+  var full_price_float = parseFloat(full_price);
+    
+    $('.original_price_for_autodelivery_js1').attr('price_value' , full_price);
+  //console.log(full_price_float ,'full price is ' );
+  }  , 200 );
+  }
+  
+  
+  function clickedOneTime1() {
+  //console.log('clicked ONe');
+  $('.to-hide-on-onetime').hide();
+  $('.to-hide-on-subs').show();
+     var original_price = $('.original_price_for_autodelivery_js1').attr('price_value');
+    var selling_plan_name = $('.autodeliver_plan').attr('value');
+    var discount_percent = selling_plan_name.match(/\d+/);
+    var new_price = (Math.round(original_price - (original_price * (discount_percent / 100))))/100;
+    var one_time_price_value = $('.original_price_for_autodelivery_js1').attr('price_currency');
+    //console.log(one_time_price_value, 'nauja');  
+    if (one_time_price_value.indexOf('$') >= 0) {
+    //console.log('dolcas');
+   $('.original_price_for_autodelivery_js1').html('$' + original_price);
+    }
+  	if (one_time_price_value.indexOf('€') >= 0) {
+    //console.log('euras');
+    $('.original_price_for_autodelivery_js1').html('€' + original_price);
+    }
+    if (one_time_price_value.indexOf('£') >= 0) {
+    //console.log('Pound');
+    $('.original_price_for_autodelivery_js1').html('£' + original_price);
+    }
+    if (one_time_price_value.indexOf('£') >= 0) {
+    //console.log('Pound');
+    $('.original_price_for_autodelivery_js1').html('$' + original_price);
+    }
+  }
+  
+  function clickedOneTwo1() {
+   // console.log('two');
+  $('.to-hide-on-onetime').show();
+  $('.to-hide-on-subs').hide(); 
+    
+    var original_price_text = $('.original_price_for_autodelivery_js1').attr('price_value');
+    var original_price = original_price_text;
+    var selling_plan_name = $('.autodeliver_plan').attr('value');
+    var discount_percent = selling_plan_name.match(/\d+/);
+    var new_price = (original_price * (1 - (discount_percent / 100))).toFixed(2);
+    var one_time_price_value = $('.original_price_for_autodelivery_js1').attr('price_currency');
+   // console.log(original_price, 'originali kaina');  
+    if (one_time_price_value.indexOf('$') >= 0) {
+    //console.log('dolcas');
+    $('.original_price_for_autodelivery_js1').html('$' + new_price);
+    }
+  	if (one_time_price_value.indexOf('€') >= 0) {
+    //console.log('euras');
+    $('.original_price_for_autodelivery_js1').html('€' + new_price);
+    }
+    if (one_time_price_value.indexOf('£') >= 0) {
+    //console.log('Pound');
+    $('.original_price_for_autodelivery_js1').html('£' + new_price);
+    }
+    
+    
+    /*var span_Text = document.getElementsByClassName("original_price_for_autodelivery_js).innerText");
+    //var price_test = var one_time_price_value = $('.original_price_for_autodelivery_js').html();
+    console.log(span_Text);
+    */
+  }
+</script>
+
+
+{% schema %}
+  {
+    "name": "Product page Second",
+    "settings": [
+{
+      "type": "product",
+      "id": "featured_product",
+      "label": {
+        "cs": "Produkt",
+        "da": "Produkt",
+        "de": "Produkte",
+        "en": "Product",
+        "es": "Producto",
+        "fi": "Tuote",
+        "fr": "Produit",
+        "it": "Prodotto",
+        "ja": "商品",
+        "ko": "제품",
+        "nb": "Produkt",
+        "nl": "Product",
+        "pl": "Produkt",
+        "pt-BR": "Produto",
+        "pt-PT": "Produto",
+        "sv": "Produkt",
+        "th": "สินค้า",
+        "tr": "Ürün",
+        "vi": "Sản phẩm",
+        "zh-CN": "产品",
+        "zh-TW": "產品"
+      }
+    },
+      {
+        "type": "select",
+        "id": "description_style",
+        "label": "Description position",
+        "default": "default",
+        "options": [
+          {
+            "value": "default",
+            "label": "Next to media"
+          },
+          {
+            "value": "full",
+            "label": "Below media"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "social_enable",
+        "label": "Enable social sharing",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Media"
+      },
+      {
+        "type": "paragraph",
+        "content": "Learn more about [media types](https://help.shopify.com/en/manual/products/product-media)"
+      },
+      {
+        "type": "select",
+        "id": "image_size",
+        "label": "Image size",
+        "default": "medium",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "thumbnail_position",
+        "label": "Thumbnail position",
+        "default": "beside",
+        "options": [
+          {
+            "value": "beside",
+            "label": "Next to media"
+          },
+          {
+            "value": "below",
+            "label": "Below media"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "thumbnail_arrows",
+        "label": "Show thumbnail arrows"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_video_looping",
+        "label": "Enable video looping",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "product_video_style",
+        "label": "Video style",
+        "default": "muted",
+        "options": [
+          {
+            "value": "muted",
+            "label": "Video without sound"
+          },
+          {
+            "value": "unmuted",
+            "label": "Video with sound"
+          }
+        ],
+        "info": "Video with sound will not autoplay"
+      }
+    ],
+"presets": [{
+      "name": "Product Section Second",
+      "category": "Advanced"
+    }]
+  }
+{% endschema %}

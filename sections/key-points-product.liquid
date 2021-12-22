@@ -1,0 +1,44 @@
+<div class="page-width">
+  <div class="page-width__smaller product-questions">
+  {% for block in section.blocks %}
+    <div>
+      <h1 class="product-medium-title">{{block.settings.title}}</h1>
+      {{block.settings.text}}
+    </div>
+  {% endfor %}
+    <div><button class="product_btn orange_btn one_button scroll_to">ENROL IN THE COURSE</button></div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Questions",
+    "settings": [
+
+],
+ "blocks": [
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+			{
+				"type" : "text",
+				"id" : "title",
+				"label": "Your Title"
+			},
+			{
+				"type" : "richtext",
+				"id" : "text",
+				"label": "Your Text"
+			}
+      ]
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

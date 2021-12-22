@@ -1,0 +1,79 @@
+<div class="landing-section ">
+{% if section.settings.title != blank %}
+<div class="page-width centered-items">
+  <h1 class="landing-section-title">{{section.settings.title}}</h1>
+  <p class="landing-section-text">{{section.settings.text}}</p>
+</div>
+{% endif %}
+<div class="banner-container">
+  {% if section.settings.show_text %}
+  <div class="landing-title page-width">
+  <h4 class="medium-landing-title">{{section.settings.title1}}</h4>
+  {{section.settings.text1}}
+  <h4 class="medium-landing-title">{{section.settings.title2}}</h4>
+  {{section.settings.text2}}
+  </div>
+  {% endif %}
+  
+</div>
+</div>
+{% schema %}
+  {
+    "name": "Text Only",
+    "settings": [
+
+{
+				"type" : "text",
+				"id" : "title",
+				"label": "Your Title"
+			},
+{
+				"type" : "text",
+				"id" : "text",
+				"label": "Your Text"
+			},
+{
+				"type" : "checkbox",
+				"id" : "show_btn",
+				"label": "Enable Button",
+				"default": true
+			},
+{
+				"type" : "checkbox",
+				"id" : "show_text",
+				"label": "Enable Text",
+				"default": true
+			},
+{
+				"type" : "text",
+				"id" : "title1",
+				"label": "Your Title"
+			},
+{
+				"type" : "richtext",
+				"id" : "text1",
+				"label": "Your Text"
+			},
+{
+				"type" : "text",
+				"id" : "title2",
+				"label": "Your Title"
+			},
+{
+				"type" : "richtext",
+				"id" : "text2",
+				"label": "Your Text"
+			}
+],
+"presets": [{
+      "name": "Landing Text Only",
+      "category": "Advanced"
+    }]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

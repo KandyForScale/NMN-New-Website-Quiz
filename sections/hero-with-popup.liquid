@@ -1,0 +1,57 @@
+<div class="whole-hero-course">
+<img class="full-width-image-landing dekstop-only" src="{{section.settings.image | img_url: 'master' }}">
+<img class="full-width-image-landing mobile-only" src="{{section.settings.image_mb | img_url: 'master' }}">
+  <div class="whole-hero-course__inner">
+    <h1 class="product-large-title">{{section.settings.title}}</h1>
+    <p class="product-small-headline">{{section.settings.headline}}</p>
+    <div class="whole-hero-course__buttons">
+      <div><button class="product_btn white_btn open_popup"><svg xmlns="http://www.w3.org/2000/svg" width="12.006" height="13.722" viewBox="0 0 12.006 13.722">
+  <path id="Icon_awesome-play" data-name="Icon awesome-play" d="M11.374,5.755,1.94.178A1.279,1.279,0,0,0,0,1.285V12.436a1.285,1.285,0,0,0,1.94,1.107l9.433-5.574a1.285,1.285,0,0,0,0-2.214Z" transform="translate(0 -0.002)" fill="#ffa642"/>
+</svg>WATCH PROMO</button></div>
+      <div><button class="product_btn orange_btn scroll_to">GET YOURS NOW</button></div>
+    </div>
+  </div>
+</div>
+<div class="video-popup">
+  <div style="position:relative">
+  <button class="close_popup">X</button>
+    <video id="videoPlayer" height="200" controls="controls" poster="https://cdn.shopify.com/s/files/1/0461/5222/0837/files/Group_351.jpg?v=1639467449" preload="none" onclick="this.play()">
+ <source type="video/webm" src="https://cdn.shopify.com/videos/c/vp/cca7b5deb6204edeb031ef9fba5785d4/cca7b5deb6204edeb031ef9fba5785d4.HD-1080p-7.2Mbps.mp4">
+</video>
+    <!--<iframe id="popup_video" src="https://cdn.shopify.com/videos/c/vp/cca7b5deb6204edeb031ef9fba5785d4/cca7b5deb6204edeb031ef9fba5785d4.HD-1080p-7.2Mbps.mp4"></iframe>-->
+  </div>
+</div>
+<div class="overlay"></div>
+{% schema %}
+  {
+    "name": "Hero With Popup",
+    "settings": [
+			{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Image Desk"
+			},
+			{
+				"type" : "image_picker",
+				"id" : "image_mb",
+				"label": "Your Image Mobile"
+			},
+			{
+				"type" : "text",
+				"id" : "title",
+				"label": "Your Title"
+			},
+			{
+				"type" : "text",
+				"id" : "headline",
+				"label": "Your Headlin"
+			}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

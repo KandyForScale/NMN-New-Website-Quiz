@@ -1,0 +1,68 @@
+<div class="page-width blog-content-custom">
+<h2 class="h3 text-spacing" style="text-align: center">{{section.settings.title}}</h2>
+ {% for block in section.blocks %}
+      {% if block.type == 'text' %}
+  <div class="blog-text">
+  {{block.settings.par}}
+  </div>
+      {% endif %}
+  {% if block.type == 'image' %}
+  <div class="blog-text">
+  <img class="blog_img" src="{{block.settings.image | img_url:'master'}}">
+  </div>
+      {% endif %}
+      {% endfor %}  
+</div>
+<div class="blogpost-banner">
+<a class="custom-blog-hero" href="https://nmnbio.co.uk/pages/try-nmn-here">
+<img class="blog_img" src="{{section.settings.image | img_url:'master'}}">
+</a>
+</div>
+{% schema %}
+ {
+   "name":"Blog Content",
+   "settings":[
+		{
+		"type" : "text",
+		"id" : "title",
+		"label" : "Header"
+	},
+{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Banner Image"
+			}
+],
+"blocks":[
+{
+			"name":"Text",
+			"type":"text",
+			"settings":[
+			{
+				"type" : "richtext",
+				"id" : "par",
+				"label": "Your Text Content"
+			}
+		]
+		},
+{
+			"name":"Image",
+			"type":"image",
+			"settings":[
+			{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Image"
+			}
+		]
+		}
+]
+
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

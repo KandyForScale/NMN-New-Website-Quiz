@@ -1,0 +1,81 @@
+<h1 class="main-title_section centered-black-section">{{section.settings.title}}</h1>
+<div class="your-journey-container">
+  <div class="shadowed-flex-box">
+  <img class="your-yourney-img" src={{section.settings.image1 | img_url: 'master'}}>
+  <h4 class="blue-title">{{section.settings.title1}}</h4>
+  <p>{{section.settings.text1}}</p>
+  </div>
+  <div class="shadowed-flex-box">
+  <img class="your-yourney-img" src={{section.settings.image2 | img_url: 'master'}}>
+  <h4 class="blue-title">{{section.settings.title2}}</h4>
+  <p>{{section.settings.text2}}</p>
+  </div>
+  <div class="shadowed-flex-box">
+  <img class="your-yourney-img" src={{section.settings.image3 | img_url: 'master'}}>
+  <h4 class="blue-title">{{section.settings.title3}}</h4>
+  <p>{{section.settings.text3}}</p>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Three Cell",
+    "settings": [
+{
+				"type" : "text",
+				"id" : "title",
+				"label": "Your Title"
+			},
+{
+				"type" : "text",
+				"id" : "text1",
+				"label": "Your Title"
+			},
+{
+				"type" : "text",
+				"id" : "title1",
+				"label": "Your Title"
+			},
+{
+				"type" : "text",
+				"id" : "text2",
+				"label": "Your Title"
+			},
+{
+				"type" : "text",
+				"id" : "title2",
+				"label": "Your Title"
+			},
+{
+				"type" : "text",
+				"id" : "text3",
+				"label": "Your Title"
+			},
+{
+				"type" : "text",
+				"id" : "title3",
+				"label": "Your Title"
+			},
+{
+				"type" : "image_picker",
+				"id" : "image1",
+				"label": "Your Image"
+			},
+{
+				"type" : "image_picker",
+				"id" : "image2",
+				"label": "Your Image"
+			},
+{
+				"type" : "image_picker",
+				"id" : "image3",
+				"label": "Your Image"
+			}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,65 @@
+<div class="hero-banner-flex-container">
+  <div class="hero-banner-text__cell page-width">
+    <div class="inner-hero-cell">
+  <h1 class="main-title_section">{{section.settings.title}}</h1>
+    <h4 class="blue-title">{{section.settings.title1}}</h4>
+    {{section.settings.text}}
+    <h4 class="black-title">{{section.settings.title2}}</h4>
+      <div class="buttons-quiz">
+        <div class="male-btn">
+          <a href="https://kandyforscale.typeform.com/to/MflO5SP4">MALE</a>
+        </div>
+        <div class="female-btn">
+          <a href="https://kandyforscale.typeform.com/to/MflO5SP4">FEMALE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-banner-img__cell">
+  <img class="hero-img dekstop-only" src="{{section.settings.image | img_url:'master' }}">
+  <img class="hero-img mobile-only" src="{{section.settings.imagemb | img_url:'master' }}">
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Banner",
+    "settings": [
+  			{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Image"
+			},
+			{
+				"type" : "image_picker",
+				"id" : "imagemb",
+				"label": "Your Image Mob"
+			},
+			{
+				"type" : "text",
+				"id" : "title",
+				"label": "Your Title"
+			},
+			{
+				"type" : "text",
+				"id" : "title1",
+				"label": "Your Title"
+			},
+			{
+				"type" : "richtext",
+				"id" : "text",
+				"label": "Your Text"
+			},
+			{
+				"type" : "text",
+				"id" : "title2",
+				"label": "Your Title"
+			}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

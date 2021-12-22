@@ -1,0 +1,62 @@
+<div class="page-width whole_faq_section">
+<h1 class="section_title" style="text-align: center">{{section.settings.title}}</h1>
+<ul class="accordion">
+         {% for block in section.blocks %} 
+	<li class="accordion-item">
+      <p class="accordion-thumb">{{block.settings.title }} <img class="arrow_list1" src="https://i.ibb.co/Xpvxf2C/Chevron.png" alt="Chevron" ></p>
+		<div class="accordion-panel">
+         {{block.settings.text}}    
+		</div>
+	</li>
+  {% endfor %}
+</ul>
+</div>
+{% schema %}
+  {
+    "name": "One topic",
+    "settings": [
+		{
+         "type": "text",
+         "id": "title",
+         "label": "TItle",
+         "default": "Your title"
+        },
+		{
+          "type": "image_picker",
+          "id": "image",
+          "label": "Your image"
+        }
+],
+  "blocks": [
+    {
+      "type": "question",
+      "name": "Question",
+      "settings": [
+		
+         {
+         "type": "text",
+         "id": "title",
+         "label": "TItle",
+         "default": "Your title"
+        }, 
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+        }
+      ]
+    }
+  ],
+"presets": [{
+      "name": "FAQ",
+      "category": "faq"
+    }]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,33 @@
+<div class="hero">
+  <a href="https://nmnbio.co.uk/products/black-friday-special-bundle-deal-35-off">
+<img class="hero_image dekstop-only" src="{{section.settings.image | img_url: 'master'}}">
+<img class="hero_image mobile-only" src="{{section.settings.imagemb | img_url: 'master'}}">
+  </a>
+    </div>
+{% schema %}
+  {
+    "name": "Hero",
+    "settings": [
+{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Image"
+			},
+{
+				"type" : "image_picker",
+				"id" : "imagemb",
+				"label": "Your Image Mobile"
+			}
+],
+"presets": [{
+      "name": "Hero Bundle",
+      "category": "hero"
+    }]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

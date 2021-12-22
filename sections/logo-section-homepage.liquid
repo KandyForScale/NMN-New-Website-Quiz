@@ -1,0 +1,54 @@
+<div class="logo_section_background">
+  <h1 class="section-title">{{section.settings.title}}</h1>
+  <div class="logo-grid">
+    {% for block in section.blocks %}
+    <div>
+    <img class="homepage_logo_image" src="{{block.settings.image | img_url : 'master'}}">
+      <p class="logo_text">{{block.settings.text}}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Logo Section",
+    "settings": [
+			{
+				"type" : "text",
+				"id" : "title",
+				"label": "Your Title"
+			}
+],
+
+"blocks":[
+		{
+			"name":"Text",
+			"type":"text",
+			"settings":[
+			{
+				"type" : "text",
+				"id" : "text",
+				"label": "Your Line Text"
+			},
+			{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Icon"
+			}
+		]
+		}
+],
+"presets": [
+{
+      "name": "Logo",
+      "category": "advanced"
+    }
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

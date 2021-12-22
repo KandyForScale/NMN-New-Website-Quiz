@@ -1,0 +1,31 @@
+<div class="banner-container">
+<img class="dekstop-only hero-img" src="{{section.settings.image | img_url: 'master'}}">
+<img class="mobile-only hero-img" src="{{section.settings.image_mb | img_url: 'master'}}">
+</div>
+{% schema %}
+  {
+    "name": "Banner",
+    "settings": [
+{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Image Desktop"
+			},
+{
+				"type" : "image_picker",
+				"id" : "image_mb",
+				"label": "Your Image Mobile"
+			}
+],
+"presets": [{
+      "name": "Banner Landing",
+      "category": "Advanced"
+    }]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

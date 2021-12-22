@@ -1,0 +1,44 @@
+<div class="flex-container page-width col_reverse black_text_container">
+  <div >
+  <img class="smaller-image" src="{{section.settings.image | img_url:'master' }}">
+  </div>
+  <div>
+    <h1 class="main-title_section">{{section.settings.title}}</h1>
+    {{section.settings.text}}
+  </div>
+  
+</div>
+{% schema %}
+  {
+    "name": "Text With Image",
+    "settings": [
+			{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Image"
+			},
+			{
+				"type" : "text",
+				"id" : "title",
+				"label": "Your Title"
+			},
+			{
+				"type" : "richtext",
+				"id" : "text",
+				"label": "Your Text"
+			}
+],
+"presets": [
+{
+      "name": "Text With Image Left",
+      "category": "advanced"
+    }
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

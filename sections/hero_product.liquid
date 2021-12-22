@@ -1,0 +1,75 @@
+<div class="hero">
+  <a href="#buy_now">
+    {% if product.title contains 'NMN (beta Nicotinamide Mononucleotide) 500mg Capsules | 30 capsules' %}
+<img class="hero_image dekstop-only" src="{{section.settings.image_nmn_500 | img_url: 'master'}}">
+<img class="hero_image mobile-only" src="{{section.settings.imagemb_nmn_500 | img_url: 'master'}}">
+    {% elsif product.title contains 'NMN | (beta Nicotinamide Mononucleotide) 250mg Capsules | 30 Capsules' %}
+<img class="hero_image dekstop-only" src="{{section.settings.image_nmn_250 | img_url: 'master'}}">
+<img class="hero_image mobile-only" src="{{section.settings.imagemb_nmn_250 | img_url: 'master'}}">
+    {% elsif product.title contains 'TMG' %}
+<img class="hero_image dekstop-only" src="{{section.settings.image_tmg | img_url: 'master'}}">
+<img class="hero_image mobile-only" src="{{section.settings.imagemb_tmg | img_url: 'master'}}">
+     {% elsif product.title contains 'Course' %}
+<img class="hero_image dekstop-only" src="{{section.settings.image_course | img_url: 'master'}}">
+<img class="hero_image mobile-only" src="{{section.settings.imagemb_course | img_url: 'master'}}">
+    {% endif %}    
+  </a>
+    </div>
+{% schema %}
+  {
+    "name": "Hero",
+    "settings": [
+{
+				"type" : "image_picker",
+				"id" : "image_nmn_500",
+				"label": "Your Image NMN 500"
+			},
+{
+				"type" : "image_picker",
+				"id" : "imagemb_nmn_500",
+				"label": "Your Image Mobile NMN 500"
+			},
+{
+				"type" : "image_picker",
+				"id" : "image_nmn_250",
+				"label": "Your Image NMN 250"
+			},
+{
+				"type" : "image_picker",
+				"id" : "imagemb_nmn_250",
+				"label": "Your Image Mobile NMN 250"
+			},
+{
+				"type" : "image_picker",
+				"id" : "image_tmg",
+				"label": "Your Image TMG"
+			},
+{
+				"type" : "image_picker",
+				"id" : "imagemb_tmg",
+				"label": "Your Image Mobile TMG"
+			},
+{
+				"type" : "image_picker",
+				"id" : "image_course",
+				"label": "Your Image Course"
+			},
+{
+				"type" : "image_picker",
+				"id" : "imagemb_course",
+				"label": "Your Image Mobile Course"
+			}
+
+],
+"presets": [{
+      "name": "Hero Banner",
+      "category": "hero"
+    }]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

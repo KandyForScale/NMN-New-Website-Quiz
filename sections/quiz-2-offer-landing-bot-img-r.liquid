@@ -1,0 +1,54 @@
+<div class="page-width">
+  <div class="bottom-quiz-offer-container">
+    <div>
+      <h1 class="medium-black-title">You will:</h1>
+      <div class="landing-advantages">
+      {% for block in section.blocks %}
+      <div>
+        <div class="landing-check-cell">
+        <img class="landing-check-cell__img" src="https://cdn.shopify.com/s/files/1/0461/5222/0837/files/Icon_ionic-ios-checkmark-circle-outline.png?v=1636968653">
+        </div>
+        <div class="landing-adv-text-cell">
+        <h4 class="blue-title offer-page-h4">{{block.settings.text}}</h4>
+        </div>
+      </div>
+    {% endfor %}
+      </div>
+    </div>
+    <div style="text-align: center">
+    <img class="full-height-image" src={{section.settings.image | img_url: 'master'}}>
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Img Right",
+    "settings": [
+{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Image"
+			}
+],
+
+"blocks": [
+{		"type": "text",
+		"name" : "Text",
+		"settings":
+[		
+		{
+		"type": "text",
+		"label": "Text",
+		"id": "text"
+		}
+]
+}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

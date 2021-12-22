@@ -1,0 +1,71 @@
+<div class="announcement{% if section.settings.announcement_closable %} announcement--closeable announcement--closed{% endif %}">
+  {%- if section.settings.announcement_link != blank -%}
+    <a href="{{ section.settings.announcement_link }}" class="announcement__link">
+  {%- endif -%}
+
+   <div id="countdown">
+     <h1 class="timer-headline">OFFER ENDS IN:</h1>
+    <ul class="countdown_container">      
+      <li style="display:none"><span id="days" ></span>days</li>
+      <li><div id="hours"></div><p class="timer_time">Hours</p></li>
+      <li><div id="minutes"></div><p class="timer_time">Minutes</p></li>
+      <li><div id="seconds"></div><p class="timer_time">Seconds</p></li>
+    </ul>
+  </div>
+
+  {%- if section.settings.announcement_link != blank -%}
+    </a>
+  {%- endif -%}
+
+  {%- if section.settings.announcement_closable -%}
+    <button type="button" class="text-link announcement__close">
+      <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><path d="M19 17.61l27.12 27.13m0-27.12L19 44.74"/></svg>
+      <span class="icon__fallback-text">{{ 'general.accessibility.close' | t | json }}</span>
+    </button>
+  {%- endif -%}
+</div>
+<script>
+(function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+  //I'm adding this section so I don't have to keep updating this pen every year :-)
+  //remove this if you don't need it
+  let today = new Date(),
+      dd = String(today.getDate()).padStart(2, "0"),
+      mm = String(today.getMonth() + 1).padStart(2, "0"),
+      yyyy = today.getFullYear(),
+      nextYear = yyyy,
+      dayMonth = "11/10/",
+      birthday = dayMonth + yyyy;
+  
+  today = mm + "/" + dd + "/" + yyyy;
+  if (today > birthday) {
+    birthday = dayMonth + nextYear;
+  }
+  //end
+  
+  const countDown = new Date(birthday).getTime(),
+      x = setInterval(function() {    
+
+        const now = new Date().getTime(),
+              distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        //do something later when date is reached
+        if (distance < 0) {
+          document.getElementById("headline").innerText = "It's my birthday!";
+          document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+</script>

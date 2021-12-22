@@ -1,0 +1,38 @@
+<div class="flex-container-product page-width mobile-flex-reverse">
+  <div class="about-us-collumn-text">
+    <h1 class="grey-text">FOUNDER</h1>
+    <h1 class="main-title_section">{{section.settings.title}}</h1>
+    {{section.settings.text}}
+  </div>
+  <div>
+  <img class="smaller-image" src="{{section.settings.image | img_url:'master' }}">
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Text With Image",
+    "settings": [
+			{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Image"
+			},
+			{
+				"type" : "text",
+				"id" : "title",
+				"label": "Your Title"
+			},
+			{
+				"type" : "richtext",
+				"id" : "text",
+				"label": "Your Text"
+			}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

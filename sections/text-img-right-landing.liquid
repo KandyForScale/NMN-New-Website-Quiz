@@ -1,0 +1,76 @@
+<div class="landing-section  page-width">
+{% if section.settings.title != blank %}
+<div class="page-width centered-items">
+  <h1 class="landing-section-title">{{section.settings.title}}</h1>
+  <p class="landing-section-text">{{section.settings.text}}</p>
+</div>
+{% endif %}
+  <div class="flex-container-landing">
+    <div>
+    <img class="full-width-image-landing" src="{{section.settings.image | img_url: 'master' }}">
+    </div>
+    <div>
+      <div class="inner-container-box">
+        {{section.settings.richtext}}
+  {% if section.settings.show_btn %}
+  <div class="left-side-btn">
+        <div class="landing-btn">
+    <a href="#buy-btn-landing">GET NMN BIO TODAY —></a>
+  </div>
+  <p class="small_headline">All transactions are secure and encrypted</p>
+        </div>
+{% endif %}
+    </div>
+    </div>
+</div>
+</div>
+{% schema %}
+  {
+    "name": "Text With Image",
+    "settings": [
+{
+				"type" : "image_picker",
+				"id" : "image",
+				"label": "Your Image"
+			},
+{
+				"type" : "text",
+				"id" : "title",
+				"label": "Your Title"
+			},
+{
+				"type" : "text",
+				"id" : "text",
+				"label": "Your Text"
+			},
+{
+				"type" : "checkbox",
+				"id" : "show_btn",
+				"label": "Enable Button",
+				"default": true
+			},
+{
+				"type" : "checkbox",
+				"id" : "show_text",
+				"label": "Enable Text",
+				"default": true
+			},
+
+{
+				"type" : "richtext",
+				"id" : "richtext",
+				"label": "Your Text"
+			}
+],
+"presets": [{
+      "name": "Text With Image Landing",
+      "category": "Advanced"
+    }]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
